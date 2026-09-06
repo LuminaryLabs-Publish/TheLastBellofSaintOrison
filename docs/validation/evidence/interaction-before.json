@@ -1,0 +1,29 @@
+{
+  "schema": "orison-campaign/1",
+  "game": {
+    "schema": "orison-campaign/1",
+    "started": true,
+    "completed": false,
+    "revision": 3,
+    "elapsed": 0.03333333333333333,
+    "exposure": 0.03333333333333333,
+    "setbacks": 0,
+    "inventory": [
+      "cassette"
+    ],
+    "knowledge": [],
+    "flags": {},
+    "rooms": {
+      "town-gate": {
+        "solved": false,
+        "choice": null,
+        "seen": []
+      }
+    },
+    "ending": null,
+    "slot": 0,
+    "sequenceNumber": 0,
+    "history": []
+  },
+  "sceneId": "town-gate"
+}

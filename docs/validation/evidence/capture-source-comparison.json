@@ -1,0 +1,11 @@
+{
+  "renderChanges": [
+    "src/providers/audio.js",
+    "tools/authoring/document.mjs"
+  ],
+  "videoChanges": [
+    "src/providers/audio.js",
+    "tools/authoring/document.mjs"
+  ],
+  "explanation": "Final edits trim generated document whitespace and route audio bell voices through the master gain. Game rule, visible content and rendering inputs match the captures. Audio is not captured or certified by these silent reviews."
+}

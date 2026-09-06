@@ -1,0 +1,23 @@
+{
+  "verdict": "pass",
+  "expected": {
+    "fps": 24,
+    "frameCount": 240,
+    "duration": 10
+  },
+  "actual": {
+    "fps": 24,
+    "frameCount": 240,
+    "duration": 10,
+    "width": 1280,
+    "height": 720
+  },
+  "checks": {
+    "frameCount": true,
+    "noEmptyFrames": true,
+    "fps": true,
+    "duration": true,
+    "dimensions": true
+  },
+  "emptyFrames": []
+}

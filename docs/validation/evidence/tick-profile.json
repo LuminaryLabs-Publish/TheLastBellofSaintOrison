@@ -1,0 +1,9 @@
+{
+  "mode": "Node CPU tick+packet microprofile; not GPU fps or target hardware certification",
+  "samples": 120,
+  "medianMs": 1.6041989999999942,
+  "p95Ms": 5.7254780000000665,
+  "heapUsedBytes": 80339800,
+  "objects": 4,
+  "afterDisposeObjects": 0
+}

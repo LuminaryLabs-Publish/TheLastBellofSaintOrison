@@ -1,0 +1,2 @@
+Packaging app for platform linux x64 using electron v44.2.0
+[ 'desktop/out/packages/SaintOrison-linux-x64' ]

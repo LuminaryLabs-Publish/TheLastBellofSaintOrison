@@ -1,0 +1,32 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "content/campaign.js": "747b13158d38d845e3c20e653fd3af85e378b581bf28be96448bf58bf424114d",
+    "desktop/main.cjs": "0a9c5995be8ce1fb97d016a399b3c5586d2faa22e562131e9ac2d4e5d31605da",
+    "desktop/package.mjs": "0bb497d7ba8ded520ac5f90bbc0e3372b1ae000dbe4b61b14bbe29df62594d6f",
+    "desktop/preload.cjs": "0aa8c590bf03eea11695209cd5cb2e3a4a89f119788ac6e114231309e0776b84",
+    "package-lock.json": "d0b78d0af35b6ac91fe790f0e9484b2949a3b6496e20644cbeeae2cd0662aa41",
+    "package.json": "5ae47d039bea27f0b9308f11ad1bf9d049a3da84b75861415072e10c9907707b",
+    "src/composition/game.js": "0684008d56d507064ea61cf3c50502973635762cda2d2b7a3575eda017abeb98",
+    "src/game/kits/orison-kit.js": "8e82929a50d488fa7baacf0b294b73dfdfdbe62e3f838bbcf32d8e160881f5e3",
+    "src/host/browser.js": "0470c6ff378b03bab2218280c35a2de26e7f417f2ad753e99620e171106764d0",
+    "src/main.js": "fc5eff9e853a192270c2a649baa6185033d54483f01a1b10fc9a033da3dfd9f5",
+    "src/presentation/environment.js": "e253867d9715649825eaf88e6c63c62ce23cbef1e5912c3ed172d01678f7e3e3",
+    "src/presentation/projection.js": "1ba585c01c9e7289dd1ad7d0e046d6a9475379c2b99a33d81c1dbe61f1c62b0c",
+    "src/providers/audio.js": "7aa917613f3e2ced4ab77bc8afb5c42502defc55fd5be7620f4158eda5e75bfe",
+    "src/providers/canvas-ui.js": "5cf58af1cd003e259ec1854b4d18c5ae1c18c3b86f40b60d92218d976fbbf126",
+    "src/providers/graphics.js": "47463106cd93e20377cf7e7569c6a11454e6de66969ad779e9063d06182fc47b",
+    "src/providers/storage.js": "43666381c994d43795d7727e0392f495302674827c07400b4e86c9dcb7879a30",
+    "src/providers/three-scene.js": "f4a467c411f198a532c11794c425646fd31f43c237393ab56d54622a14d7c8b1",
+    "tests/campaign.test.mjs": "f9e69b2c60fe8d5cc97c59b98113eea8584100f5e395d629c5b1a1c6f27072ed",
+    "tests/coverage.test.mjs": "31a968046524c59d4eae3935666d0b244bad3435829784afc610bd01d9aef5e5",
+    "tools/authoring/check.mjs": "8759d70a8e2d6f174dae5f5b7126ac8fca7d3df1ad1f3c13a4bd3d8b8e951310",
+    "tools/authoring/document.mjs": "a33f4d5d8e72127e660650e53b3bda89f6c9b90d11f5a9aed097d00b5ba97eb7",
+    "tools/review/browser.mjs": "ebea5c7ff18da16245ecd81a089741b6b837cd13d39a45361714be84864d3252",
+    "tools/review/headless.mjs": "985d24c0de3dee3e92a49e06c39fe3282ee0b40dfe45a10a6a9e655c0adee50b",
+    "tools/review/profile.mjs": "c8d77324c8cffedf6cb8c38df3449b42b96c3670a9b12e78aa80579a4b88301a",
+    "tools/review/record.mjs": "eac307cbaf529edd856a9ae6072ae64dafa1b4b6075ed948dbba77159e23d78b",
+    "tools/review/source-manifest.mjs": "4bbbfb489af13704eccfd65d02f0bf48433615544df7c199937f52b2c4f390c2",
+    "vite.config.js": "cfa76facf99c739a3bcafd94706d330b8fae5d776ad001095f7d9eb26e9aacc4"
+  }
+}

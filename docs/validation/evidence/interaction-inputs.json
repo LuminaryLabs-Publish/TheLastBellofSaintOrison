@@ -1,0 +1,43 @@
+{
+  "boundary": "canvas hit testing to Nexus Input queue; no OS/browser input or audio captured",
+  "events": [
+    {
+      "frame": 24,
+      "x": 182,
+      "y": 610,
+      "button": "object-notice",
+      "command": {
+        "action": "inspect",
+        "id": "notice"
+      }
+    },
+    {
+      "frame": 100,
+      "x": 297,
+      "y": 601,
+      "button": "panel-close",
+      "command": {
+        "action": "close"
+      }
+    },
+    {
+      "frame": 132,
+      "x": 484,
+      "y": 610,
+      "button": "object-callbox",
+      "command": {
+        "action": "inspect",
+        "id": "callbox"
+      }
+    },
+    {
+      "frame": 210,
+      "x": 297,
+      "y": 601,
+      "button": "panel-close",
+      "command": {
+        "action": "close"
+      }
+    }
+  ]
+}

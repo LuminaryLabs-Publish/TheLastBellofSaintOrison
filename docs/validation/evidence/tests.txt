@@ -1,0 +1,25 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> the-last-bell-of-saint-orison@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ complete player command route: witness (1460.012715ms)
+✔ complete player command route: silence (1395.392213ms)
+✔ complete player command route: vessel (1355.262789ms)
+✔ pause, reading and suspension freeze exposure (59.073574ms)
+✔ save validation rejects corruption without changing authoritative progress (25.641644ms)
+✔ deterministic input produces equal state and presentation (116.694797ms)
+✔ Nexus gates are causal: input, scene, sequence, presentation (46.277389ms)
+✔ every authored branch, optional observation and room re-entry (3876.713544ms)
+✔ damaged relay blocks Witness but permits a full Silence ending (979.79443ms)
+✔ modal hit testing and keyboard focus cannot reach obscured actions; journal reopens the clue (52.58347ms)
+✔ invalid save fields rejected; interrupted primary save recovers prior copy (55.374661ms)
+✔ forced retreat preserves evidence; Story mode eliminates deadline; actual engine delta governs exposure (48.247862ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5609.181381
