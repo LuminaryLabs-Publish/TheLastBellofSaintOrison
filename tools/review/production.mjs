@@ -96,16 +96,24 @@ try {
       // Wait for removed controls to disappear as well, otherwise closing a
       // panel can pass immediately and the next click hits the old modal.
       const removed = before.elements
-        .filter((e) => e.kind === "button" && !e.disabled && !target.includes(e.text))
+        .filter((e) => e.kind === "button" && !e.disabled &&
+          !after.elements.some((next) => next.text === e.text))
         .map((e) => e.text);
       const panelTitle = after.elements.find((e) => e.id === "panel-title")?.text;
-      await page.waitForFunction(
+      try { await page.waitForFunction(
         ({ target, removed, panelTitle }) =>
           target.every((label) => window.__paintedText.includes(label)) &&
           removed.every((label) => !window.__paintedText.includes(label)) &&
           (!panelTitle || window.__paintedText.includes(panelTitle)),
         { target, removed, panelTitle },
-      );
+      ); } catch (error) {
+        console.error("Paint transition mismatch", {
+          action: id, target, removed, panelTitle,
+          painted: await page.evaluate(() => window.__paintedText),
+        });
+        await page.screenshot({ path: `${out}/production-failure.png` });
+        throw error;
+      }
     };
     await click("new");
     await click("slot-0");
