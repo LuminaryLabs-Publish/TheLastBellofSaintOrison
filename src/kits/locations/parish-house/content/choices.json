@@ -1,0 +1,13 @@
+[
+  {
+    "id": "utility",
+    "label": "Descend by the documented utility stair",
+    "text": "You carry the contract and a practical route back."
+  },
+  {
+    "id": "letter",
+    "label": "Discuss the letter before descending",
+    "text": "You admit what you burned. Elian does not forgive on command, but she hears the admission.",
+    "flag": "elianTrust"
+  }
+]

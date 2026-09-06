@@ -1,0 +1,8 @@
+{
+  "id": "town-square",
+  "name": "Town Square",
+  "act": 4,
+  "minutes": 8,
+  "subtitle": "Morning is not an acquittal.",
+  "goal": "Choose how to share the record without claiming what you cannot prove."
+}

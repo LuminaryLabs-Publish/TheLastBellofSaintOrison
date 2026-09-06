@@ -1,0 +1,7 @@
+{
+  "id": "maintenance-tunnels-exit",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.left"]
+}

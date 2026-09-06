@@ -1,0 +1,18 @@
+[
+  {
+    "id": "diagram",
+    "text": "The map transformer is isolated from the building supply. The diagram reads: disconnect RED, connect BLUE, then connect AMBER. The small circuit powers only the map. You will not touch the building mains."
+  },
+  {
+    "id": "book",
+    "text": "ELIAN VENN — CAFÉ, 07:10. Her note reads: “They sent everyone home except the people who remembered.” Beneath it, the clerk has stamped TRANSFERRED instead of DEPARTED."
+  },
+  {
+    "id": "cabinet",
+    "text": "Three low-voltage toggles sit inside an insulated enclosure. Their symbols match the circuit diagram."
+  },
+  {
+    "id": "staff",
+    "text": "Two columns share the same names: DEPARTED and RETAINED. The carbon sheet reveals a deliberate change, not a clerical error. You photograph both layers."
+  }
+]

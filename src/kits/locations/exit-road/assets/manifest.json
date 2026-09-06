@@ -1,0 +1,16 @@
+[
+  {
+    "id": "exit-road",
+    "kind": "procedural-scene",
+    "source": {
+      "kind": "inline",
+      "data": {
+        "theme": "gate"
+      }
+    },
+    "metadata": {
+      "contentVersion": 1,
+      "provenance": "project-authored"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "names",
+    "name": "Paired identity records",
+    "kind": "inspect",
+    "clue": "names-second-four"
+  },
+  {
+    "id": "methods",
+    "name": "Intervention instructions",
+    "kind": "inspect",
+    "clue": "ending-methods"
+  },
+  {
+    "id": "core",
+    "name": "Core release collars",
+    "kind": "puzzle"
+  },
+  {
+    "id": "voices",
+    "name": "Listen to the unclaimed silence",
+    "kind": "optional",
+    "flag": "consent"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "from": "town-gate",
+    "to": "visitor-centre",
+    "exit": "forward",
+    "requires": ["solved:town-gate"]
+  },
+  {
+    "from": "visitor-centre",
+    "to": "closed-cafe",
+    "exit": "forward",
+    "requires": ["solved:visitor-centre"]
+  },
+  {
+    "from": "closed-cafe",
+    "to": "market-street",
+    "exit": "forward",
+    "requires": ["solved:closed-cafe"]
+  },
+  {
+    "from": "market-street",
+    "to": "apothecary",
+    "exit": "forward",
+    "requires": ["solved:market-street"]
+  },
+  {
+    "from": "apothecary",
+    "to": "bell-tower-base",
+    "exit": "forward",
+    "requires": ["solved:apothecary"]
+  },
+  {
+    "from": "bell-tower-base",
+    "to": "school-hall",
+    "exit": "forward",
+    "requires": ["solved:bell-tower-base"]
+  },
+  {
+    "from": "school-hall",
+    "to": "flooded-archive",
+    "exit": "forward",
+    "requires": ["solved:school-hall"]
+  },
+  {
+    "from": "flooded-archive",
+    "to": "chapel-nave",
+    "exit": "forward",
+    "requires": ["solved:flooded-archive"]
+  },
+  {
+    "from": "chapel-nave",
+    "to": "parish-house",
+    "exit": "forward",
+    "requires": ["solved:chapel-nave"]
+  },
+  {
+    "from": "parish-house",
+    "to": "maintenance-tunnels",
+    "exit": "forward",
+    "requires": ["solved:parish-house"]
+  },
+  {
+    "from": "maintenance-tunnels",
+    "to": "well-chamber",
+    "exit": "forward",
+    "requires": ["solved:maintenance-tunnels"]
+  },
+  {
+    "from": "well-chamber",
+    "to": "return-ascent",
+    "exit": "forward",
+    "requires": ["solved:well-chamber"]
+  },
+  {
+    "from": "return-ascent",
+    "to": "town-square",
+    "exit": "forward",
+    "requires": ["solved:return-ascent"]
+  },
+  {
+    "from": "town-square",
+    "to": "exit-road",
+    "exit": "forward",
+    "requires": ["solved:town-square"]
+  }
+]

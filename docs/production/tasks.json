@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "apothecary-assets",
+    "outcome": "Complete the assets review for apothecary",
+    "inputs": [
+      "src/kits/locations/apothecary/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/apothecary"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/apothecary/tasks/assets.md"
+  },
+  {
+    "id": "apothecary-design",
+    "outcome": "Complete the design review for apothecary",
+    "inputs": [
+      "src/kits/locations/apothecary/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/apothecary"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/apothecary/tasks/design.md"
+  },
+  {
+    "id": "apothecary-implementation",
+    "outcome": "Complete the implementation review for apothecary",
+    "inputs": [
+      "src/kits/locations/apothecary/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/apothecary"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/apothecary/tasks/implementation.md"
+  },
+  {
+    "id": "apothecary-validation",
+    "outcome": "Complete the validation review for apothecary",
+    "inputs": [
+      "src/kits/locations/apothecary/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/apothecary"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/apothecary/tasks/validation.md"
+  },
+  {
+    "id": "apothecary-writing",
+    "outcome": "Complete the writing review for apothecary",
+    "inputs": [
+      "src/kits/locations/apothecary/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/apothecary"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/apothecary/tasks/writing.md"
+  },
+  {
+    "id": "bell-tower-base-assets",
+    "outcome": "Complete the assets review for bell-tower-base",
+    "inputs": [
+      "src/kits/locations/bell-tower-base/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/bell-tower-base"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/bell-tower-base/tasks/assets.md"
+  },
+  {
+    "id": "bell-tower-base-design",
+    "outcome": "Complete the design review for bell-tower-base",
+    "inputs": [
+      "src/kits/locations/bell-tower-base/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/bell-tower-base"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/bell-tower-base/tasks/design.md"
+  },
+  {
+    "id": "bell-tower-base-implementation",
+    "outcome": "Complete the implementation review for bell-tower-base",
+    "inputs": [
+      "src/kits/locations/bell-tower-base/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/bell-tower-base"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/bell-tower-base/tasks/implementation.md"
+  },
+  {
+    "id": "bell-tower-base-validation",
+    "outcome": "Complete the validation review for bell-tower-base",
+    "inputs": [
+      "src/kits/locations/bell-tower-base/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/bell-tower-base"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/bell-tower-base/tasks/validation.md"
+  },
+  {
+    "id": "bell-tower-base-writing",
+    "outcome": "Complete the writing review for bell-tower-base",
+    "inputs": [
+      "src/kits/locations/bell-tower-base/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/bell-tower-base"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/bell-tower-base/tasks/writing.md"
+  },
+  {
+    "id": "chapel-nave-assets",
+    "outcome": "Complete the assets review for chapel-nave",
+    "inputs": [
+      "src/kits/locations/chapel-nave/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/chapel-nave"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/chapel-nave/tasks/assets.md"
+  },
+  {
+    "id": "chapel-nave-design",
+    "outcome": "Complete the design review for chapel-nave",
+    "inputs": [
+      "src/kits/locations/chapel-nave/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/chapel-nave"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/chapel-nave/tasks/design.md"
+  },
+  {
+    "id": "chapel-nave-implementation",
+    "outcome": "Complete the implementation review for chapel-nave",
+    "inputs": [
+      "src/kits/locations/chapel-nave/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/chapel-nave"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/chapel-nave/tasks/implementation.md"
+  },
+  {
+    "id": "chapel-nave-validation",
+    "outcome": "Complete the validation review for chapel-nave",
+    "inputs": [
+      "src/kits/locations/chapel-nave/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/chapel-nave"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/chapel-nave/tasks/validation.md"
+  },
+  {
+    "id": "chapel-nave-writing",
+    "outcome": "Complete the writing review for chapel-nave",
+    "inputs": [
+      "src/kits/locations/chapel-nave/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/chapel-nave"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/chapel-nave/tasks/writing.md"
+  },
+  {
+    "id": "closed-cafe-assets",
+    "outcome": "Complete the assets review for closed-cafe",
+    "inputs": [
+      "src/kits/locations/closed-cafe/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/closed-cafe"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/closed-cafe/tasks/assets.md"
+  },
+  {
+    "id": "closed-cafe-design",
+    "outcome": "Complete the design review for closed-cafe",
+    "inputs": [
+      "src/kits/locations/closed-cafe/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/closed-cafe"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/closed-cafe/tasks/design.md"
+  },
+  {
+    "id": "closed-cafe-implementation",
+    "outcome": "Complete the implementation review for closed-cafe",
+    "inputs": [
+      "src/kits/locations/closed-cafe/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/closed-cafe"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/closed-cafe/tasks/implementation.md"
+  },
+  {
+    "id": "closed-cafe-validation",
+    "outcome": "Complete the validation review for closed-cafe",
+    "inputs": [
+      "src/kits/locations/closed-cafe/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/closed-cafe"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/closed-cafe/tasks/validation.md"
+  },
+  {
+    "id": "closed-cafe-writing",
+    "outcome": "Complete the writing review for closed-cafe",
+    "inputs": [
+      "src/kits/locations/closed-cafe/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/closed-cafe"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/closed-cafe/tasks/writing.md"
+  },
+  {
+    "id": "exit-road-assets",
+    "outcome": "Complete the assets review for exit-road",
+    "inputs": [
+      "src/kits/locations/exit-road/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/exit-road"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/exit-road/tasks/assets.md"
+  },
+  {
+    "id": "exit-road-design",
+    "outcome": "Complete the design review for exit-road",
+    "inputs": [
+      "src/kits/locations/exit-road/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/exit-road"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/exit-road/tasks/design.md"
+  },
+  {
+    "id": "exit-road-implementation",
+    "outcome": "Complete the implementation review for exit-road",
+    "inputs": [
+      "src/kits/locations/exit-road/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/exit-road"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/exit-road/tasks/implementation.md"
+  },
+  {
+    "id": "exit-road-validation",
+    "outcome": "Complete the validation review for exit-road",
+    "inputs": [
+      "src/kits/locations/exit-road/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/exit-road"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/exit-road/tasks/validation.md"
+  },
+  {
+    "id": "exit-road-writing",
+    "outcome": "Complete the writing review for exit-road",
+    "inputs": [
+      "src/kits/locations/exit-road/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/exit-road"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/exit-road/tasks/writing.md"
+  },
+  {
+    "id": "flooded-archive-assets",
+    "outcome": "Complete the assets review for flooded-archive",
+    "inputs": [
+      "src/kits/locations/flooded-archive/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/flooded-archive"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/flooded-archive/tasks/assets.md"
+  },
+  {
+    "id": "flooded-archive-design",
+    "outcome": "Complete the design review for flooded-archive",
+    "inputs": [
+      "src/kits/locations/flooded-archive/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/flooded-archive"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/flooded-archive/tasks/design.md"
+  },
+  {
+    "id": "flooded-archive-implementation",
+    "outcome": "Complete the implementation review for flooded-archive",
+    "inputs": [
+      "src/kits/locations/flooded-archive/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/flooded-archive"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/flooded-archive/tasks/implementation.md"
+  },
+  {
+    "id": "flooded-archive-validation",
+    "outcome": "Complete the validation review for flooded-archive",
+    "inputs": [
+      "src/kits/locations/flooded-archive/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/flooded-archive"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/flooded-archive/tasks/validation.md"
+  },
+  {
+    "id": "flooded-archive-writing",
+    "outcome": "Complete the writing review for flooded-archive",
+    "inputs": [
+      "src/kits/locations/flooded-archive/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/flooded-archive"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/flooded-archive/tasks/writing.md"
+  },
+  {
+    "id": "maintenance-tunnels-assets",
+    "outcome": "Complete the assets review for maintenance-tunnels",
+    "inputs": [
+      "src/kits/locations/maintenance-tunnels/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/maintenance-tunnels"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/maintenance-tunnels/tasks/assets.md"
+  },
+  {
+    "id": "maintenance-tunnels-design",
+    "outcome": "Complete the design review for maintenance-tunnels",
+    "inputs": [
+      "src/kits/locations/maintenance-tunnels/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/maintenance-tunnels"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/maintenance-tunnels/tasks/design.md"
+  },
+  {
+    "id": "maintenance-tunnels-implementation",
+    "outcome": "Complete the implementation review for maintenance-tunnels",
+    "inputs": [
+      "src/kits/locations/maintenance-tunnels/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/maintenance-tunnels"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/maintenance-tunnels/tasks/implementation.md"
+  },
+  {
+    "id": "maintenance-tunnels-validation",
+    "outcome": "Complete the validation review for maintenance-tunnels",
+    "inputs": [
+      "src/kits/locations/maintenance-tunnels/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/maintenance-tunnels"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/maintenance-tunnels/tasks/validation.md"
+  },
+  {
+    "id": "maintenance-tunnels-writing",
+    "outcome": "Complete the writing review for maintenance-tunnels",
+    "inputs": [
+      "src/kits/locations/maintenance-tunnels/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/maintenance-tunnels"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/maintenance-tunnels/tasks/writing.md"
+  },
+  {
+    "id": "market-street-assets",
+    "outcome": "Complete the assets review for market-street",
+    "inputs": [
+      "src/kits/locations/market-street/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/market-street"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/market-street/tasks/assets.md"
+  },
+  {
+    "id": "market-street-design",
+    "outcome": "Complete the design review for market-street",
+    "inputs": [
+      "src/kits/locations/market-street/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/market-street"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/market-street/tasks/design.md"
+  },
+  {
+    "id": "market-street-implementation",
+    "outcome": "Complete the implementation review for market-street",
+    "inputs": [
+      "src/kits/locations/market-street/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/market-street"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/market-street/tasks/implementation.md"
+  },
+  {
+    "id": "market-street-validation",
+    "outcome": "Complete the validation review for market-street",
+    "inputs": [
+      "src/kits/locations/market-street/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/market-street"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/market-street/tasks/validation.md"
+  },
+  {
+    "id": "market-street-writing",
+    "outcome": "Complete the writing review for market-street",
+    "inputs": [
+      "src/kits/locations/market-street/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/market-street"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/market-street/tasks/writing.md"
+  },
+  {
+    "id": "parish-house-assets",
+    "outcome": "Complete the assets review for parish-house",
+    "inputs": [
+      "src/kits/locations/parish-house/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/parish-house"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/parish-house/tasks/assets.md"
+  },
+  {
+    "id": "parish-house-design",
+    "outcome": "Complete the design review for parish-house",
+    "inputs": [
+      "src/kits/locations/parish-house/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/parish-house"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/parish-house/tasks/design.md"
+  },
+  {
+    "id": "parish-house-implementation",
+    "outcome": "Complete the implementation review for parish-house",
+    "inputs": [
+      "src/kits/locations/parish-house/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/parish-house"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/parish-house/tasks/implementation.md"
+  },
+  {
+    "id": "parish-house-validation",
+    "outcome": "Complete the validation review for parish-house",
+    "inputs": [
+      "src/kits/locations/parish-house/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/parish-house"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/parish-house/tasks/validation.md"
+  },
+  {
+    "id": "parish-house-writing",
+    "outcome": "Complete the writing review for parish-house",
+    "inputs": [
+      "src/kits/locations/parish-house/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/parish-house"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/parish-house/tasks/writing.md"
+  },
+  {
+    "id": "return-ascent-assets",
+    "outcome": "Complete the assets review for return-ascent",
+    "inputs": [
+      "src/kits/locations/return-ascent/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/return-ascent"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/return-ascent/tasks/assets.md"
+  },
+  {
+    "id": "return-ascent-design",
+    "outcome": "Complete the design review for return-ascent",
+    "inputs": [
+      "src/kits/locations/return-ascent/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/return-ascent"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/return-ascent/tasks/design.md"
+  },
+  {
+    "id": "return-ascent-implementation",
+    "outcome": "Complete the implementation review for return-ascent",
+    "inputs": [
+      "src/kits/locations/return-ascent/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/return-ascent"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/return-ascent/tasks/implementation.md"
+  },
+  {
+    "id": "return-ascent-validation",
+    "outcome": "Complete the validation review for return-ascent",
+    "inputs": [
+      "src/kits/locations/return-ascent/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/return-ascent"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/return-ascent/tasks/validation.md"
+  },
+  {
+    "id": "return-ascent-writing",
+    "outcome": "Complete the writing review for return-ascent",
+    "inputs": [
+      "src/kits/locations/return-ascent/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/return-ascent"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/return-ascent/tasks/writing.md"
+  },
+  {
+    "id": "school-hall-assets",
+    "outcome": "Complete the assets review for school-hall",
+    "inputs": [
+      "src/kits/locations/school-hall/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/school-hall"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/school-hall/tasks/assets.md"
+  },
+  {
+    "id": "school-hall-design",
+    "outcome": "Complete the design review for school-hall",
+    "inputs": [
+      "src/kits/locations/school-hall/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/school-hall"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/school-hall/tasks/design.md"
+  },
+  {
+    "id": "school-hall-implementation",
+    "outcome": "Complete the implementation review for school-hall",
+    "inputs": [
+      "src/kits/locations/school-hall/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/school-hall"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/school-hall/tasks/implementation.md"
+  },
+  {
+    "id": "school-hall-validation",
+    "outcome": "Complete the validation review for school-hall",
+    "inputs": [
+      "src/kits/locations/school-hall/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/school-hall"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/school-hall/tasks/validation.md"
+  },
+  {
+    "id": "school-hall-writing",
+    "outcome": "Complete the writing review for school-hall",
+    "inputs": [
+      "src/kits/locations/school-hall/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/school-hall"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/school-hall/tasks/writing.md"
+  },
+  {
+    "id": "town-gate-assets",
+    "outcome": "Complete the assets review for town-gate",
+    "inputs": [
+      "src/kits/locations/town-gate/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-gate"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-gate/tasks/assets.md"
+  },
+  {
+    "id": "town-gate-design",
+    "outcome": "Complete the design review for town-gate",
+    "inputs": [
+      "src/kits/locations/town-gate/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-gate"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-gate/tasks/design.md"
+  },
+  {
+    "id": "town-gate-implementation",
+    "outcome": "Complete the implementation review for town-gate",
+    "inputs": [
+      "src/kits/locations/town-gate/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-gate"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-gate/tasks/implementation.md"
+  },
+  {
+    "id": "town-gate-validation",
+    "outcome": "Complete the validation review for town-gate",
+    "inputs": [
+      "src/kits/locations/town-gate/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-gate"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-gate/tasks/validation.md"
+  },
+  {
+    "id": "town-gate-writing",
+    "outcome": "Complete the writing review for town-gate",
+    "inputs": [
+      "src/kits/locations/town-gate/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-gate"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-gate/tasks/writing.md"
+  },
+  {
+    "id": "town-square-assets",
+    "outcome": "Complete the assets review for town-square",
+    "inputs": [
+      "src/kits/locations/town-square/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-square"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-square/tasks/assets.md"
+  },
+  {
+    "id": "town-square-design",
+    "outcome": "Complete the design review for town-square",
+    "inputs": [
+      "src/kits/locations/town-square/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-square"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-square/tasks/design.md"
+  },
+  {
+    "id": "town-square-implementation",
+    "outcome": "Complete the implementation review for town-square",
+    "inputs": [
+      "src/kits/locations/town-square/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-square"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-square/tasks/implementation.md"
+  },
+  {
+    "id": "town-square-validation",
+    "outcome": "Complete the validation review for town-square",
+    "inputs": [
+      "src/kits/locations/town-square/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-square"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-square/tasks/validation.md"
+  },
+  {
+    "id": "town-square-writing",
+    "outcome": "Complete the writing review for town-square",
+    "inputs": [
+      "src/kits/locations/town-square/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/town-square"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/town-square/tasks/writing.md"
+  },
+  {
+    "id": "visitor-centre-assets",
+    "outcome": "Complete the assets review for visitor-centre",
+    "inputs": [
+      "src/kits/locations/visitor-centre/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/visitor-centre"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/visitor-centre/tasks/assets.md"
+  },
+  {
+    "id": "visitor-centre-design",
+    "outcome": "Complete the design review for visitor-centre",
+    "inputs": [
+      "src/kits/locations/visitor-centre/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/visitor-centre"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/visitor-centre/tasks/design.md"
+  },
+  {
+    "id": "visitor-centre-implementation",
+    "outcome": "Complete the implementation review for visitor-centre",
+    "inputs": [
+      "src/kits/locations/visitor-centre/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/visitor-centre"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/visitor-centre/tasks/implementation.md"
+  },
+  {
+    "id": "visitor-centre-validation",
+    "outcome": "Complete the validation review for visitor-centre",
+    "inputs": [
+      "src/kits/locations/visitor-centre/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/visitor-centre"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/visitor-centre/tasks/validation.md"
+  },
+  {
+    "id": "visitor-centre-writing",
+    "outcome": "Complete the writing review for visitor-centre",
+    "inputs": [
+      "src/kits/locations/visitor-centre/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/visitor-centre"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/visitor-centre/tasks/writing.md"
+  },
+  {
+    "id": "well-chamber-assets",
+    "outcome": "Complete the assets review for well-chamber",
+    "inputs": [
+      "src/kits/locations/well-chamber/tasks/assets.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/well-chamber"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/well-chamber/tasks/assets.md"
+  },
+  {
+    "id": "well-chamber-design",
+    "outcome": "Complete the design review for well-chamber",
+    "inputs": [
+      "src/kits/locations/well-chamber/tasks/design.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/well-chamber"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/well-chamber/tasks/design.md"
+  },
+  {
+    "id": "well-chamber-implementation",
+    "outcome": "Complete the implementation review for well-chamber",
+    "inputs": [
+      "src/kits/locations/well-chamber/tasks/implementation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/well-chamber"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/well-chamber/tasks/implementation.md"
+  },
+  {
+    "id": "well-chamber-validation",
+    "outcome": "Complete the validation review for well-chamber",
+    "inputs": [
+      "src/kits/locations/well-chamber/tasks/validation.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/well-chamber"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/well-chamber/tasks/validation.md"
+  },
+  {
+    "id": "well-chamber-writing",
+    "outcome": "Complete the writing review for well-chamber",
+    "inputs": [
+      "src/kits/locations/well-chamber/tasks/writing.md"
+    ],
+    "allowedChanges": [
+      "src/kits/locations/well-chamber"
+    ],
+    "procedure": [
+      "Read the package task pack",
+      "Execute its ordered steps",
+      "Record expected and observed outcomes"
+    ],
+    "dependencies": [],
+    "acceptance": [
+      "All package-specific criteria in the linked task pack pass"
+    ],
+    "evidence": [
+      "Source revision and review findings",
+      "Screenshots for visible changes"
+    ],
+    "handoff": "Record next exact action and unresolved risks",
+    "status": "open",
+    "taskPack": "src/kits/locations/well-chamber/tasks/writing.md"
+  }
+]

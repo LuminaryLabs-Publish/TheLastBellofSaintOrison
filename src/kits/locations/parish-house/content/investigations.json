@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Recover the relay contract and the descent equipment.",
+    "required": ["safe-code", "family-history"],
+    "puzzleId": "primary",
+    "requiredItem": "chalk",
+    "reward": "relay"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "visitor-centre",
+  "name": "Visitor Centre",
+  "act": 0,
+  "minutes": 10,
+  "subtitle": "Someone kept the lights on for you.",
+  "goal": "Restore the map and establish Elian’s next stop."
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Follow the utility markings and preserve a return route.",
+    "required": ["tunnel-order", "container-proof"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

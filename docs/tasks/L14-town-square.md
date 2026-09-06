@@ -17,7 +17,7 @@ Choose how to share the record without claiming what you cannot prove. The playe
 
 ## Exact implementation anchors
 
-Content: `content/campaign.js` room `town-square`. Rules: `src/game/kits/orison-kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
+Content: `src/kits/locations/town-square/content/`. Rules: `src/kits/interaction/player-actions-kit/kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
 
 ## Execute in this order
 

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "crossing-rule",
+    "location": "town-gate",
+    "object": "notice"
+  },
+  {
+    "id": "blank-record",
+    "location": "town-gate",
+    "object": "callbox"
+  },
+  {
+    "id": "map-circuit",
+    "location": "visitor-centre",
+    "object": "diagram"
+  },
+  {
+    "id": "cafe-lead",
+    "location": "visitor-centre",
+    "object": "book"
+  },
+  {
+    "id": "true-signal",
+    "location": "closed-cafe",
+    "object": "tape"
+  },
+  {
+    "id": "radio-channels",
+    "location": "closed-cafe",
+    "object": "receipt"
+  },
+  {
+    "id": "shutter-order",
+    "location": "market-street",
+    "object": "plate"
+  },
+  {
+    "id": "resin-test",
+    "location": "apothecary",
+    "object": "recipe"
+  },
+  {
+    "id": "lantern-limits",
+    "location": "apothecary",
+    "object": "note"
+  },
+  {
+    "id": "governor-order",
+    "location": "bell-tower-base",
+    "object": "log"
+  },
+  {
+    "id": "silence-method",
+    "location": "bell-tower-base",
+    "object": "stair"
+  },
+  {
+    "id": "names-first-four",
+    "location": "school-hall",
+    "object": "photos"
+  },
+  {
+    "id": "school-order",
+    "location": "school-hall",
+    "object": "lesson"
+  },
+  {
+    "id": "archive-index",
+    "location": "flooded-archive",
+    "object": "index"
+  },
+  {
+    "id": "archive-safe",
+    "location": "flooded-archive",
+    "object": "pump"
+  },
+  {
+    "id": "vessel-truth",
+    "location": "chapel-nave",
+    "object": "confession"
+  },
+  {
+    "id": "elian-location",
+    "location": "chapel-nave",
+    "object": "line"
+  },
+  {
+    "id": "safe-code",
+    "location": "parish-house",
+    "object": "photos"
+  },
+  {
+    "id": "family-history",
+    "location": "parish-house",
+    "object": "letter"
+  },
+  {
+    "id": "tunnel-order",
+    "location": "maintenance-tunnels",
+    "object": "plate"
+  },
+  {
+    "id": "container-proof",
+    "location": "maintenance-tunnels",
+    "object": "window"
+  },
+  {
+    "id": "names-second-four",
+    "location": "well-chamber",
+    "object": "names"
+  },
+  {
+    "id": "ending-methods",
+    "location": "well-chamber",
+    "object": "methods"
+  },
+  {
+    "id": "return-order",
+    "location": "return-ascent",
+    "object": "route"
+  },
+  {
+    "id": "elian-return",
+    "location": "return-ascent",
+    "object": "station"
+  },
+  {
+    "id": "public-record",
+    "location": "town-square",
+    "object": "board"
+  },
+  {
+    "id": "evidence-boundary",
+    "location": "town-square",
+    "object": "satchel"
+  },
+  {
+    "id": "last-listen",
+    "location": "exit-road",
+    "object": "cassette"
+  },
+  {
+    "id": "last-look",
+    "location": "exit-road",
+    "object": "road"
+  }
+]

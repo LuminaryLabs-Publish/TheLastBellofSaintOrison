@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Acknowledge the consequence and decide what you carry home.",
+    "required": ["last-listen", "last-look"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

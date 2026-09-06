@@ -1,0 +1,25 @@
+[
+  {
+    "id": "plate",
+    "name": "Freight safety plate",
+    "kind": "inspect",
+    "clue": "shutter-order"
+  },
+  {
+    "id": "lamp",
+    "name": "Abandoned service lantern",
+    "kind": "collect",
+    "item": "lantern"
+  },
+  {
+    "id": "winch",
+    "name": "Shutter winch",
+    "kind": "puzzle"
+  },
+  {
+    "id": "stall",
+    "name": "Repair stall",
+    "kind": "optional",
+    "flag": "marketSafe"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "id": "orison-presentation-projection",
+  "checks": ["installation", "declared boundary", "deterministic lifecycle"],
+  "evidence": "tests/integration",
+  "limitations": "See docs/validation/architecture-migration.md for executed evidence"
+}

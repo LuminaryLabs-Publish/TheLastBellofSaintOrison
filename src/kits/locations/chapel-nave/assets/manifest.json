@@ -1,0 +1,16 @@
+[
+  {
+    "id": "chapel-nave",
+    "kind": "procedural-scene",
+    "source": {
+      "kind": "inline",
+      "data": {
+        "theme": "chapel"
+      }
+    },
+    "metadata": {
+      "contentVersion": 1,
+      "provenance": "project-authored"
+    }
+  }
+]

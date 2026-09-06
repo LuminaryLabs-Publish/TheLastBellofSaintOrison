@@ -1,0 +1,9 @@
+{
+  "id": "town-gate",
+  "name": "Town Gate",
+  "act": 0,
+  "minutes": 8,
+  "subtitle": "The road ends. The invitation does not.",
+  "goal": "Read the crossing notice, then open a safe route into town.",
+  "reward": "key"
+}

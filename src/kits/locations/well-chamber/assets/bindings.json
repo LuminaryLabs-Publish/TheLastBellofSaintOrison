@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "well-chamber",
+  "palette": {},
+  "objects": {
+    "names": {
+      "assetId": "well-chamber",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "methods": {
+      "assetId": "well-chamber",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "core": {
+      "assetId": "well-chamber",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "voices": {
+      "assetId": "well-chamber",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

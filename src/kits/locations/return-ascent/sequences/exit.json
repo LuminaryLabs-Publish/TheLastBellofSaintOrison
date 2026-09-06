@@ -1,0 +1,7 @@
+{
+  "id": "return-ascent-exit",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.left"]
+}

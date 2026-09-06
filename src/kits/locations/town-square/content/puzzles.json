@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "title": "What can be said",
+    "question": "Choose the statement supported by your records.",
+    "options": [
+      "I can prove every voice was truthful",
+      "Here is the proof, testimony and what remains unknown",
+      "Nothing happened here"
+    ],
+    "answer": [1],
+    "success": "You lay out the records and label their limits. The residents can keep copies. No single person has to become the town’s memory again.",
+    "wrong": "That would replace one convenient story with another. You return to the evidence and its limits.",
+    "hints": [
+      "Separate proof from testimony.",
+      "Unknowns belong in an honest account.",
+      "Offer proof, testimony and the remaining unknowns."
+    ]
+  }
+]

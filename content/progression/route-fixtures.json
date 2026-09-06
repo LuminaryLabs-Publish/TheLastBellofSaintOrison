@@ -1,0 +1,29 @@
+[
+  {
+    "id": "witness",
+    "choices": {
+      "flooded-archive": "original",
+      "chapel-nave": "release",
+      "well-chamber": "witness"
+    },
+    "defaultChoiceIndex": 0
+  },
+  {
+    "id": "silence",
+    "choices": {
+      "flooded-archive": "original",
+      "chapel-nave": "release",
+      "well-chamber": "silence"
+    },
+    "defaultChoiceIndex": 0
+  },
+  {
+    "id": "vessel",
+    "choices": {
+      "flooded-archive": "original",
+      "chapel-nave": "release",
+      "well-chamber": "vessel"
+    },
+    "defaultChoiceIndex": 0
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "confession",
+    "name": "Vale’s confession",
+    "kind": "inspect",
+    "clue": "vessel-truth"
+  },
+  {
+    "id": "line",
+    "name": "Private archive line",
+    "kind": "inspect",
+    "clue": "elian-location"
+  },
+  {
+    "id": "intercom",
+    "name": "Verify the private phrase",
+    "kind": "puzzle"
+  },
+  {
+    "id": "promise",
+    "name": "Listen without bargaining",
+    "kind": "optional",
+    "flag": "elianTrust"
+  }
+]

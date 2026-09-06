@@ -1,0 +1,10 @@
+{
+  "id": "parish-house",
+  "name": "Parish House",
+  "act": 3,
+  "minutes": 12,
+  "subtitle": "Someone ate breakfast above all of this.",
+  "goal": "Recover the relay contract and the descent equipment.",
+  "reward": "relay",
+  "requiredItem": "chalk"
+}

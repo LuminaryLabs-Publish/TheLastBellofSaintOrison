@@ -17,7 +17,7 @@ Read the crossing notice, then open a safe route into town. The player understan
 
 ## Exact implementation anchors
 
-Content: `content/campaign.js` room `town-gate`. Rules: `src/game/kits/orison-kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
+Content: `src/kits/locations/town-gate/content/`. Rules: `src/kits/interaction/player-actions-kit/kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
 
 ## Execute in this order
 

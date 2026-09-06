@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["theme", "tint", "accent"],
+  "properties": {
+    "theme": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tint": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accent": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "The visitor register",
+    "question": "What will you submit to the intercom?",
+    "options": ["Mara Venn", "Elian Venn", "The blank record"],
+    "answer": [2],
+    "success": "The printer produces a blank visitor pass and an intake key. “Present,” says the intercom. You have opened a route without offering a living identity.",
+    "wrong": "The speaker repeats the offered name. You withdraw the selector before confirming. The blank row remains available.",
+    "hints": [
+      "The warning says not to offer a name.",
+      "A record can be empty without being absent.",
+      "Submit the blank record."
+    ]
+  }
+]

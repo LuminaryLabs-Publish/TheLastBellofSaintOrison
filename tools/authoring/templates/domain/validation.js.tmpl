@@ -1,0 +1,5 @@
+import { validateShape } from "../portable.js";
+import { initialState } from "./state.js";
+export function validateState(s) {
+  return validateShape(s, initialState());
+}

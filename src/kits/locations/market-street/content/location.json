@@ -1,0 +1,9 @@
+{
+  "id": "market-street",
+  "name": "Market Street",
+  "act": 1,
+  "minutes": 10,
+  "subtitle": "The town closes one shutter at a time.",
+  "goal": "Secure the shutter and collect a service lantern.",
+  "requiredItem": "lantern"
+}

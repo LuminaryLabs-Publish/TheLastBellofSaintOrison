@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "parish-house",
+  "requiredClues": ["tunnel-order", "container-proof"],
+  "solution": [0, 1, 2, 3],
+  "choices": ["direct", "mark"],
+  "outgoingLocation": "well-chamber"
+}

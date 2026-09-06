@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "school-hall",
+  "requiredClues": ["archive-index", "archive-safe"],
+  "solution": [0, 1, 2],
+  "choices": ["photo", "original"],
+  "outgoingLocation": "chapel-nave"
+}

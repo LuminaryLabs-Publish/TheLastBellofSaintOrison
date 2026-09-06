@@ -1,0 +1,7 @@
+{
+  "incomingLocation": null,
+  "requiredClues": ["crossing-rule", "blank-record"],
+  "solution": [2],
+  "choices": ["shelter", "passage"],
+  "outgoingLocation": "visitor-centre"
+}

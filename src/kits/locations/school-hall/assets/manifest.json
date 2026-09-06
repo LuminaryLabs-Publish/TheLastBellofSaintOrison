@@ -1,0 +1,16 @@
+[
+  {
+    "id": "school-hall",
+    "kind": "procedural-scene",
+    "source": {
+      "kind": "inline",
+      "data": {
+        "theme": "school"
+      }
+    },
+    "metadata": {
+      "contentVersion": 1,
+      "provenance": "project-authored"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "shelter",
+    "label": "Wait in shelter; cross on the dark lamp",
+    "text": "You wait through both bells. When the lamp dies, you cross without looking toward the footsteps."
+  },
+  {
+    "id": "passage",
+    "label": "Take the marked maintenance passage",
+    "text": "You follow the carved arrow through the gatehouse wall. A second arrow marks a return route.",
+    "flag": "gateMarks"
+  }
+]

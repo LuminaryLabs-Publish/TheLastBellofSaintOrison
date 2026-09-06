@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "A route that can be checked",
+    "question": "Follow the physical survey order.",
+    "options": ["Open eye", "Mouth", "Closed eye", "Empty circle"],
+    "answer": [0, 1, 2, 3],
+    "success": "The gates open toward the count chamber. You can trace the route by its continuous pipes; the disembodied directions fall silent.",
+    "wrong": "That gate loops back to the same marked junction. No equipment is lost. Use the embossed survey plate.",
+    "hints": [
+      "The plate is a physical record.",
+      "Observe, refuse, ignore, leave empty.",
+      "Open eye, mouth, closed eye, empty circle."
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "return-ascent",
+    "kind": "procedural-scene",
+    "source": {
+      "kind": "inline",
+      "data": {
+        "theme": "tunnels"
+      }
+    },
+    "metadata": {
+      "contentVersion": 1,
+      "provenance": "project-authored"
+    }
+  }
+]

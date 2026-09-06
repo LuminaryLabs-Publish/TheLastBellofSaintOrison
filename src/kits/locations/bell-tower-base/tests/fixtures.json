@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "apothecary",
+  "requiredClues": ["governor-order", "silence-method"],
+  "solution": [0, 1, 2],
+  "choices": ["preserve", "break"],
+  "outgoingLocation": "school-hall"
+}

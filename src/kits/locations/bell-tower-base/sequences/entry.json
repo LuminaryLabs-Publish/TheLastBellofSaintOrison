@@ -1,0 +1,7 @@
+{
+  "id": "bell-tower-base-entry",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.arrived"]
+}

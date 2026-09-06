@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "exit-road",
+  "palette": {},
+  "objects": {
+    "cassette": {
+      "assetId": "exit-road",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "road": {
+      "assetId": "exit-road",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "letter": {
+      "assetId": "exit-road",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "elian": {
+      "assetId": "exit-road",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "{{ID}}-entry",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.arrived"]
+}

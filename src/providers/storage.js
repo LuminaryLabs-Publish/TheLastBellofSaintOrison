@@ -29,7 +29,13 @@ export function createStorage(backend) {
         const inspect = (raw) => {
           const value = JSON.parse(raw);
           if (validate) validate(value);
-          else if (value.schema !== CONTENT_VERSION || !value.game)
+          else if (
+            !value ||
+            !(
+              (value.schema === CONTENT_VERSION && value.game) ||
+              (value.schema === "orison-save/2" && value.domains)
+            )
+          )
             throw new Error("Invalid save");
           return value;
         };
@@ -45,7 +51,10 @@ export function createStorage(backend) {
             valid: true,
             sceneId: p.sceneId,
             savedAt: p.savedAt ?? "",
-            completed: p.game.completed,
+            completed:
+              p.schema === "orison-save/2"
+                ? p.domains.campaign.completed
+                : p.game.completed,
             recovered,
           };
         } catch {

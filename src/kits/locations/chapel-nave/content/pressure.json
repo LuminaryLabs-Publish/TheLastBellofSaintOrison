@@ -1,0 +1,6 @@
+{
+  "pressure": 180,
+  "warning": "The intercom begins replacing pauses with another speaker’s breath.",
+  "critical": "Vale reaches for the isolation switch. You can still stop the conversation.",
+  "retreat": "You switch to the local line and close the public microphone. Elian waits without repeating your name."
+}

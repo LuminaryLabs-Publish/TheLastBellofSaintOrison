@@ -1,0 +1,11 @@
+{
+  "id": "investigation",
+  "requirements": [
+    "one writer",
+    "validated mutation",
+    "immutable snapshot",
+    "reset",
+    "restore"
+  ],
+  "evidence": "tests/integration/ownership.test.mjs"
+}

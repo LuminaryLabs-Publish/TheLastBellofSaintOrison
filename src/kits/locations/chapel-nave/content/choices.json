@@ -1,0 +1,14 @@
+[
+  {
+    "id": "release",
+    "label": "Release Elian into the marked stair",
+    "text": "You open the isolation door. Elian steps onto the physical stair beside you. She will travel with you through the parish house and tunnels.",
+    "flag": "elianReleased"
+  },
+  {
+    "id": "line",
+    "label": "Ask Elian to maintain the archive line",
+    "text": "Elian agrees to remain at its protected station. She will speak through the line; she will not appear physically beside you.",
+    "flag": "elianRemote"
+  }
+]

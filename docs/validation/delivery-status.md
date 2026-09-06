@@ -1,3 +1,5 @@
+> Current architecture migration: [domain/Kit implementation and evidence](architecture-migration.md). Browser availability statements below describe the earlier implementation; consult the current deployment run for current browser status.
+
 # Delivery status — 2026-09-06
 
 **Outcome: connected development implementation with verified command routes and CPU-rendered review. The full premium/Steam release plan remains partially complete.** This document deliberately separates implemented behavior from final production acceptance.

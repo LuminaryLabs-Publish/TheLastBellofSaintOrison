@@ -1,0 +1,16 @@
+[
+  {
+    "id": "market-street",
+    "kind": "procedural-scene",
+    "source": {
+      "kind": "inline",
+      "data": {
+        "theme": "market"
+      }
+    },
+    "metadata": {
+      "contentVersion": 1,
+      "provenance": "project-authored"
+    }
+  }
+]

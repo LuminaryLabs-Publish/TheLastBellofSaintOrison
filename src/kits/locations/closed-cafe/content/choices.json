@@ -1,0 +1,13 @@
+[
+  {
+    "id": "record",
+    "label": "Keep the recording and leave",
+    "text": "You preserve the message. Elian entered voluntarily; whatever comes next must respect that."
+  },
+  {
+    "id": "trace",
+    "label": "Trace the cable from the threshold",
+    "text": "The cable joins the market’s service trunk. You record its route.",
+    "flag": "relayEvidence"
+  }
+]

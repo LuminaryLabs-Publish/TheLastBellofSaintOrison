@@ -1,0 +1,13 @@
+[
+  {
+    "id": "direct",
+    "label": "Continue along the verified pipes",
+    "text": "You remember the pipe route, but leave no extra marker."
+  },
+  {
+    "id": "mark",
+    "label": "Chalk the return direction before proceeding",
+    "text": "A white arrow points back to the pump niche. The later ascent will have a reliable landmark.",
+    "flag": "returnMarked"
+  }
+]

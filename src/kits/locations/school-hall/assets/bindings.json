@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "school-hall",
+  "palette": {},
+  "objects": {
+    "photos": {
+      "assetId": "school-hall",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "lesson": {
+      "assetId": "school-hall",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "register": {
+      "assetId": "school-hall",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "reflection": {
+      "assetId": "school-hall",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

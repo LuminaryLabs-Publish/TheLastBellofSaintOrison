@@ -1,0 +1,25 @@
+[
+  {
+    "id": "route",
+    "name": "Return survey plate",
+    "kind": "inspect",
+    "clue": "return-order"
+  },
+  {
+    "id": "station",
+    "name": "Emergency line",
+    "kind": "inspect",
+    "clue": "elian-return"
+  },
+  {
+    "id": "gates",
+    "name": "Return gates",
+    "kind": "puzzle"
+  },
+  {
+    "id": "assist",
+    "name": "Keep the emergency line open",
+    "kind": "optional",
+    "flag": "elianHelped"
+  }
+]

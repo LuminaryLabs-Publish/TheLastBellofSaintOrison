@@ -1,0 +1,9 @@
+{
+  "id": "school-hall",
+  "name": "School Hall",
+  "act": 2,
+  "minutes": 13,
+  "subtitle": "Twelve desks. An empty place.",
+  "goal": "Cross-check four identities without erasing chosen aliases.",
+  "reward": "register"
+}

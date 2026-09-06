@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Verify Elian’s identity and decide whether to release her.",
+    "required": ["vessel-truth", "elian-location"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

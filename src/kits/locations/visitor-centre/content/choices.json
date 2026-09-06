@@ -1,0 +1,13 @@
+[
+  {
+    "id": "front",
+    "label": "Follow Elian’s café entry",
+    "text": "You take the street named in the visitor book."
+  },
+  {
+    "id": "service",
+    "label": "Follow the evacuation staff route",
+    "text": "The route passes the same café, behind its delivery door. The evacuation list stays with your evidence.",
+    "flag": "selectiveEvacuation"
+  }
+]

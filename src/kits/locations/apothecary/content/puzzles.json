@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "title": "Choose the tested treatment",
+    "question": "Which sample passes all three observations?",
+    "options": [
+      "Round red seal · soot",
+      "Square green seal · damp",
+      "Triangular blue seal · dry"
+    ],
+    "answer": [2],
+    "success": "You bottle the blue-sealed resin. Open your satchel and combine it with the service lantern. The result will slow exposure below the town.",
+    "wrong": "This sample failed its recorded test. You leave it sealed and do not waste the service lantern.",
+    "hints": [
+      "All three conditions must pass.",
+      "Reject soot and moisture.",
+      "Choose the triangular blue seal."
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "board",
+    "name": "Public notice stand",
+    "kind": "inspect",
+    "clue": "public-record"
+  },
+  {
+    "id": "satchel",
+    "name": "Review the evidence",
+    "kind": "inspect",
+    "clue": "evidence-boundary"
+  },
+  {
+    "id": "account",
+    "name": "Prepare your account",
+    "kind": "puzzle"
+  },
+  {
+    "id": "vale",
+    "name": "Father Vale at the fountain",
+    "kind": "optional",
+    "flag": "valeAccountable"
+  }
+]

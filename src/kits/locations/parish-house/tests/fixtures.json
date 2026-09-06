@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "chapel-nave",
+  "requiredClues": ["safe-code", "family-history"],
+  "solution": [0, 1, 2],
+  "choices": ["utility", "letter"],
+  "outgoingLocation": "maintenance-tunnels"
+}

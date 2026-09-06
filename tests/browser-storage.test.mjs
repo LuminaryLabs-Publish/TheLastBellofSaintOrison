@@ -56,9 +56,12 @@ test("quota exhaustion preserves the prior disk save and current in-session save
     id: engine.n.orison.getRoom().objects.find((o) => o.clue).id,
   });
   assert.equal(disk.get("saint-orison.v1.slot.0"), original);
-  assert.ok(storage.read(0).game.knowledge.length > 0);
+  assert.ok(storage.read(0).domains.investigation.knowledge.length > 0);
   assert.ok(storage.notice());
-  assert.equal(storage.readPrevious(0).game.knowledge.length, 0);
+  assert.equal(
+    storage.readPrevious(0).domains.investigation.knowledge.length,
+    0,
+  );
 });
 
 test("available browser storage persists between provider instances without a warning", () => {

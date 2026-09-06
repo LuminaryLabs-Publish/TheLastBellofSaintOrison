@@ -1,0 +1,6 @@
+{
+  "policy": "autosave after meaningful actions",
+  "slots": 3,
+  "previousSaveRecovery": true,
+  "revisitBeforeIndex": 12
+}

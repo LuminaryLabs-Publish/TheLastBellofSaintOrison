@@ -1,0 +1,7 @@
+{
+  "id": "market-street-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

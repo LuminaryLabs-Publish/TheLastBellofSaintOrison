@@ -1,0 +1,29 @@
+{
+  "id": "orison-investigation",
+  "type": "sequence",
+  "completionMode": "sequence",
+  "driver": "event",
+  "children": [
+    {
+      "id": "inspect-records",
+      "type": "waitForEvent",
+      "completionMode": "event",
+      "driver": "event",
+      "listen": ["orison.records-verified"]
+    },
+    {
+      "id": "operate",
+      "type": "waitForEvent",
+      "completionMode": "event",
+      "driver": "event",
+      "listen": ["orison.puzzle-complete"]
+    },
+    {
+      "id": "depart",
+      "type": "waitForEvent",
+      "completionMode": "event",
+      "driver": "event",
+      "listen": ["orison.departure"]
+    }
+  ]
+}

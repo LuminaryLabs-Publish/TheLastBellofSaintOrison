@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "well-chamber",
+  "requiredClues": ["return-order", "elian-return"],
+  "solution": [3, 2, 1, 0],
+  "choices": ["leave", "help"],
+  "outgoingLocation": "town-square"
+}

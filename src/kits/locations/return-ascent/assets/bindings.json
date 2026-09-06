@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "return-ascent",
+  "palette": {},
+  "objects": {
+    "route": {
+      "assetId": "return-ascent",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "station": {
+      "assetId": "return-ascent",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "gates": {
+      "assetId": "return-ascent",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "assist": {
+      "assetId": "return-ascent",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Use the verified return route and make it back above ground.",
+    "required": ["return-order", "elian-return"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

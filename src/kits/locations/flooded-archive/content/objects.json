@@ -1,0 +1,27 @@
+[
+  {
+    "id": "index",
+    "name": "Archive index",
+    "kind": "inspect",
+    "clue": "archive-index"
+  },
+  {
+    "id": "pump",
+    "name": "Pump instructions",
+    "kind": "inspect",
+    "clue": "archive-safe"
+  },
+  {
+    "id": "cabinet",
+    "name": "Indexed records cabinet",
+    "kind": "puzzle"
+  },
+  {
+    "id": "carbon",
+    "name": "Waterproof carbon case",
+    "kind": "optional",
+    "item": "archive",
+    "flag": "originalSaved",
+    "requiresSolved": true
+  }
+]

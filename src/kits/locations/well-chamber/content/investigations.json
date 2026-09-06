@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Recover the Bell Core and choose a fully explained intervention.",
+    "required": ["names-second-four", "ending-methods"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": "core"
+  }
+]

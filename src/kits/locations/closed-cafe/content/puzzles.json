@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "title": "A voice and a recording",
+    "question": "Select the channel matching the original signal.",
+    "options": [
+      "81 · inland dispatch",
+      "94 · tide station",
+      "107 · hospital relay"
+    ],
+    "answer": [1],
+    "success": "The gull cries, followed by two bells. Under the noise, Elian says, “Follow the service lanterns. Do not let them tell you I was taken. I chose to interrupt the relay.”",
+    "wrong": "The voice is convincing, but its signal does not match your cassette. You switch it off.",
+    "hints": [
+      "The tape contains a tide signal.",
+      "The receipt identifies the station.",
+      "Tune to 94."
+    ]
+  }
+]

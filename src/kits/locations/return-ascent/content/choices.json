@@ -1,0 +1,13 @@
+[
+  {
+    "id": "leave",
+    "label": "Continue to the square",
+    "text": "You take the upper stair. Elian’s route follows the instructions you gave."
+  },
+  {
+    "id": "help",
+    "label": "Hold the line until Elian confirms her route",
+    "text": "“Open eye,” she says at the last junction. This time the answer comes from a person who can leave.",
+    "flag": "elianHelped"
+  }
+]

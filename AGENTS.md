@@ -4,8 +4,8 @@ Read README.md, docs/validation/delivery-status.md and the exact task pack befor
 
 ## Ownership
 
-- content/campaign.js is the executable authored content source. Generated room documents are views of it; regenerate with node tools/authoring/document.mjs after content changes.
-- Installed n:simulation:orison owns inventory, evidence, pressure and choices. n:scene owns current location. n:ui owns interface state. Presentation projects data; providers do not receive engine authority.
+- Location content/*.json and content/shared/progression JSON are authored sources. Run npm run content:build; content/campaign.js and the package/install catalogs are generated. Room documents are derived views.
+- Installed project Investigation, Inventory, Narrative, Threat and Campaign domains are the sole progress owners. n:simulation:orison is a stateless compatibility/action coordinator. n:scene owns current location. n:ui owns interface state. Presentation projects data; providers do not receive engine authority.
 - Use public Nexus package exports. Pin the dependency. Missing engine behavior is a named dependency, never a hidden duplicate engine.
 - A sequence coordinates finite waits; it does not own continuous pressure or overwrite another domain's state.
 - Browser and desktop are host adapters of the same composition. Product UI is rendered from Nexus descriptors.

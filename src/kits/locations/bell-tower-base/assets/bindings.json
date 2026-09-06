@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "bell-tower-base",
+  "palette": {},
+  "objects": {
+    "log": {
+      "assetId": "bell-tower-base",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "stair": {
+      "assetId": "bell-tower-base",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "governor": {
+      "assetId": "bell-tower-base",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "relay": {
+      "assetId": "bell-tower-base",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

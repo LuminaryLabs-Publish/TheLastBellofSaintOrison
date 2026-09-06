@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tape",
+    "name": "Cassette comparison",
+    "kind": "inspect",
+    "clue": "true-signal"
+  },
+  {
+    "id": "receipt",
+    "name": "Counter receipt",
+    "kind": "inspect",
+    "clue": "radio-channels"
+  },
+  {
+    "id": "radio",
+    "name": "Shortwave radio",
+    "kind": "puzzle"
+  },
+  {
+    "id": "kitchen",
+    "name": "Kitchen recorder",
+    "kind": "optional",
+    "flag": "relayEvidence"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "id": "exit-road-entry",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.arrived"]
+}

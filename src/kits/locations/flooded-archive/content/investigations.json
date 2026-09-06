@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Recover the shutoff record and its carbon original.",
+    "required": ["archive-index", "archive-safe"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

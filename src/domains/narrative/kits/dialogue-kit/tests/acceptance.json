@@ -1,0 +1,9 @@
+{
+  "id": "orison-narrative-dialogue",
+  "requires": [
+    "successful public command",
+    "invalid input preserves snapshot",
+    "parent snapshot restore"
+  ],
+  "evidence": "tests/integration/ownership.test.mjs"
+}

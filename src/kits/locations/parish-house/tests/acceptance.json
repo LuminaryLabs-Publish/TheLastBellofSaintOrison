@@ -1,0 +1,12 @@
+{
+  "id": "parish-house",
+  "checks": [
+    "clues-before-operation",
+    "wrong-answer-recovery",
+    "all-local-choices",
+    "snapshot-restore",
+    "release-objects"
+  ],
+  "evidence": "tests/coverage.test.mjs",
+  "qualityStatus": "final art, pacing and human comprehension review open"
+}

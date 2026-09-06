@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Secure the shutter and collect a service lantern.",
+    "required": ["shutter-order"],
+    "puzzleId": "primary",
+    "requiredItem": "lantern",
+    "reward": null
+  }
+]

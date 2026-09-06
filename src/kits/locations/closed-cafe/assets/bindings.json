@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "closed-cafe",
+  "palette": {},
+  "objects": {
+    "tape": {
+      "assetId": "closed-cafe",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "receipt": {
+      "assetId": "closed-cafe",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "radio": {
+      "assetId": "closed-cafe",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "kitchen": {
+      "assetId": "closed-cafe",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

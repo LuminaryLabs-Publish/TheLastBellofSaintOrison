@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "visitor-centre",
+  "requiredClues": ["true-signal", "radio-channels"],
+  "solution": [1],
+  "choices": ["record", "trace"],
+  "outgoingLocation": "market-street"
+}

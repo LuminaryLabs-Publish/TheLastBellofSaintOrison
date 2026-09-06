@@ -1,0 +1,7 @@
+{
+  "id": "bell-tower-base-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

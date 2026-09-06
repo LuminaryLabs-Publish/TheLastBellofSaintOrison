@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "market-street",
+  "requiredClues": ["resin-test", "lantern-limits"],
+  "solution": [2],
+  "choices": ["street", "clinical"],
+  "outgoingLocation": "bell-tower-base"
+}

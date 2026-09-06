@@ -1,0 +1,7 @@
+{
+  "id": "well-chamber-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

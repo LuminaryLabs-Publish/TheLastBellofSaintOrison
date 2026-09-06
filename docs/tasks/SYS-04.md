@@ -8,7 +8,7 @@ Every factual claim has an obtainable source. All endings agree with the chosen 
 
 ## Required inputs and source anchors
 
-content/campaign.js; content/story/treatment.md; content/story/ending-map.md
+src/kits/locations/*/content/; content/shared/; content/story/treatment.md; content/story/ending-map.md
 
 Read the current delivery status before estimating effort. Recover actual game state from the public inspection API or a validated save; do not infer current implementation from an older plan.
 

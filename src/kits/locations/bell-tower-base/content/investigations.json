@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Learn the bell cycle and choose how to interrupt it.",
+    "required": ["governor-order", "silence-method"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

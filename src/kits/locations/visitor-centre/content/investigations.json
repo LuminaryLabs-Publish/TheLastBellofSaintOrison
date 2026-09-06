@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Restore the map and establish Elian’s next stop.",
+    "required": ["map-circuit", "cafe-lead"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

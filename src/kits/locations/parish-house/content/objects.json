@@ -1,0 +1,25 @@
+[
+  {
+    "id": "photos",
+    "name": "Three dated photographs",
+    "kind": "inspect",
+    "clue": "safe-code"
+  },
+  {
+    "id": "letter",
+    "name": "Elian’s letter",
+    "kind": "inspect",
+    "clue": "family-history"
+  },
+  {
+    "id": "safe",
+    "name": "Silas’s wall safe",
+    "kind": "puzzle"
+  },
+  {
+    "id": "chalk",
+    "name": "Survey equipment",
+    "kind": "collect",
+    "item": "chalk"
+  }
+]

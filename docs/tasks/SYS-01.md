@@ -8,7 +8,7 @@ One ordinary interaction demonstrably depends on the installed Nexus contracts; 
 
 ## Required inputs and source anchors
 
-src/composition/game.js; src/game/kits/orison-kit.js; docs/architecture/nexus.md
+src/composition/game.js; src/kits/interaction/player-actions-kit/kit.js; src/domains/; docs/architecture/nexus.md
 
 Read the current delivery status before estimating effort. Recover actual game state from the public inspection API or a validated save; do not infer current implementation from an older plan.
 

@@ -1,0 +1,10 @@
+{
+  "id": "apothecary",
+  "name": "Apothecary",
+  "act": 1,
+  "minutes": 12,
+  "subtitle": "A steady flame is not a promise.",
+  "goal": "Test the resin, then prepare the lantern.",
+  "reward": "resin",
+  "requiredExitItem": "protectedLantern"
+}

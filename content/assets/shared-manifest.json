@@ -1,0 +1,8 @@
+{
+  "format": "portable-procedural",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "qualityTiers": ["webgl", "canvas"],
+  "sharedSource": "src/presentation/environment.js"
+}

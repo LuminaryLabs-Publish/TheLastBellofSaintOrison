@@ -1,0 +1,25 @@
+[
+  {
+    "id": "cassette",
+    "name": "The original cassette",
+    "kind": "inspect",
+    "clue": "last-listen"
+  },
+  {
+    "id": "road",
+    "name": "Look back at Saint Orison",
+    "kind": "inspect",
+    "clue": "last-look"
+  },
+  {
+    "id": "letter",
+    "name": "Write the first line home",
+    "kind": "puzzle"
+  },
+  {
+    "id": "elian",
+    "name": "Wait for Elian",
+    "kind": "optional",
+    "flag": "elianHelped"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Choose how to share the record without claiming what you cannot prove.",
+    "required": ["public-record", "evidence-boundary"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

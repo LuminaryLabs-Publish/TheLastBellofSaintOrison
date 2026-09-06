@@ -1,0 +1,13 @@
+export const contract = {
+  owner: "orisonInventory",
+  queries: ["snapshot"],
+  commands: ["command", "reset", "restore"],
+  stateFields: ["items", "uses"],
+  result: {
+    outcome: "completed",
+    operation: "service.operation",
+    result: "portable record",
+  },
+  failure: "throws before authoritative commit",
+  events: "operation receipts; no global broadcast bus",
+};

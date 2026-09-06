@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Reverse the survey",
+    "question": "Choose the reverse of the descent route.",
+    "options": ["Open eye", "Mouth", "Closed eye", "Empty circle"],
+    "answer": [3, 2, 1, 0],
+    "success": "The upper gate releases. You reach the parish stair with the core’s consequence behind you and your evidence still accounted for.",
+    "wrong": "The selected passage returns to the pump niche. The raised reverse-route plate remains readable.",
+    "hints": [
+      "The return plate reverses the descent.",
+      "Begin at the empty circle.",
+      "Empty circle, closed eye, mouth, open eye."
+    ]
+  }
+]

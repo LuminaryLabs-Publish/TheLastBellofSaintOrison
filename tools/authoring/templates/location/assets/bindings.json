@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "{{ID}}",
+  "palette": {},
+  "objects": {
+    "notice": {
+      "assetId": "{{ID}}",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "callbox": {
+      "assetId": "{{ID}}",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "latch": {
+      "assetId": "{{ID}}",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "marks": {
+      "assetId": "{{ID}}",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "photo",
+    "label": "Leave with the photographed record",
+    "text": "You leave with the records you gathered. Any original proof already recovered remains protected in your satchel."
+  },
+  {
+    "id": "original",
+    "label": "Recover the tethered carbon original",
+    "text": "You bring out the waterproof case. Public evidence need not depend on your testimony alone.",
+    "item": "archive",
+    "flag": "originalSaved"
+  }
+]

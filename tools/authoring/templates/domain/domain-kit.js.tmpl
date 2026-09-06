@@ -1,0 +1,15 @@
+import { createOwnerKit } from "../owner-kit.js";
+import { manifest } from "./manifest.js";
+import { initialState } from "./state.js";
+import { validateState } from "./validation.js";
+export function createDomainKit() {
+  return createOwnerKit({
+    manifest,
+    initial: initialState,
+    validate: validateState,
+    operations: {},
+  });
+}
+export function createDomainKits() {
+  return [createDomainKit()];
+}

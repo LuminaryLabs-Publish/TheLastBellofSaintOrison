@@ -1,0 +1,7 @@
+{
+  "id": "market-street-exit",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.left"]
+}

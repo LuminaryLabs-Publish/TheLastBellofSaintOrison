@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Find the actual order",
+    "question": "Select the indexed department, equipment and time.",
+    "options": ["Clinical", "Oxygen", "02:13", "Admissions", "Bell repairs"],
+    "answer": [0, 1, 2],
+    "success": "The protective drawer opens. At 02:13 the oxygen supply was shut off by order, not accident. You photograph the record. The tethered carbon case can now be recovered as stronger public proof.",
+    "wrong": "The index does not reference that combination. The drawer stays sealed and the record remains safe.",
+    "hints": [
+      "Start from the index desk.",
+      "Three fields identify the record.",
+      "Clinical, Oxygen, 02:13."
+    ]
+  }
+]

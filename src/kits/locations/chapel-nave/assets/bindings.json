@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "chapel-nave",
+  "palette": {},
+  "objects": {
+    "confession": {
+      "assetId": "chapel-nave",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "line": {
+      "assetId": "chapel-nave",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "intercom": {
+      "assetId": "chapel-nave",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "promise": {
+      "assetId": "chapel-nave",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "closed-cafe-exit",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.left"]
+}

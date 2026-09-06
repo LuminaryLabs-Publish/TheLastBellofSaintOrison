@@ -1,0 +1,37 @@
+[
+  {
+    "gate": "package structure",
+    "command": "npm run content:check",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "authored preservation",
+    "command": "node tools/migration/compare-content.mjs",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "behavior and contribution",
+    "command": "npm test",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "production bundle",
+    "command": "npm run build",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "actual browser",
+    "command": "node tools/review/ci.mjs",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "headless visuals",
+    "command": "npm run review:headless",
+    "status": "requires execution on delivered commit"
+  },
+  {
+    "gate": "Google Drive synchronization",
+    "command": "excluded by user",
+    "status": "requires execution on delivered commit"
+  }
+]

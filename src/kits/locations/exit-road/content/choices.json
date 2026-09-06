@@ -1,0 +1,13 @@
+[
+  {
+    "id": "home",
+    "label": "Leave Saint Orison",
+    "text": "You walk toward the sea road with the record and its consequences."
+  },
+  {
+    "id": "stay",
+    "label": "Stay until the record is safely copied",
+    "text": "You delay your departure for an ordinary responsibility: ensuring the papers can outlast you.",
+    "flag": "publicCopies"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "closed-cafe",
+  "requiredClues": ["shutter-order"],
+  "solution": [0, 1, 2],
+  "choices": ["direct", "secure"],
+  "outgoingLocation": "apothecary"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "photos",
+    "name": "School photographs",
+    "kind": "inspect",
+    "clue": "names-first-four"
+  },
+  {
+    "id": "lesson",
+    "name": "June’s slate",
+    "kind": "inspect",
+    "clue": "school-order"
+  },
+  {
+    "id": "register",
+    "name": "Class register",
+    "kind": "puzzle"
+  },
+  {
+    "id": "reflection",
+    "name": "Speak to June",
+    "kind": "optional",
+    "flag": "consent"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Cross-check four identities without erasing chosen aliases.",
+    "required": ["names-first-four", "school-order"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": "register"
+  }
+]

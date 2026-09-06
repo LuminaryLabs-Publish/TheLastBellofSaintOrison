@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Keep both records",
+    "question": "Match anchor, fern, gull and wave in order.",
+    "options": ["June Arlen", "Tomas Reed", "Ada Wren", "Niko Bell"],
+    "answer": [0, 1, 2, 3],
+    "success": "The First Register opens. Four identities are cross-checked, and their chosen aliases remain intact. The thirteenth position records an apparatus, not a thirteenth child.",
+    "wrong": "The two records disagree with that placement. Nothing is overwritten. Compare the photograph captions again.",
+    "hints": [
+      "Use both the photographs and letters.",
+      "The order is anchor, fern, gull, wave.",
+      "June, Tomas, Ada, Niko."
+    ]
+  }
+]

@@ -1,3 +1,5 @@
+> Updated composition: see [target composition](target-composition.md) and [ownership ledger](ownership-ledger.md). The former combined product-rule resource has been removed.
+
 # Nexus ownership and compatibility
 
 Pinned engine: `bacc8fc0073bf92910e26776a6695d2b8ec45858`, package `0.0.4`. Game baseline: original README-only main `482119ccfedcd08e6aa60e1c17582a24f95e1924`. No engine repository changes are included.
@@ -30,7 +32,7 @@ The host measures elapsed wall time, runs a bounded 30Hz accumulator, and calls 
 | Interaction | Last semantic command and stable interaction targets | Orison Kit |
 | Spatial / World / Scene | Registered rooms, gated exits, authoritative current scene | composition/game.js |
 | Object registry | Four active renderer-neutral prop identities per room | Orison Kit syncObjects |
-| Simulation + product extension | Authoritative game progress, equipment, clues, decisions, exposure | game/kits/orison-kit.js |
+| Product domains | Investigation, Inventory, Narrative, Threat and Campaign each own their fields | src/domains/ |
 | Asset registry | Fifteen canonical inline procedural scene records | composition/game.js |
 | Presentation / UI / Graphics / Camera / Audio / Output | Portable visible meaning, interface, view, audio mix, surface sizing | presentation/projection.js |
 | Three graphics adapter | Meshes, materials, textures, ray picking, draw calls | providers/graphics.js and three-scene.js |

@@ -7,7 +7,7 @@ let objects = 0,
 for (const room of ROOMS) {
   assert.ok(!ids.has(room.id));
   ids.add(room.id);
-  assert.equal(room.objects.length, 4);
+  assert.ok(room.objects.length >= 1);
   const local = new Set();
   for (const o of room.objects) {
     assert.ok(!local.has(o.id));

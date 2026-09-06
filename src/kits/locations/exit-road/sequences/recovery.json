@@ -1,0 +1,7 @@
+{
+  "id": "exit-road-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

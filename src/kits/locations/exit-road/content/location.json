@@ -1,0 +1,8 @@
+{
+  "id": "exit-road",
+  "name": "Exit Road",
+  "act": 4,
+  "minutes": 5,
+  "subtitle": "You can leave a place without finishing its grief.",
+  "goal": "Acknowledge the consequence and decide what you carry home."
+}

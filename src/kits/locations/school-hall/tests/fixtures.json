@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "bell-tower-base",
+  "requiredClues": ["names-first-four", "school-order"],
+  "solution": [0, 1, 2, 3],
+  "choices": ["copy", "ask"],
+  "outgoingLocation": "flooded-archive"
+}

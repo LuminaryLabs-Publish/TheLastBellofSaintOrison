@@ -1,0 +1,7 @@
+{
+  "id": "return-ascent-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

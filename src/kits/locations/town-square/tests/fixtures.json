@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "return-ascent",
+  "requiredClues": ["public-record", "evidence-boundary"],
+  "solution": [1],
+  "choices": ["copies", "originals"],
+  "outgoingLocation": "exit-road"
+}

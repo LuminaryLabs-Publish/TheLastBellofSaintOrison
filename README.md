@@ -62,3 +62,7 @@ The Electron shell uses a sandboxed renderer, isolated preload, local applicatio
 - [Asset and dependency provenance](release/provenance.md)
 
 The game imports public NexusEngine exports only. Product rules live in an installed product Kit; Nexus owns input, scene transitions, object identity, Sequence execution and presentation descriptors. Graphics and audio providers consume packets. NexusEngine itself is not modified by this repository.
+
+## Modular production
+
+The running game uses five project domains, sixteen Service Kits and fifteen location packages. Start with [CONTRIBUTING](CONTRIBUTING.md), [ownership](docs/architecture/ownership-ledger.md) and [extension points](docs/architecture/extension-points.md). Author room JSON, run `npm run content:build`, then `npm run validate:production`. `npm run author -- help` lists guarded generators. Existing saves migrate to domain snapshots. Google Drive synchronization is deferred.

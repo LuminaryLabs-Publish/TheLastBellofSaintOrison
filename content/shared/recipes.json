@@ -1,0 +1,7 @@
+[
+  {
+    "id": "protected-lantern",
+    "inputs": ["lantern", "resin"],
+    "output": "protectedLantern"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Compare the radio signal with Elian’s original cassette.",
+    "required": ["true-signal", "radio-channels"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": null
+  }
+]

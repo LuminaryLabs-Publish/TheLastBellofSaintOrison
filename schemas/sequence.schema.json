@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id", "type", "driver"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": ["sequence", "waitForEvent"]
+    },
+    "driver": {
+      "const": "event"
+    },
+    "children": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "listen": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "preserve",
+    "label": "Leave the relay intact",
+    "text": "You preserve the channel. The later Witness transmission remains possible.",
+    "flag": "relayIntact"
+  },
+  {
+    "id": "break",
+    "label": "Break the shaft · disables Witness transmission",
+    "text": "You strike the red shaft. The outgoing relay snaps. The Silence and Vessel methods remain possible; public transmission through this line does not.",
+    "flag": "relayBroken"
+  }
+]

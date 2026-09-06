@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "title": "Keep a way open",
+    "question": "Secure the crossing using the safety procedure.",
+    "options": [
+      "Pin the counterweight",
+      "Raise the shutter",
+      "Engage the catch"
+    ],
+    "answer": [0, 1, 2],
+    "success": "The catch locks with a clear metallic click. The crossing remains open without your weight on the handle.",
+    "wrong": "The handle stops against its interlock. You remain on the safe side. Start with the counterweight.",
+    "hints": [
+      "The plate gives the procedure.",
+      "Secure the weight before moving the shutter.",
+      "Pin, raise, engage."
+    ]
+  }
+]

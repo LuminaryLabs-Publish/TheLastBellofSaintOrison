@@ -1,0 +1,25 @@
+[
+  {
+    "id": "diagram",
+    "name": "Circuit diagram",
+    "kind": "inspect",
+    "clue": "map-circuit"
+  },
+  {
+    "id": "book",
+    "name": "Visitor book",
+    "kind": "inspect",
+    "clue": "cafe-lead"
+  },
+  {
+    "id": "cabinet",
+    "name": "Map service cabinet",
+    "kind": "puzzle"
+  },
+  {
+    "id": "staff",
+    "name": "Staff evacuation list",
+    "kind": "optional",
+    "flag": "selectiveEvacuation"
+  }
+]

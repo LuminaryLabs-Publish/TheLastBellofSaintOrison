@@ -1,0 +1,7 @@
+{
+  "id": "parish-house-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "maintenance-tunnels",
+  "name": "Maintenance Tunnels",
+  "act": 3,
+  "minutes": 15,
+  "subtitle": "Follow the pipes. Let the voices get lost.",
+  "goal": "Follow the utility markings and preserve a return route."
+}

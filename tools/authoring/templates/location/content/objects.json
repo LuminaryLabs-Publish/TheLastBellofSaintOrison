@@ -1,0 +1,25 @@
+[
+  {
+    "id": "notice",
+    "name": "Crossing notice",
+    "kind": "inspect",
+    "clue": "crossing-rule"
+  },
+  {
+    "id": "callbox",
+    "name": "Visitor intercom",
+    "kind": "inspect",
+    "clue": "blank-record"
+  },
+  {
+    "id": "latch",
+    "name": "Gatehouse roster",
+    "kind": "puzzle"
+  },
+  {
+    "id": "marks",
+    "name": "Maintenance recess",
+    "kind": "optional",
+    "flag": "gateMarks"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "plate",
+    "name": "Utility route plate",
+    "kind": "inspect",
+    "clue": "tunnel-order"
+  },
+  {
+    "id": "window",
+    "name": "Observation window",
+    "kind": "inspect",
+    "clue": "container-proof"
+  },
+  {
+    "id": "junction",
+    "name": "Junction selectors",
+    "kind": "puzzle"
+  },
+  {
+    "id": "mark",
+    "name": "Mark the return route",
+    "kind": "use",
+    "use": "chalk",
+    "flag": "returnMarked"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "A domestic combination",
+    "question": "Enter the repair counts in chronological order.",
+    "options": ["4", "1", "7", "2", "8"],
+    "answer": [0, 1, 2],
+    "success": "Inside lies the Orison Recovery relay contract and a utility pass. The company plans to carry the holding pattern through the town’s infrastructure. The same channel can transmit public evidence.",
+    "wrong": "The wheel returns to its stop. The photographs still show all three numbers.",
+    "hints": [
+      "Read the changes in chronological order.",
+      "Windows, cabinet alcove, painted bands.",
+      "4, 1, 7."
+    ]
+  }
+]

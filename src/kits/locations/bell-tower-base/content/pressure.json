@@ -1,0 +1,6 @@
+{
+  "pressure": 140,
+  "warning": "The governor’s amber mark approaches the contact plate.",
+  "critical": "The platform shivers. The next ring is almost engaged.",
+  "retreat": "You step off the marked platform and pull its emergency guard closed."
+}

@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "apothecary",
+  "palette": {},
+  "objects": {
+    "recipe": {
+      "assetId": "apothecary",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "note": {
+      "assetId": "apothecary",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "bench": {
+      "assetId": "apothecary",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "drawer": {
+      "assetId": "apothecary",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

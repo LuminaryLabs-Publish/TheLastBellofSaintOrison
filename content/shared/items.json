@@ -1,0 +1,42 @@
+{
+  "cassette": {
+    "name": "Elian’s cassette",
+    "text": "Two bells after a gull cry. “The sea is the long breathing. If I answer with your name, it is not me.” The leader bears your sister’s handwriting."
+  },
+  "key": {
+    "name": "Intake key",
+    "text": "An iron key stamped VISITOR. The reverse is deliberately blank."
+  },
+  "lantern": {
+    "name": "Service lantern",
+    "text": "A cold lantern from the market. Its empty reservoir takes the resin treatment described at the apothecary."
+  },
+  "resin": {
+    "name": "Tested resin",
+    "text": "The blue-sealed mixture burns without smoke. Combine it with the service lantern."
+  },
+  "protectedLantern": {
+    "name": "Treated lantern",
+    "text": "A steady amber flame. It slows exposure in the lower passages; it cannot make a voice truthful."
+  },
+  "register": {
+    "name": "First Register",
+    "text": "Two independent records verify June Arlen, Tomas Reed, Ada Wren and Niko Bell. Chosen aliases remain beside their names."
+  },
+  "archive": {
+    "name": "Original shutoff order",
+    "text": "At 02:13 the oxygen supply was isolated. The signature and carbon impression match. This is physical evidence, not a voice."
+  },
+  "relay": {
+    "name": "Relay contract",
+    "text": "Orison Recovery will carry the acoustic signal through municipal infrastructure. A transmission channel can also carry recorded testimony."
+  },
+  "chalk": {
+    "name": "Survey chalk",
+    "text": "Waterproof chalk supplied with a return-route diagram. Leave marks at physical junctions; do not follow voices."
+  },
+  "core": {
+    "name": "Bell Core",
+    "text": "The portable resonator contains a pattern formed from the erased records. It is a vessel, not another child."
+  }
+}

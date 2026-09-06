@@ -17,7 +17,7 @@ Restore the map and establish Elian’s next stop. The player understands enough
 
 ## Exact implementation anchors
 
-Content: `content/campaign.js` room `visitor-centre`. Rules: `src/game/kits/orison-kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
+Content: `src/kits/locations/visitor-centre/content/`. Rules: `src/kits/interaction/player-actions-kit/kit.js`. Output: `src/presentation/environment.js` and `projection.js`. Provider: `src/providers/three-scene.js`. Do not edit another room's facts to make this room pass.
 
 ## Execute in this order
 

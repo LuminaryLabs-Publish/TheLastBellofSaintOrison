@@ -1,0 +1,7 @@
+{
+  "id": "well-chamber-exit",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.left"]
+}

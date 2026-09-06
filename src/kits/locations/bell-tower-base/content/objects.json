@@ -1,0 +1,25 @@
+[
+  {
+    "id": "log",
+    "name": "Governor service log",
+    "kind": "inspect",
+    "clue": "governor-order"
+  },
+  {
+    "id": "stair",
+    "name": "Acoustic brace diagram",
+    "kind": "inspect",
+    "clue": "silence-method"
+  },
+  {
+    "id": "governor",
+    "name": "Governor controls",
+    "kind": "puzzle"
+  },
+  {
+    "id": "relay",
+    "name": "Relay junction",
+    "kind": "optional",
+    "flag": "relayEvidence"
+  }
+]

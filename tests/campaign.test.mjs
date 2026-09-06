@@ -51,6 +51,7 @@ for (const ending of ["witness", "silence", "vessel"])
       send(e, { action: "inspect", id: target.id });
       close(e);
       assert.deepEqual(e.n.orison.getState().inventory, inventoryBefore);
+      assert.ok(e.n.orisonPresentation.packet().ui.elements.some(element=>element.id==="choice-"+r.choices[0].id),r.id+" departure control is visible");
       const snapshot = e.n.orison.getSnapshot();
       e.n.orison.loadSnapshot(snapshot);
       assert.deepEqual(e.n.orison.getSnapshot(), snapshot);

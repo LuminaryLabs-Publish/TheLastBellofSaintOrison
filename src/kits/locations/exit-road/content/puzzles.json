@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "title": "The first line",
+    "question": "How will your account begin?",
+    "options": [
+      "Everything is fixed",
+      "This is what I can tell you",
+      "There is nothing to remember"
+    ],
+    "answer": [1],
+    "success": "You write one honest sentence. The road ahead is ordinary, and that is enough to begin.",
+    "wrong": "The sentence closes a question you have not answered. You turn to a clean line.",
+    "hints": [
+      "The whole story does not have to fit one sentence.",
+      "Leave room for what remains unknown.",
+      "This is what I can tell you."
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "route",
+    "text": "The reverse-route instruction reads: EMPTY CIRCLE, CLOSED EYE, MOUTH, OPEN EYE. Even if you left no chalk, the embossed symbols remain. Familiar voices are not a substitute for a physical route."
+  },
+  {
+    "id": "station",
+    "text": "Elian: “I can follow the same physical route. Tell me the symbols, not what the voices say.” You explain each junction. If she stayed at the archive station, this line is her way toward the protected upper stair."
+  },
+  {
+    "id": "gates",
+    "text": "The selectors open the route in reverse. Their raised symbols can be checked by the lantern or by touch."
+  },
+  {
+    "id": "assist",
+    "text": "You hold the local relay long enough for Elian to repeat the return instructions. She chooses her own pace. Helping does not erase the records already secured in your satchel."
+  }
+]

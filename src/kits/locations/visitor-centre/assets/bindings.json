@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "visitor-centre",
+  "palette": {},
+  "objects": {
+    "diagram": {
+      "assetId": "visitor-centre",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "book": {
+      "assetId": "visitor-centre",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "cabinet": {
+      "assetId": "visitor-centre",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "staff": {
+      "assetId": "visitor-centre",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

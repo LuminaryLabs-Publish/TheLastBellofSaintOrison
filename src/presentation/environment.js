@@ -1,6 +1,6 @@
 // Renderer-neutral scene authoring; every transform/material enters Nexus Graphics.
-export function environment(room, asset) {
-  if (!asset || asset.id !== room.id)
+export function environment(room, asset, objectAssets = {}) {
+  if (!asset || !asset.id)
     throw new Error("Missing canonical room asset descriptor.");
   const shapes = [],
     labels = [];
@@ -261,8 +261,10 @@ export function environment(room, asset) {
   }
   // Four tactile foreground props are backed by stable Object registry identities.
   room.objects.forEach((o, i) => {
-    const x = [-4.2, -1.4, 1.4, 4.2][i],
-      z = [0.6, -0.2, -0.2, 0.6][i];
+    const x = o.position?.[0] ?? [-4.2, -1.4, 1.4, 4.2][i % 4],
+      z =
+        o.position?.[2] ??
+        [0.6, -0.2, -0.2, 0.6][i % 4] - Math.floor(i / 4) * 2.5;
     if (room.theme === "gate") {
       box([x, 0.75, z], [1.4, 1.5, 0.35], stone);
     } else if (room.theme === "tunnels") {
@@ -273,7 +275,12 @@ export function environment(room, asset) {
       table(x, z, 1.9, 1.05);
     }
     const pick = { objectId: o.id };
-    if (o.kind === "puzzle") {
+    const override = objectAssets[o.id]?.source?.data?.prop;
+    if (override) {
+      add(override.shape, [x, 1.25, z], override.scale, override.color, {
+        ...pick,
+      });
+    } else if (o.kind === "puzzle") {
       box([x, 1.22, z], [1.25, 0.45, 0.8], "#344a4c", pick);
       for (let j = 0; j < 4; j++)
         cyl([x - 0.42 + j * 0.28, 1.48, z], [0.08, 0.06, 0.08], brass, pick);

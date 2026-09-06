@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Test the resin, then prepare the lantern.",
+    "required": ["resin-test", "lantern-limits"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": "resin"
+  }
+]

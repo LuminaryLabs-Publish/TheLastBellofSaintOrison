@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "town-square",
+  "requiredClues": ["last-listen", "last-look"],
+  "solution": [1],
+  "choices": ["home", "stay"],
+  "outgoingLocation": null
+}

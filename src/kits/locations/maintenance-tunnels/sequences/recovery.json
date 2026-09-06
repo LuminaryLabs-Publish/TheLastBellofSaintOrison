@@ -1,0 +1,7 @@
+{
+  "id": "maintenance-tunnels-recovery",
+  "type": "waitForEvent",
+  "completionMode": "event",
+  "driver": "event",
+  "listen": ["orison.recovered"]
+}

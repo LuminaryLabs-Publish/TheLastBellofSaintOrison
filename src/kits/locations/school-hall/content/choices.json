@@ -1,0 +1,13 @@
+[
+  {
+    "id": "copy",
+    "label": "Copy the records with aliases intact",
+    "text": "You preserve the distinction between verified history and chosen identity."
+  },
+  {
+    "id": "ask",
+    "label": "Ask June what should remain private",
+    "text": "June leaves one margin closed. You carry the proof without claiming every memory.",
+    "flag": "consent"
+  }
+]

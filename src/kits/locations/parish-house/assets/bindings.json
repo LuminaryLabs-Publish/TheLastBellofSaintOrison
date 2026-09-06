@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "parish-house",
+  "palette": {},
+  "objects": {
+    "photos": {
+      "assetId": "parish-house",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "letter": {
+      "assetId": "parish-house",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "safe": {
+      "assetId": "parish-house",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "chalk": {
+      "assetId": "parish-house",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

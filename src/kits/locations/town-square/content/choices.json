@@ -1,0 +1,14 @@
+[
+  {
+    "id": "copies",
+    "label": "Leave copies with the residents",
+    "text": "The record begins to exist in more than one place.",
+    "flag": "publicCopies"
+  },
+  {
+    "id": "originals",
+    "label": "Arrange independent custody of the originals",
+    "text": "You identify which papers are originals and which are copies. The residents choose separate custodians.",
+    "flag": "publicCopies"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "chapel-nave",
+  "name": "Chapel Nave",
+  "act": 2,
+  "minutes": 15,
+  "subtitle": "A confession is not a repair.",
+  "goal": "Verify Elian’s identity and decide whether to release her."
+}

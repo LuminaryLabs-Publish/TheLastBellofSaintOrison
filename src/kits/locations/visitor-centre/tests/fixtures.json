@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "town-gate",
+  "requiredClues": ["map-circuit", "cafe-lead"],
+  "solution": [0, 1, 2],
+  "choices": ["front", "service"],
+  "outgoingLocation": "closed-cafe"
+}

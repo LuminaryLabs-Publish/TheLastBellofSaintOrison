@@ -1,0 +1,9 @@
+{
+  "id": "well-chamber",
+  "name": "Well Chamber",
+  "act": 3,
+  "minutes": 18,
+  "subtitle": "Nothing down here is asking to be useful.",
+  "goal": "Recover the Bell Core and choose a fully explained intervention.",
+  "reward": "core"
+}

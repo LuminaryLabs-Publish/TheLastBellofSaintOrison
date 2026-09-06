@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Delay the ring",
+    "question": "Operate the non-destructive governor procedure.",
+    "options": ["Open bypass", "Release tension", "Engage brake"],
+    "answer": [0, 1, 2],
+    "success": "The governor settles. One cycle has been delayed, and the relay remains intact. You can keep this arrangement or choose the destructive shortcut before leaving.",
+    "wrong": "The safety gate closes over the controls. You release them and return to the documented starting position.",
+    "hints": [
+      "The service log describes a delay, not a demolition.",
+      "Bypass before tension.",
+      "Bypass, tension, brake."
+    ]
+  }
+]

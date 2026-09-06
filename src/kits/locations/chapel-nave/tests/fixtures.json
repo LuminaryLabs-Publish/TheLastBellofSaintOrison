@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "flooded-archive",
+  "requiredClues": ["vessel-truth", "elian-location"],
+  "solution": [1],
+  "choices": ["release", "line"],
+  "outgoingLocation": "parish-house"
+}

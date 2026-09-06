@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "town-gate",
+  "palette": {},
+  "objects": {
+    "notice": {
+      "assetId": "town-gate",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "callbox": {
+      "assetId": "town-gate",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "latch": {
+      "assetId": "town-gate",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "marks": {
+      "assetId": "town-gate",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

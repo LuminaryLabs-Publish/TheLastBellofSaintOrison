@@ -1,0 +1,25 @@
+[
+  {
+    "id": "recipe",
+    "name": "Resin preparation",
+    "kind": "inspect",
+    "clue": "resin-test"
+  },
+  {
+    "id": "note",
+    "name": "Keeper’s note",
+    "kind": "inspect",
+    "clue": "lantern-limits"
+  },
+  {
+    "id": "bench",
+    "name": "Sample bench",
+    "kind": "puzzle"
+  },
+  {
+    "id": "drawer",
+    "name": "Dispensing drawer",
+    "kind": "optional",
+    "flag": "clinicalEvidence"
+  }
+]

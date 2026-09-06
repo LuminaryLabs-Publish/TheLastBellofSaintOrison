@@ -1,0 +1,671 @@
+{
+  "mode": "Nexus input + canvas hit testing + CPU Vulkan scene render; not browser or hardware proof",
+  "results": [
+    {
+      "name": "00-menu",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:1:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:1",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "01-arrival",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:2:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:2",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "01-town-gate",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:3:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:3",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "01-clue-notice",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:4:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:4",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "01-clue-callbox",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:5:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:5",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "01-puzzle",
+      "room": "town-gate",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:6:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:6",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-gate",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "02-visitor-centre",
+      "room": "visitor-centre",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:7:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:7",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "visitor-centre",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 728
+    },
+    {
+      "name": "02-puzzle",
+      "room": "visitor-centre",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:8:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:8",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "visitor-centre",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 728
+    },
+    {
+      "name": "03-closed-cafe",
+      "room": "closed-cafe",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:9:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:9",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "closed-cafe",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 690
+    },
+    {
+      "name": "03-puzzle",
+      "room": "closed-cafe",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:10:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:10",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "closed-cafe",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 690
+    },
+    {
+      "name": "04-market-street",
+      "room": "market-street",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:11:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:11",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "market-street",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 881
+    },
+    {
+      "name": "04-puzzle",
+      "room": "market-street",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:12:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:12",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "market-street",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 881
+    },
+    {
+      "name": "05-apothecary",
+      "room": "apothecary",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:13:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:13",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "apothecary",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 850
+    },
+    {
+      "name": "05-puzzle",
+      "room": "apothecary",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:14:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:14",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "apothecary",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 850
+    },
+    {
+      "name": "06-bell-tower-base",
+      "room": "bell-tower-base",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:15:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:15",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "bell-tower-base",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 640
+    },
+    {
+      "name": "06-puzzle",
+      "room": "bell-tower-base",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:16:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:16",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "bell-tower-base",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 640
+    },
+    {
+      "name": "07-school-hall",
+      "room": "school-hall",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:17:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:17",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "school-hall",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 715
+    },
+    {
+      "name": "07-puzzle",
+      "room": "school-hall",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:18:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:18",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "school-hall",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 715
+    },
+    {
+      "name": "08-flooded-archive",
+      "room": "flooded-archive",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:19:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:19",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "flooded-archive",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 805
+    },
+    {
+      "name": "08-puzzle",
+      "room": "flooded-archive",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:20:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:20",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "flooded-archive",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 805
+    },
+    {
+      "name": "09-chapel-nave",
+      "room": "chapel-nave",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:21:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:21",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "chapel-nave",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 674
+    },
+    {
+      "name": "09-puzzle",
+      "room": "chapel-nave",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:22:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:22",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "chapel-nave",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 674
+    },
+    {
+      "name": "10-parish-house",
+      "room": "parish-house",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:23:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:23",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "parish-house",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 722
+    },
+    {
+      "name": "10-puzzle",
+      "room": "parish-house",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:24:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:24",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "parish-house",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 722
+    },
+    {
+      "name": "11-maintenance-tunnels",
+      "room": "maintenance-tunnels",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:25:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:25",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "maintenance-tunnels",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 768
+    },
+    {
+      "name": "11-puzzle",
+      "room": "maintenance-tunnels",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:26:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:26",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "maintenance-tunnels",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 768
+    },
+    {
+      "name": "12-well-chamber",
+      "room": "well-chamber",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:27:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:27",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "well-chamber",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 642
+    },
+    {
+      "name": "12-puzzle",
+      "room": "well-chamber",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:28:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:28",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "well-chamber",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 642
+    },
+    {
+      "name": "13-return-ascent",
+      "room": "return-ascent",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:29:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:29",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "return-ascent",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 774
+    },
+    {
+      "name": "13-puzzle",
+      "room": "return-ascent",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:30:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:30",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "return-ascent",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 774
+    },
+    {
+      "name": "14-town-square",
+      "room": "town-square",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:31:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:31",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-square",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 818
+    },
+    {
+      "name": "14-puzzle",
+      "room": "town-square",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:32:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:32",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "town-square",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 818
+    },
+    {
+      "name": "15-exit-road",
+      "room": "exit-road",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:33:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:33",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "exit-road",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "15-puzzle",
+      "room": "exit-road",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:34:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:34",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "exit-road",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    },
+    {
+      "name": "16-ending",
+      "room": "exit-road",
+      "receipt": {
+        "id": "orison-review-wgpu:frame:35:visible",
+        "adapterId": "orison-review-wgpu",
+        "frameId": "frame:35",
+        "visible": true,
+        "resultId": null,
+        "materialRevision": 0,
+        "reflectionRevision": 0,
+        "renderGraphVersion": null,
+        "metadata": {
+          "scene": "exit-road",
+          "mode": "headless-fixture"
+        }
+      },
+      "objects": 832
+    }
+  ],
+  "completed": true
+}

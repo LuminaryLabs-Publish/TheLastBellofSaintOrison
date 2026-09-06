@@ -1,0 +1,13 @@
+[
+  {
+    "id": "street",
+    "label": "Carry the treated lantern to the tower",
+    "text": "The flame burns steadily. You remember what it cannot promise."
+  },
+  {
+    "id": "clinical",
+    "label": "Take the clinical note as well",
+    "text": "You preserve the note that separates the human crime from the phenomenon.",
+    "flag": "clinicalEvidence"
+  }
+]

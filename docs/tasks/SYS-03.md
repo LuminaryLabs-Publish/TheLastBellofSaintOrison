@@ -8,7 +8,7 @@ Progress, current scene and ending conditions survive supported saves and update
 
 ## Required inputs and source anchors
 
-src/game/kits/orison-kit.js; src/providers/storage.js; tests/coverage.test.mjs
+src/kits/interaction/player-actions-kit/kit.js; src/domains/; src/providers/storage.js; tests/coverage.test.mjs
 
 Read the current delivery status before estimating effort. Recover actual game state from the public inspection API or a validated save; do not infer current implementation from an older plan.
 

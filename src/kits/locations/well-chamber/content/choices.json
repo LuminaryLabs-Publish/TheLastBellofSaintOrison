@@ -1,0 +1,20 @@
+[
+  {
+    "id": "witness",
+    "label": "WITNESS · transmit names and original proof",
+    "text": "You preserve the original records and open the verified public channel. The vessel will lose its role as the sole container.",
+    "ending": "witness"
+  },
+  {
+    "id": "silence",
+    "label": "SILENCE · isolate and end the vessel",
+    "text": "You disconnect the relay and strike outer, inner, outer. No new person is offered. Public proof remains limited to what you carry.",
+    "ending": "silence"
+  },
+  {
+    "id": "vessel",
+    "label": "VESSEL · knowingly offer your own pattern",
+    "text": "You offer your own copied childhood pattern. The others can leave; you accept a continuing burden and the loss of being reliably remembered.",
+    "ending": "vessel"
+  }
+]

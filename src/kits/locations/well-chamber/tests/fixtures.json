@@ -1,0 +1,7 @@
+{
+  "incomingLocation": "maintenance-tunnels",
+  "requiredClues": ["names-second-four", "ending-methods"],
+  "solution": [0, 1, 2],
+  "choices": ["witness", "silence", "vessel"],
+  "outgoingLocation": "return-ascent"
+}

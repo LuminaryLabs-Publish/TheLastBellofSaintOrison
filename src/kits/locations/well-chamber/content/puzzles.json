@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Release the resonator",
+    "question": "Follow the core’s isolation plate.",
+    "options": ["Close shutter", "Isolate feed", "Release collars"],
+    "answer": [0, 1, 2],
+    "success": "The Bell Core comes free. Eight identities are verified. Choose an intervention with its stated requirements and consequence. Nothing is committed until you confirm.",
+    "wrong": "A mechanical interlock holds. The core remains seated. Begin by closing the acoustic shutter.",
+    "hints": [
+      "The isolation plate gives a safe order.",
+      "Close the acoustic path before releasing hardware.",
+      "Shutter, feed, collars."
+    ]
+  }
+]

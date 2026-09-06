@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["schema", "contentVersion", "sceneId", "domains"],
+  "properties": {
+    "schema": {
+      "const": "orison-save/2"
+    },
+    "contentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sceneId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domains": {
+      "type": "object",
+      "required": [
+        "investigation",
+        "inventory",
+        "narrative",
+        "threat",
+        "campaign"
+      ],
+      "properties": {
+        "investigation": {
+          "type": "object"
+        },
+        "inventory": {
+          "type": "object"
+        },
+        "narrative": {
+          "type": "object"
+        },
+        "threat": {
+          "type": "object"
+        },
+        "campaign": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

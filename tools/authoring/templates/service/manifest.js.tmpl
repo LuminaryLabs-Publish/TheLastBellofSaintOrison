@@ -1,0 +1,11 @@
+export const manifest = {
+  id: "orison-{{DOMAIN}}-{{ID}}",
+  kind: "service",
+  version: "1.0.0",
+  domainPath: "n:simulation:orison-{{DOMAIN}}:{{ID}}",
+  parentDomainPath: "n:simulation:orison-{{DOMAIN}}",
+  apiName: "{{API}}Service",
+  requires: ["orison:{{DOMAIN}}"],
+  provides: ["orison:{{DOMAIN}}:{{ID}}"],
+  status: "scaffold",
+};

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["pressure", "retreat"],
+  "properties": {
+    "pressure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "retreat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "warning": {
+      "type": ["string", "null"]
+    },
+    "critical": {
+      "type": ["string", "null"]
+    }
+  }
+}

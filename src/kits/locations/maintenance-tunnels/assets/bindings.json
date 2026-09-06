@@ -1,0 +1,30 @@
+{
+  "sceneAsset": "maintenance-tunnels",
+  "palette": {},
+  "objects": {
+    "plate": {
+      "assetId": "maintenance-tunnels",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "window": {
+      "assetId": "maintenance-tunnels",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "junction": {
+      "assetId": "maintenance-tunnels",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    },
+    "mark": {
+      "assetId": "maintenance-tunnels",
+      "scale": [1, 1, 1],
+      "pivot": [0, 0, 0],
+      "interaction": "object-registry"
+    }
+  }
+}

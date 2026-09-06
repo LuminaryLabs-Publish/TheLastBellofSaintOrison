@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "Bring the map online",
+    "question": "Operate the circuit in the documented order.",
+    "options": ["Disconnect red", "Connect blue", "Connect amber"],
+    "answer": [0, 1, 2],
+    "success": "The map lights in sections. A chalk line links the Café, market and bell tower. Beside the hospital, an underground route has been rubbed out.",
+    "wrong": "The safety breaker opens. No fuse is consumed. Re-read the diagram and reset the sequence.",
+    "hints": [
+      "Use the cabinet’s diagram, not the announcement.",
+      "Isolate before reconnecting.",
+      "Red off, blue on, amber on."
+    ]
+  }
+]

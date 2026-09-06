@@ -1,0 +1,10 @@
+[
+  {
+    "id": "primary",
+    "goal": "Read the crossing notice, then open a safe route into town.",
+    "required": ["crossing-rule", "blank-record"],
+    "puzzleId": "primary",
+    "requiredItem": null,
+    "reward": "key"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "direct",
+    "label": "Cross through the freight opening",
+    "text": "The lantern knocks softly against your satchel."
+  },
+  {
+    "id": "secure",
+    "label": "Secure a return marker before crossing",
+    "text": "You tie a pale marker at the opening. The route will be recognizable even without the lamps.",
+    "flag": "marketSafe"
+  }
+]

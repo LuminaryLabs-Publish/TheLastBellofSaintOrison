@@ -1,0 +1,27 @@
+{
+  "version": "orison-campaign/1",
+  "acts": [
+    "The Return",
+    "The Bell Keeps Count",
+    "The Living Witness",
+    "The Count Room",
+    "The Last Bell"
+  ],
+  "locations": [
+    "town-gate",
+    "visitor-centre",
+    "closed-cafe",
+    "market-street",
+    "apothecary",
+    "bell-tower-base",
+    "school-hall",
+    "flooded-archive",
+    "chapel-nave",
+    "parish-house",
+    "maintenance-tunnels",
+    "well-chamber",
+    "return-ascent",
+    "town-square",
+    "exit-road"
+  ]
+}

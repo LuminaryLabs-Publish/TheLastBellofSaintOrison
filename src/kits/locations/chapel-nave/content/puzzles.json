@@ -1,0 +1,16 @@
+[
+  {
+    "id": "primary",
+    "title": "The living witness",
+    "question": "What did Elian call the sea?",
+    "options": ["The hungry sea", "The long breathing", "The last choir"],
+    "answer": [1],
+    "success": "Elian adds the second half without prompting: “And you called it a place to hide.” The live pulse meter agrees with the private line. You can release her into the marked stair or keep the archive channel open with her consent.",
+    "wrong": "The copied public voice answers first. You close that channel. The original cassette remains a trustworthy reference.",
+    "hints": [
+      "Recall the original cassette, not the kitchen.",
+      "The phrase describes a breath.",
+      "The long breathing."
+    ]
+  }
+]
