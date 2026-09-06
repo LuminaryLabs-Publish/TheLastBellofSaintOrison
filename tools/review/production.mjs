@@ -80,9 +80,8 @@ try {
     // A separate read model gives authored hit bounds; only mouse input reaches the browser game.
     const model = createGame({ storage: memoryStorage() });
     const click = async (id) => {
-      const b = model.n.orisonPresentation
-        .packet()
-        .ui.elements.find((e) => e.id === id);
+      const before = model.n.orisonPresentation.packet().ui;
+      const b = before.elements.find((e) => e.id === id);
       assert.ok(b && !b.disabled, `Available action ${id}`);
       await page.mouse.click(
         (b.x + b.w / 2) * 0.75,
@@ -90,14 +89,22 @@ try {
       );
       model.n.orison.submit(b.command);
       model.tick(1 / 30);
-      const target = model.n.orisonPresentation
-        .packet()
-        .ui.elements.filter((e) => e.kind === "button" && !e.disabled)
+      const after = model.n.orisonPresentation.packet().ui;
+      const target = after.elements.filter((e) => e.kind === "button" && !e.disabled)
         .map((e) => e.text);
+      // Underlying room buttons are painted even while a modal blocks input.
+      // Wait for removed controls to disappear as well, otherwise closing a
+      // panel can pass immediately and the next click hits the old modal.
+      const removed = before.elements
+        .filter((e) => e.kind === "button" && !e.disabled && !target.includes(e.text))
+        .map((e) => e.text);
+      const panelTitle = after.elements.find((e) => e.id === "panel-title")?.text;
       await page.waitForFunction(
-        (labels) =>
-          labels.every((label) => window.__paintedText.includes(label)),
-        target,
+        ({ target, removed, panelTitle }) =>
+          target.every((label) => window.__paintedText.includes(label)) &&
+          removed.every((label) => !window.__paintedText.includes(label)) &&
+          (!panelTitle || window.__paintedText.includes(panelTitle)),
+        { target, removed, panelTitle },
       );
     };
     await click("new");

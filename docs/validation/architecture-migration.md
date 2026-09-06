@@ -26,6 +26,8 @@ These are recorded false positives, not a claim that the unmodified generic scri
 
 The sandbox Chromium download failed with CDN 502/timeouts. Local headless results are not described as browser results. The existing GitHub Actions deployment requires actual full-campaign WebGL and forced-Canvas mouse-input reviews plus production startup at 960×720, including denied storage. Deployment status must be read from the workflow run for the delivered commit; no passing result is invented here.
 
+The first published migration run (`34047070340`) passed both full 15-room browser routes. Its production startup check exposed a review synchronization race: room buttons were still painted behind a modal, so their presence did not prove the modal had closed. The review now also waits for removed button labels to disappear and the expected panel title to appear. This strengthens the existing browser gate without changing game behavior. The follow-up workflow result remains the authority for deployment.
+
 ## Compatibility and remaining limits
 
 Legacy getSnapshot remains a read-only compatibility projection. New disk saves use version-2 domain envelopes; legacy saves migrate. New-domain-only fields need getDomainSnapshot for full-fidelity tooling. Request receipts are bounded to 128 per session and reset on restore. Location authoring is compiled rather than hot-reloaded during a running session. Supported asset binding is portable procedural content; arbitrary model/audio decoder integration remains a separate provider capability.
