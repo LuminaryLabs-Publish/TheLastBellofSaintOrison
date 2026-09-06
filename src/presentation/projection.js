@@ -814,6 +814,17 @@ export function createProjectionKit() {
               );
           }
           const saveNotice = u.saveError ?? n.orison.storageNotice();
+          if (u.platform?.graphicsMode === "canvas")
+            add(
+              text(
+                "graphics-notice",
+                640,
+                saveNotice ? 26 : 10,
+                "Reduced graphics — all story controls remain available.",
+                14,
+                { align: "center", color: "#d4bd85" },
+              ),
+            );
           if (saveNotice)
             add(
               text("save-error", 640, 10, saveNotice, 14, {

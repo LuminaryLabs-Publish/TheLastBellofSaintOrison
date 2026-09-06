@@ -10,17 +10,23 @@ The browser storage adapter resolves storage lazily, mirrors values already read
 
 ## Validation boundaries
 
-- Content validation and all 15 scenario tests pass, including denial at startup, quota exhaustion during play, prior disk-save preservation, temporary reload behavior and normal persistent restoration.
+- Content validation and all 16 scenario tests pass, including denial at startup, quota exhaustion during play, prior disk-save preservation, temporary reload behavior and normal persistent restoration.
 - Production bundling passes. The pre-existing large Nexus vendor-chunk advisory remains.
 - The headless campaign review completed 35 captures with `--storage-denied`, including the ending. The menu and arrival captures were visually inspected: the warning is readable and clear of the controls. CPU-rendered evidence is separate from browser execution.
-- The deployment workflow adds a real Chromium mouse-input review through all fifteen rooms and a separate production-bundle check at a 960×720 viewport, including denied storage. Browser execution results belong to the workflow run; adding a test is not a passing result.
+- The deployment workflow adds a real Chromium mouse-input review through all fifteen rooms and a separate production-bundle check at a 960×720 viewport, including denied storage and WebGL. The first published workflow passed the complete WebGL route, both original production-storage cases, and Pages deployment: [run 34013015867](https://github.com/LuminaryLabs-Publish/TheLastBellofSaintOrison/actions/runs/34013015867). The expanded reduced-graphics checks must also pass on the follow-up commit.
 - Production checks observe text sent to the canvas and actual screenshots, apply mouse input, and read persisted saves. They do not install a game-command API into the production build.
+
+## Additional live-site blocker and correction
+
+The deployed site was inspected in a browser whose GPU access is disabled. WebGL context creation failed and left a blank screen. The graphics factory now detects unavailable WebGL before constructing its renderer and selects a Canvas software provider. The provider projects the same authored room meshes and cameras, retains ray selection and all action cards, and consumes the same Nexus UI packet. It cannot change puzzles, choices or saves.
+
+This reduced tier uses flat shading, omits texture labels and continuous decorative motion, and caches static views. Required record text remains available through the action cards. Pressure still advances in the authoritative game model and remains visible in the UI. A clear reduced-graphics notice is part of Nexus Presentation. Fifteen-room drawing, stable view reuse, resizing and disposal pass locally; opening, room and close-view captures were visually inspected. This is compatibility behavior, not final art acceptance.
 
 ## Deployment prerequisites
 
 The workflow is limited to main pushes and explicit manual dispatch. Build and browser gates precede the Pages artifact upload. Deployment uses the protected `github-pages` environment, Pages write permission and an OIDC token. Content permissions remain read-only. Existing validation CI is retained.
 
-At inspection, the repository Pages API returned 404: no Pages site was enabled. The available GitHub connector exposes source and workflow operations but not Pages administration. The repository owner must select Settings → Pages → Source → GitHub Actions once. The normal GITHUB_TOKEN cannot enable the site. This setting is a prerequisite, not a build defect. No credentials or permission workaround is included.
+The unauthenticated Pages API returned 404, but repository metadata reported `has_pages: true` and the deployment job succeeded. The 404 alone did not establish that Pages was disabled. The deployed site is https://luminarylabs-publish.github.io/TheLastBellofSaintOrison/. For a repository that has not been configured, select Settings → Pages → Source → GitHub Actions once; the normal GITHUB_TOKEN cannot enable a disabled site. No credentials or permission workaround is included.
 
 ## Remaining playability and production work
 

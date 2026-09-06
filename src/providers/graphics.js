@@ -2,9 +2,18 @@ import * as THREE from "three";
 import { createGraphicsAdapterBoundary } from "nexusengine/domains/presentation/graphics";
 import { buildScene } from "./three-scene.js";
 import { drawUI } from "./canvas-ui.js";
+import { createCanvasGraphicsProvider } from "./canvas-graphics.js";
 export function createGraphicsProvider(surface, interfaceSurface) {
+  let context;
+  try {
+    context = surface.getContext("webgl2", { antialias: true, alpha: false });
+  } catch {
+    context = null;
+  }
+  if (!context) return createCanvasGraphicsProvider(surface, interfaceSurface);
   const renderer = new THREE.WebGLRenderer({
     canvas: surface,
+    context,
     antialias: true,
     alpha: false,
   });
@@ -72,6 +81,7 @@ export function createGraphicsProvider(surface, interfaceSurface) {
     },
   });
   return {
+    mode: "webgl",
     render: provider.render,
     dispose: provider.dispose,
     pick(x, y) {
@@ -86,6 +96,7 @@ export function createGraphicsProvider(surface, interfaceSurface) {
       );
     },
     stats: () => ({
+      mode: "webgl",
       frames,
       objects: current?.scene.children.length ?? 0,
       geometries: renderer.info.memory.geometries,

@@ -1,7 +1,7 @@
 // Exercise the real browser entry point, then the shipped production bundle.
 import { spawn } from "node:child_process";
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-async function withServer(args, port, review) {
+async function withServer(args, port, review, env = {}) {
   const server = spawn(
     process.execPath,
     [
@@ -26,7 +26,10 @@ async function withServer(args, port, review) {
       if (Date.now() > deadline) throw new Error("Vite startup timed out");
       await delay(200);
     }
-    const child = spawn(process.execPath, [review], { stdio: "inherit" });
+    const child = spawn(process.execPath, [review], {
+      stdio: "inherit",
+      env: { ...process.env, ...env },
+    });
     const code = await new Promise((resolve, reject) => {
       child.on("error", reject);
       child.on("exit", resolve);
@@ -41,4 +44,7 @@ async function withServer(args, port, review) {
   }
 }
 await withServer([], 5173, "tools/review/browser.mjs");
+await withServer([], 5173, "tools/review/browser.mjs", {
+  ORISON_FORCE_CANVAS: "1",
+});
 await withServer(["preview"], 4173, "tools/review/production.mjs");

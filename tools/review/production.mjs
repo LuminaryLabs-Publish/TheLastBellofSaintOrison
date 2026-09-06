@@ -10,16 +10,32 @@ const out = "captures/browser";
 await fs.mkdir(out, { recursive: true });
 const reports = [];
 try {
-  for (const denied of [false, true]) {
+  for (const [denied, canvas] of [
+    [false, false],
+    [true, false],
+    [true, true],
+  ]) {
     const context = await browser.newContext({
       viewport: { width: 960, height: 720 },
     });
+    context.setDefaultTimeout(20000);
     const page = await context.newPage();
     const errors = [];
-    page.on("pageerror", (error) => errors.push(error.message));
+    page.on("pageerror", (error) => {
+      errors.push(error.message);
+      console.error("Production browser error:", error.message);
+    });
     // Observe text actually submitted to the canvas, never game state or commands.
     await page.addInitScript(
-      ({ denied }) => {
+      ({ denied, canvas }) => {
+        if (canvas) {
+          const original = HTMLCanvasElement.prototype.getContext;
+          HTMLCanvasElement.prototype.getContext = function (kind, ...args) {
+            return kind.startsWith("webgl")
+              ? null
+              : original.call(this, kind, ...args);
+          };
+        }
         const original = CanvasRenderingContext2D.prototype.fillText;
         const clear = CanvasRenderingContext2D.prototype.clearRect;
         window.__paintedText = [];
@@ -39,7 +55,7 @@ try {
             },
           });
       },
-      { denied },
+      { denied, canvas },
     );
     await page.goto("http://127.0.0.1:4173/");
     await page.waitForFunction(() =>
@@ -53,6 +69,12 @@ try {
       assert.ok(
         await page.evaluate(() =>
           window.__paintedText.some((t) => t.includes("Temporary saves only")),
+        ),
+      );
+    if (canvas)
+      assert.ok(
+        await page.evaluate(() =>
+          window.__paintedText.some((t) => t.includes("Reduced graphics")),
         ),
       );
     // A separate read model gives authored hit bounds; only mouse input reaches the browser game.
@@ -110,7 +132,7 @@ try {
       );
     }
     const shot = await page.screenshot({
-      path: `${out}/production-${denied ? "temporary-saves" : "persistent-saves"}.png`,
+      path: `${out}/production-${canvas ? "canvas-" : ""}${denied ? "temporary-saves" : "persistent-saves"}.png`,
     });
     const png = PNG.sync.read(shot);
     let lit = 0;
@@ -120,6 +142,7 @@ try {
     assert.deepEqual(errors, []);
     reports.push({
       deniedStorage: denied,
+      graphics: canvas ? "canvas" : "webgl",
       productionDebugAPI: false,
       reached: "visitor-centre",
       visiblePixels: lit,

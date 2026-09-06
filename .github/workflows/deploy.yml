@@ -7,7 +7,7 @@ permissions:
   contents: read
 concurrency:
   group: github-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,6 +24,7 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - name: Verify real browser input and production startup
+        timeout-minutes: 8
         run: node tools/review/ci.mjs
       - name: Keep browser evidence
         if: always()
