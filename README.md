@@ -21,6 +21,7 @@ Open the localhost URL printed by Vite. A browser with WebGL2 and Web Audio is r
 - `Tab` or arrows moves focus; `Enter` selects. Gamepad navigation is implemented but needs physical-device validation.
 - Menus and reading pause exposure. Puzzle controls remain under pressure. Gentle slows the deadline; Story removes it.
 - Three save slots, autosave after meaningful changes, a prior-save recovery copy, and persistent settings.
+- If browser storage is blocked or full, play continues with temporary session saves. A visible warning explains that closing or reloading loses that session; existing disk saves are not deliberately erased.
 - Revisit known locations through the map before leaving the Well Chamber. Past choices stay fixed; missed observations can still be recovered.
 
 ## Validate
@@ -32,6 +33,14 @@ npm run build
 ```
 
 [Validation procedures](docs/validation/protocol.md) explain separate command, canvas, browser, audio, hardware, and desktop evidence. `npm run review:headless` needs a Vulkan adapter, including a supported CPU Vulkan implementation. It imports the actual game scene and UI provider. `npm run review` needs Chromium installed with `npx playwright install chromium` and the Vite server running; it uses mouse input and records a browser video.
+
+## GitHub Pages
+
+`.github/workflows/deploy.yml` runs on pushes to `main` and manual dispatch. It checks content, runs the scenario suite, builds, plays a complete route in Chromium, and checks the production build with both available and denied browser storage before uploading `dist` and deploying.
+
+One-time setup: in this repository, choose **Settings → Pages → Build and deployment → Source → GitHub Actions**. GitHub's ordinary workflow token cannot enable a disabled Pages site. Then rerun the deployment job or push to `main`. The intended address is `https://luminarylabs-publish.github.io/TheLastBellofSaintOrison/`; a workflow file alone does not make that address live. See [GitHub's custom Pages workflow instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+Browser screenshots, video and reports are retained in each deployment run's `browser-review` artifact for fourteen days. A failed browser check blocks publishing. Locally, after installing Chromium and building, run `node tools/review/ci.mjs` with ports 5173 and 4173 free.
 
 ## Desktop
 

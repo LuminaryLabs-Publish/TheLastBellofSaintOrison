@@ -813,9 +813,10 @@ export function createProjectionKit() {
                 ),
               );
           }
-          if (u.saveError)
+          const saveNotice = u.saveError ?? n.orison.storageNotice();
+          if (saveNotice)
             add(
-              text("save-error", 640, 10, u.saveError, 14, {
+              text("save-error", 640, 10, saveNotice, 14, {
                 align: "center",
                 color: "#ffb7a3",
               }),

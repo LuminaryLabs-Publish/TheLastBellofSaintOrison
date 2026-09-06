@@ -190,7 +190,7 @@ export function createOrisonKit({ storage } = {}) {
         try {
           storage.write(slot, payload);
           edit((s) => (s.slot = slot));
-          n.ui.update({ saveError: null });
+          n.ui.update({ saveError: storage.notice?.() ?? null });
           return true;
         } catch (error) {
           n.ui.update({ saveError: "Could not save: " + error.message });
@@ -656,7 +656,10 @@ export function createOrisonKit({ storage } = {}) {
           if (save())
             panel(
               "Journey saved",
-              "Your progress has been saved to slot " + (read().slot + 1) + ".",
+              storage.notice?.() ??
+                "Your progress has been saved to slot " +
+                  (read().slot + 1) +
+                  ".",
             );
           return;
         }
@@ -828,6 +831,7 @@ export function createOrisonKit({ storage } = {}) {
         getProgress: () => copy(roomProgress()),
         witnessAvailable,
         listSaves: () => storage.list(validateSave),
+        storageNotice: () => storage.notice?.() ?? null,
         save,
         load,
         reset: () => start(read().slot),

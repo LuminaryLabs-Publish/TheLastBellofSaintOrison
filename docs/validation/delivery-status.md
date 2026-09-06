@@ -2,6 +2,8 @@
 
 **Outcome: connected development implementation with verified command routes and CPU-rendered review. The full premium/Steam release plan remains partially complete.** This document deliberately separates implemented behavior from final production acceptance.
 
+See the [browser startup and deployment follow-up](browser-deployment-review.md) for the storage-denial fix and the added browser/deployment gates.
+
 ## Implemented
 
 - Fifteen sequential locations in five acts, sixty interactive objects, fifteen primary puzzles, thirty-one local departure alternatives and three endings.

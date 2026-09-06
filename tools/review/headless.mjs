@@ -3,7 +3,10 @@ import fs from "node:fs/promises";
 import { Renderer } from "@headless-three/renderer";
 import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { createGame } from "../../src/composition/game.js";
-import { memoryStorage } from "../../src/providers/storage.js";
+import {
+  memoryStorage,
+  createBrowserStorage,
+} from "../../src/providers/storage.js";
 import { buildScene } from "../../src/providers/three-scene.js";
 import { drawUI, hitButton } from "../../src/providers/canvas-ui.js";
 import { ROOMS } from "../../content/campaign.js";
@@ -14,7 +17,13 @@ await fs.writeFile(
   out + "/source-manifest.json",
   JSON.stringify(await sourceManifest(), null, 2),
 );
-const engine = createGame({ storage: memoryStorage() }),
+const engine = createGame({
+    storage: process.argv.includes("--storage-denied")
+      ? createBrowserStorage(() => {
+          throw new Error("Storage denied for review");
+        })
+      : memoryStorage(),
+  }),
   renderer = new Renderer(),
   results = [];
 const send = (c) => {

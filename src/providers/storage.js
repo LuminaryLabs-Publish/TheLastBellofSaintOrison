@@ -72,3 +72,44 @@ export function memoryStorage() {
     setItem: (k, v) => map.set(k, v),
   });
 }
+
+// Storage may be denied by browser policy or become full during a journey.
+// Keep this session playable without pretending its saves reached the disk.
+export function createBrowserStorage(
+  resolveBackend = () => window.localStorage,
+) {
+  const session = new Map();
+  let persistent = true;
+  const storage = createStorage({
+    getItem(key) {
+      if (persistent) {
+        try {
+          const value = resolveBackend().getItem(key);
+          if (value === null) session.delete(key);
+          else session.set(key, value);
+          return value;
+        } catch {
+          persistent = false;
+        }
+      }
+      return session.get(key) ?? null;
+    },
+    setItem(key, value) {
+      session.set(key, value);
+      if (persistent) {
+        try {
+          resolveBackend().setItem(key, value);
+        } catch {
+          persistent = false;
+        }
+      }
+    },
+  });
+  return {
+    ...storage,
+    notice: () =>
+      persistent
+        ? null
+        : "Temporary saves only: browser storage is unavailable. Closing or reloading loses this session.",
+  };
+}
