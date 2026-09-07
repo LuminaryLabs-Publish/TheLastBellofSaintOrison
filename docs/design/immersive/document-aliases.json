@@ -1,0 +1,23 @@
+{
+  "Observation and Action Design Standard": "core-experience/observation-and-action-design-standard.md",
+  "Interaction and Immersion Rules": "core-experience/interaction-vocabulary.md",
+  "First-Time Player Teaching Plan": "core-experience/observation-and-action-design-standard.md",
+  "Information Delivery and Reading Budget": "core-experience/information-and-reading-budget.md",
+  "Investigation Loop and Pacing": "core-experience/investigation-rhythm.md",
+  "Puzzle and Investigation Contract": "gameplay-systems/physical-puzzle-contract.md",
+  "Pressure and Warning System": "gameplay-systems/pressure-and-warning-contract.md",
+  "Evidence and Knowledge Rules": "gameplay-systems/clue-and-discovery-contract.md",
+  "Inventory and Physical Item Use": "gameplay-systems/inventory-and-item-use-contract.md",
+  "Dialogue and Optional Story Delivery": "gameplay-systems/dialogue-and-decision-contract.md",
+  "Hints and Accessibility Rules": "gameplay-systems/hints-and-recovery-contract.md",
+  "Failure Retreat and Checkpoints": "gameplay-systems/hints-and-recovery-contract.md",
+  "Save and Encounter Restoration": "gameplay-systems/checkpoint-and-save-contract.md",
+  "Complete Player Journey": "story-and-progression/master-journey-map.md",
+  "Location Connections and Return Routes": "story-and-progression/master-journey-map.md",
+  "Clue Item and Knowledge Dependency Map": "story-and-progression/knowledge-and-equipment-ledger.md",
+  "Choices Consequences and Endings": "story-and-progression/consequences-and-ending-map.md",
+  "Character Movement and Knowledge Timeline": "story-and-progression/character-movement-and-knowledge-map.md",
+  "Route Timing Worksheet": "planning/journey-and-duration-budget.md",
+  "Captions Feedback and Interaction Labels": "interface-and-accessibility/captions-and-multisensory-clues.md",
+  "Pressure Assistance and Reading Pause Rules": "interface-and-accessibility/pressure-assistance-settings.md"
+}

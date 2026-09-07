@@ -1,0 +1,18 @@
+{
+  "pass": 2,
+  "incumbent": "26f4315e9e4b8d0f528a8b5739c0572095e13d2c79978fb25c3c89d4ac59c0a8",
+  "candidate": "4f0ebb5bce38afb76228646ff513d6e95963f1d5d2acb18d8a41c695f5ee13ce",
+  "objective": "Preserve story and progression through explicit source-to-encounter mappings",
+  "plannedChanges": "Preserve story and progression through explicit source-to-encounter mappings",
+  "evidence": [
+    "pass-2.patch",
+    "pass-2-review.md"
+  ],
+  "observations": "Checked every room against pinned investigations, objects and choices: 29 required clues mapped once to required encounters, one legacy primary completion per room, and all existing optional hooks retained. Corrected the Apothecary resin dependency cycle and Parish reward ordering. Reconciliation records explain 17 attachment/source discrepancies, including vessel identity, carbon proof, Elian location and end-of-game custody.",
+  "regressions": "No runtime, save or published story source modified; design-only status retained.",
+  "decision": "accept",
+  "bestRevision": "4f0ebb5bce38afb76228646ff513d6e95963f1d5d2acb18d8a41c695f5ee13ce",
+  "nextConcern": "Specify fair pressure, accessible input and partial-action restore for every encounter.",
+  "captureRetries": 0,
+  "checkpoint": "complete"
+}

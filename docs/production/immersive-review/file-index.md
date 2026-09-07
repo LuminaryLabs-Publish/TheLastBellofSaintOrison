@@ -1,0 +1,169 @@
+# Complete design file index
+
+This index lists every delivered design document. Asset request entries are specifications, not asset files. Source JSON and documentation tools are listed separately.
+
+- [Immersive Investigation Design](../../design/immersive/README.md) — `README.md`
+- [Information and Reading Budget](../../design/immersive/core-experience/information-and-reading-budget.md) — `core-experience/information-and-reading-budget.md`
+- [Interaction Vocabulary](../../design/immersive/core-experience/interaction-vocabulary.md) — `core-experience/interaction-vocabulary.md`
+- [Investigation Rhythm](../../design/immersive/core-experience/investigation-rhythm.md) — `core-experience/investigation-rhythm.md`
+- [Observation and Action Design Standard](../../design/immersive/core-experience/observation-and-action-design-standard.md) — `core-experience/observation-and-action-design-standard.md`
+- [Checkpoint and Save Contract](../../design/immersive/gameplay-systems/checkpoint-and-save-contract.md) — `gameplay-systems/checkpoint-and-save-contract.md`
+- [Clue and Discovery Contract](../../design/immersive/gameplay-systems/clue-and-discovery-contract.md) — `gameplay-systems/clue-and-discovery-contract.md`
+- [Dialogue and Decision Contract](../../design/immersive/gameplay-systems/dialogue-and-decision-contract.md) — `gameplay-systems/dialogue-and-decision-contract.md`
+- [Hints and Recovery Contract](../../design/immersive/gameplay-systems/hints-and-recovery-contract.md) — `gameplay-systems/hints-and-recovery-contract.md`
+- [Integration Capability Matrix](../../design/immersive/gameplay-systems/integration-capability-matrix.md) — `gameplay-systems/integration-capability-matrix.md`
+- [Inventory and Item Use Contract](../../design/immersive/gameplay-systems/inventory-and-item-use-contract.md) — `gameplay-systems/inventory-and-item-use-contract.md`
+- [Physical Puzzle Contract](../../design/immersive/gameplay-systems/physical-puzzle-contract.md) — `gameplay-systems/physical-puzzle-contract.md`
+- [Pressure and Warning Contract](../../design/immersive/gameplay-systems/pressure-and-warning-contract.md) — `gameplay-systems/pressure-and-warning-contract.md`
+- [Captions and Multisensory Clues](../../design/immersive/interface-and-accessibility/captions-and-multisensory-clues.md) — `interface-and-accessibility/captions-and-multisensory-clues.md`
+- [Journal Inventory and Evidence Presentation](../../design/immersive/interface-and-accessibility/journal-inventory-and-evidence-presentation.md) — `interface-and-accessibility/journal-inventory-and-evidence-presentation.md`
+- [Object Focus and Close Inspection](../../design/immersive/interface-and-accessibility/object-focus-and-close-inspection.md) — `interface-and-accessibility/object-focus-and-close-inspection.md`
+- [Pressure Assistance Settings](../../design/immersive/interface-and-accessibility/pressure-assistance-settings.md) — `interface-and-accessibility/pressure-assistance-settings.md`
+- [Apothecary — Acceptance and Review](../../design/immersive/locations/apothecary/acceptance-and-review.md) — `locations/apothecary/acceptance-and-review.md`
+- [Apothecary — Encounter Flow](../../design/immersive/locations/apothecary/encounter-flow.md) — `locations/apothecary/encounter-flow.md`
+- [Examine the Failed Batch](../../design/immersive/locations/apothecary/examine-the-failed-batch.md) — `locations/apothecary/examine-the-failed-batch.md`
+- [Apothecary — Implementation Task Pack](../../design/immersive/locations/apothecary/implementation-task-pack.md) — `locations/apothecary/implementation-task-pack.md`
+- [Apothecary — Location Design](../../design/immersive/locations/apothecary/location-design.md) — `locations/apothecary/location-design.md`
+- [Prepare the Lantern Wick](../../design/immersive/locations/apothecary/prepare-the-lantern-wick.md) — `locations/apothecary/prepare-the-lantern-wick.md`
+- [Apothecary — Presentation and Asset Manifest](../../design/immersive/locations/apothecary/presentation-and-assets.md) — `locations/apothecary/presentation-and-assets.md`
+- [Test the Protective Mixture](../../design/immersive/locations/apothecary/test-the-protective-mixture.md) — `locations/apothecary/test-the-protective-mixture.md`
+- [Bell Tower Base — Acceptance and Review](../../design/immersive/locations/bell-tower-base/acceptance-and-review.md) — `locations/bell-tower-base/acceptance-and-review.md`
+- [Balance the Governor](../../design/immersive/locations/bell-tower-base/balance-the-governor.md) — `locations/bell-tower-base/balance-the-governor.md`
+- [Bell Tower Base — Encounter Flow](../../design/immersive/locations/bell-tower-base/encounter-flow.md) — `locations/bell-tower-base/encounter-flow.md`
+- [Bell Tower Base — Implementation Task Pack](../../design/immersive/locations/bell-tower-base/implementation-task-pack.md) — `locations/bell-tower-base/implementation-task-pack.md`
+- [Isolate the Access Mechanism](../../design/immersive/locations/bell-tower-base/isolate-the-access-mechanism.md) — `locations/bell-tower-base/isolate-the-access-mechanism.md`
+- [Bell Tower Base — Location Design](../../design/immersive/locations/bell-tower-base/location-design.md) — `locations/bell-tower-base/location-design.md`
+- [Bell Tower Base — Presentation and Asset Manifest](../../design/immersive/locations/bell-tower-base/presentation-and-assets.md) — `locations/bell-tower-base/presentation-and-assets.md`
+- [Preserve or Disable the Relay](../../design/immersive/locations/bell-tower-base/preserve-or-disable-the-relay.md) — `locations/bell-tower-base/preserve-or-disable-the-relay.md`
+- [Chapel Nave — Acceptance and Review](../../design/immersive/locations/chapel-nave/acceptance-and-review.md) — `locations/chapel-nave/acceptance-and-review.md`
+- [Chapel Nave — Encounter Flow](../../design/immersive/locations/chapel-nave/encounter-flow.md) — `locations/chapel-nave/encounter-flow.md`
+- [Chapel Nave — Implementation Task Pack](../../design/immersive/locations/chapel-nave/implementation-task-pack.md) — `locations/chapel-nave/implementation-task-pack.md`
+- [Chapel Nave — Location Design](../../design/immersive/locations/chapel-nave/location-design.md) — `locations/chapel-nave/location-design.md`
+- [Chapel Nave — Presentation and Asset Manifest](../../design/immersive/locations/chapel-nave/presentation-and-assets.md) — `locations/chapel-nave/presentation-and-assets.md`
+- [Release or Leave the Survivor](../../design/immersive/locations/chapel-nave/release-or-leave-the-survivor.md) — `locations/chapel-nave/release-or-leave-the-survivor.md`
+- [Restore the Intercom Connection](../../design/immersive/locations/chapel-nave/restore-the-intercom-connection.md) — `locations/chapel-nave/restore-the-intercom-connection.md`
+- [Verify the Survivor’s Account](../../design/immersive/locations/chapel-nave/verify-the-survivor-s-account.md) — `locations/chapel-nave/verify-the-survivor-s-account.md`
+- [Closed Café — Acceptance and Review](../../design/immersive/locations/closed-cafe/acceptance-and-review.md) — `locations/closed-cafe/acceptance-and-review.md`
+- [Closed Café — Encounter Flow](../../design/immersive/locations/closed-cafe/encounter-flow.md) — `locations/closed-cafe/encounter-flow.md`
+- [Closed Café — Implementation Task Pack](../../design/immersive/locations/closed-cafe/implementation-task-pack.md) — `locations/closed-cafe/implementation-task-pack.md`
+- [Closed Café — Location Design](../../design/immersive/locations/closed-cafe/location-design.md) — `locations/closed-cafe/location-design.md`
+- [Open the Service Hatch](../../design/immersive/locations/closed-cafe/open-the-service-hatch.md) — `locations/closed-cafe/open-the-service-hatch.md`
+- [Closed Café — Presentation and Asset Manifest](../../design/immersive/locations/closed-cafe/presentation-and-assets.md) — `locations/closed-cafe/presentation-and-assets.md`
+- [Test the Kitchen Voice](../../design/immersive/locations/closed-cafe/test-the-kitchen-voice.md) — `locations/closed-cafe/test-the-kitchen-voice.md`
+- [Tune the Witness Transmission](../../design/immersive/locations/closed-cafe/tune-the-witness-transmission.md) — `locations/closed-cafe/tune-the-witness-transmission.md`
+- [Exit Road — Acceptance and Review](../../design/immersive/locations/exit-road/acceptance-and-review.md) — `locations/exit-road/acceptance-and-review.md`
+- [Exit Road — Encounter Flow](../../design/immersive/locations/exit-road/encounter-flow.md) — `locations/exit-road/encounter-flow.md`
+- [Exit Road — Implementation Task Pack](../../design/immersive/locations/exit-road/implementation-task-pack.md) — `locations/exit-road/implementation-task-pack.md`
+- [Inspect the Final Trace](../../design/immersive/locations/exit-road/inspect-the-final-trace.md) — `locations/exit-road/inspect-the-final-trace.md`
+- [Keep or Leave the Recording](../../design/immersive/locations/exit-road/keep-or-leave-the-recording.md) — `locations/exit-road/keep-or-leave-the-recording.md`
+- [Leave or Remain](../../design/immersive/locations/exit-road/leave-or-remain.md) — `locations/exit-road/leave-or-remain.md`
+- [Exit Road — Location Design](../../design/immersive/locations/exit-road/location-design.md) — `locations/exit-road/location-design.md`
+- [Exit Road — Presentation and Asset Manifest](../../design/immersive/locations/exit-road/presentation-and-assets.md) — `locations/exit-road/presentation-and-assets.md`
+- [Flooded Archive — Acceptance and Review](../../design/immersive/locations/flooded-archive/acceptance-and-review.md) — `locations/flooded-archive/acceptance-and-review.md`
+- [Flooded Archive — Encounter Flow](../../design/immersive/locations/flooded-archive/encounter-flow.md) — `locations/flooded-archive/encounter-flow.md`
+- [Flooded Archive — Implementation Task Pack](../../design/immersive/locations/flooded-archive/implementation-task-pack.md) — `locations/flooded-archive/implementation-task-pack.md`
+- [Locate the Original Record](../../design/immersive/locations/flooded-archive/locate-the-original-record.md) — `locations/flooded-archive/locate-the-original-record.md`
+- [Flooded Archive — Location Design](../../design/immersive/locations/flooded-archive/location-design.md) — `locations/flooded-archive/location-design.md`
+- [Flooded Archive — Presentation and Asset Manifest](../../design/immersive/locations/flooded-archive/presentation-and-assets.md) — `locations/flooded-archive/presentation-and-assets.md`
+- [Recover the Handwritten Correction](../../design/immersive/locations/flooded-archive/recover-the-handwritten-correction.md) — `locations/flooded-archive/recover-the-handwritten-correction.md`
+- [Restore the Pump Flow](../../design/immersive/locations/flooded-archive/restore-the-pump-flow.md) — `locations/flooded-archive/restore-the-pump-flow.md`
+- [Maintenance Tunnels — Acceptance and Review](../../design/immersive/locations/maintenance-tunnels/acceptance-and-review.md) — `locations/maintenance-tunnels/acceptance-and-review.md`
+- [Maintenance Tunnels — Encounter Flow](../../design/immersive/locations/maintenance-tunnels/encounter-flow.md) — `locations/maintenance-tunnels/encounter-flow.md`
+- [Examine the Monitoring Station](../../design/immersive/locations/maintenance-tunnels/examine-the-monitoring-station.md) — `locations/maintenance-tunnels/examine-the-monitoring-station.md`
+- [Follow the Service Line](../../design/immersive/locations/maintenance-tunnels/follow-the-service-line.md) — `locations/maintenance-tunnels/follow-the-service-line.md`
+- [Maintenance Tunnels — Implementation Task Pack](../../design/immersive/locations/maintenance-tunnels/implementation-task-pack.md) — `locations/maintenance-tunnels/implementation-task-pack.md`
+- [Maintenance Tunnels — Location Design](../../design/immersive/locations/maintenance-tunnels/location-design.md) — `locations/maintenance-tunnels/location-design.md`
+- [Maintenance Tunnels — Presentation and Asset Manifest](../../design/immersive/locations/maintenance-tunnels/presentation-and-assets.md) — `locations/maintenance-tunnels/presentation-and-assets.md`
+- [Route Emergency Power](../../design/immersive/locations/maintenance-tunnels/route-emergency-power.md) — `locations/maintenance-tunnels/route-emergency-power.md`
+- [Market Street — Acceptance and Review](../../design/immersive/locations/market-street/acceptance-and-review.md) — `locations/market-street/acceptance-and-review.md`
+- [Cross the Shutter Cycle](../../design/immersive/locations/market-street/cross-the-shutter-cycle.md) — `locations/market-street/cross-the-shutter-cycle.md`
+- [Market Street — Encounter Flow](../../design/immersive/locations/market-street/encounter-flow.md) — `locations/market-street/encounter-flow.md`
+- [Market Street — Implementation Task Pack](../../design/immersive/locations/market-street/implementation-task-pack.md) — `locations/market-street/implementation-task-pack.md`
+- [Market Street — Location Design](../../design/immersive/locations/market-street/location-design.md) — `locations/market-street/location-design.md`
+- [Market Street — Presentation and Asset Manifest](../../design/immersive/locations/market-street/presentation-and-assets.md) — `locations/market-street/presentation-and-assets.md`
+- [Recover the Stranded Parcel](../../design/immersive/locations/market-street/recover-the-stranded-parcel.md) — `locations/market-street/recover-the-stranded-parcel.md`
+- [Release the Jammed Winch](../../design/immersive/locations/market-street/release-the-jammed-winch.md) — `locations/market-street/release-the-jammed-winch.md`
+- [Parish House — Acceptance and Review](../../design/immersive/locations/parish-house/acceptance-and-review.md) — `locations/parish-house/acceptance-and-review.md`
+- [Parish House — Encounter Flow](../../design/immersive/locations/parish-house/encounter-flow.md) — `locations/parish-house/encounter-flow.md`
+- [Examine the Hidden Photograph](../../design/immersive/locations/parish-house/examine-the-hidden-photograph.md) — `locations/parish-house/examine-the-hidden-photograph.md`
+- [Expose the Descent Entrance](../../design/immersive/locations/parish-house/expose-the-descent-entrance.md) — `locations/parish-house/expose-the-descent-entrance.md`
+- [Parish House — Implementation Task Pack](../../design/immersive/locations/parish-house/implementation-task-pack.md) — `locations/parish-house/implementation-task-pack.md`
+- [Parish House — Location Design](../../design/immersive/locations/parish-house/location-design.md) — `locations/parish-house/location-design.md`
+- [Open the Mechanical Safe](../../design/immersive/locations/parish-house/open-the-mechanical-safe.md) — `locations/parish-house/open-the-mechanical-safe.md`
+- [Parish House — Presentation and Asset Manifest](../../design/immersive/locations/parish-house/presentation-and-assets.md) — `locations/parish-house/presentation-and-assets.md`
+- [Return Ascent — Acceptance and Review](../../design/immersive/locations/return-ascent/acceptance-and-review.md) — `locations/return-ascent/acceptance-and-review.md`
+- [Return Ascent — Encounter Flow](../../design/immersive/locations/return-ascent/encounter-flow.md) — `locations/return-ascent/encounter-flow.md`
+- [Identify the Surviving Route](../../design/immersive/locations/return-ascent/identify-the-surviving-route.md) — `locations/return-ascent/identify-the-surviving-route.md`
+- [Return Ascent — Implementation Task Pack](../../design/immersive/locations/return-ascent/implementation-task-pack.md) — `locations/return-ascent/implementation-task-pack.md`
+- [Return Ascent — Location Design](../../design/immersive/locations/return-ascent/location-design.md) — `locations/return-ascent/location-design.md`
+- [Return Ascent — Presentation and Asset Manifest](../../design/immersive/locations/return-ascent/presentation-and-assets.md) — `locations/return-ascent/presentation-and-assets.md`
+- [Release the Escape Gates](../../design/immersive/locations/return-ascent/release-the-escape-gates.md) — `locations/return-ascent/release-the-escape-gates.md`
+- [Retrieve the Endangered Evidence](../../design/immersive/locations/return-ascent/retrieve-the-endangered-evidence.md) — `locations/return-ascent/retrieve-the-endangered-evidence.md`
+- [School Hall — Acceptance and Review](../../design/immersive/locations/school-hall/acceptance-and-review.md) — `locations/school-hall/acceptance-and-review.md`
+- [School Hall — Encounter Flow](../../design/immersive/locations/school-hall/encounter-flow.md) — `locations/school-hall/encounter-flow.md`
+- [Find the Missing Place](../../design/immersive/locations/school-hall/find-the-missing-place.md) — `locations/school-hall/find-the-missing-place.md`
+- [School Hall — Implementation Task Pack](../../design/immersive/locations/school-hall/implementation-task-pack.md) — `locations/school-hall/implementation-task-pack.md`
+- [School Hall — Location Design](../../design/immersive/locations/school-hall/location-design.md) — `locations/school-hall/location-design.md`
+- [School Hall — Presentation and Asset Manifest](../../design/immersive/locations/school-hall/presentation-and-assets.md) — `locations/school-hall/presentation-and-assets.md`
+- [Reassemble the Class Photograph](../../design/immersive/locations/school-hall/reassemble-the-class-photograph.md) — `locations/school-hall/reassemble-the-class-photograph.md`
+- [Reveal the Covered Drawing](../../design/immersive/locations/school-hall/reveal-the-covered-drawing.md) — `locations/school-hall/reveal-the-covered-drawing.md`
+- [Town Gate — Acceptance and Review](../../design/immersive/locations/town-gate/acceptance-and-review.md) — `locations/town-gate/acceptance-and-review.md`
+- [Answer the Callbox](../../design/immersive/locations/town-gate/answer-the-callbox.md) — `locations/town-gate/answer-the-callbox.md`
+- [Town Gate — Encounter Flow](../../design/immersive/locations/town-gate/encounter-flow.md) — `locations/town-gate/encounter-flow.md`
+- [Town Gate — Implementation Task Pack](../../design/immersive/locations/town-gate/implementation-task-pack.md) — `locations/town-gate/implementation-task-pack.md`
+- [Town Gate — Location Design](../../design/immersive/locations/town-gate/location-design.md) — `locations/town-gate/location-design.md`
+- [Town Gate — Presentation and Asset Manifest](../../design/immersive/locations/town-gate/presentation-and-assets.md) — `locations/town-gate/presentation-and-assets.md`
+- [Read the Crossing Signal](../../design/immersive/locations/town-gate/read-the-crossing-signal.md) — `locations/town-gate/read-the-crossing-signal.md`
+- [Release the Gate Latch](../../design/immersive/locations/town-gate/release-the-gate-latch.md) — `locations/town-gate/release-the-gate-latch.md`
+- [Town Square — Acceptance and Review](../../design/immersive/locations/town-square/acceptance-and-review.md) — `locations/town-square/acceptance-and-review.md`
+- [Assemble the Account](../../design/immersive/locations/town-square/assemble-the-account.md) — `locations/town-square/assemble-the-account.md`
+- [Town Square — Encounter Flow](../../design/immersive/locations/town-square/encounter-flow.md) — `locations/town-square/encounter-flow.md`
+- [Town Square — Implementation Task Pack](../../design/immersive/locations/town-square/implementation-task-pack.md) — `locations/town-square/implementation-task-pack.md`
+- [Town Square — Location Design](../../design/immersive/locations/town-square/location-design.md) — `locations/town-square/location-design.md`
+- [Town Square — Presentation and Asset Manifest](../../design/immersive/locations/town-square/presentation-and-assets.md) — `locations/town-square/presentation-and-assets.md`
+- [Read the Town’s Changes](../../design/immersive/locations/town-square/read-the-town-s-changes.md) — `locations/town-square/read-the-town-s-changes.md`
+- [Share or Withhold the Evidence](../../design/immersive/locations/town-square/share-or-withhold-the-evidence.md) — `locations/town-square/share-or-withhold-the-evidence.md`
+- [Visitor Centre — Acceptance and Review](../../design/immersive/locations/visitor-centre/acceptance-and-review.md) — `locations/visitor-centre/acceptance-and-review.md`
+- [Visitor Centre — Encounter Flow](../../design/immersive/locations/visitor-centre/encounter-flow.md) — `locations/visitor-centre/encounter-flow.md`
+- [Find the Altered Route](../../design/immersive/locations/visitor-centre/find-the-altered-route.md) — `locations/visitor-centre/find-the-altered-route.md`
+- [Visitor Centre — Implementation Task Pack](../../design/immersive/locations/visitor-centre/implementation-task-pack.md) — `locations/visitor-centre/implementation-task-pack.md`
+- [Visitor Centre — Location Design](../../design/immersive/locations/visitor-centre/location-design.md) — `locations/visitor-centre/location-design.md`
+- [Visitor Centre — Presentation and Asset Manifest](../../design/immersive/locations/visitor-centre/presentation-and-assets.md) — `locations/visitor-centre/presentation-and-assets.md`
+- [Release the District Key](../../design/immersive/locations/visitor-centre/release-the-district-key.md) — `locations/visitor-centre/release-the-district-key.md`
+- [Restore the Map Circuit](../../design/immersive/locations/visitor-centre/restore-the-map-circuit.md) — `locations/visitor-centre/restore-the-map-circuit.md`
+- [Well Chamber — Acceptance and Review](../../design/immersive/locations/well-chamber/acceptance-and-review.md) — `locations/well-chamber/acceptance-and-review.md`
+- [Commit the Final Intervention](../../design/immersive/locations/well-chamber/commit-the-final-intervention.md) — `locations/well-chamber/commit-the-final-intervention.md`
+- [Well Chamber — Encounter Flow](../../design/immersive/locations/well-chamber/encounter-flow.md) — `locations/well-chamber/encounter-flow.md`
+- [Well Chamber — Implementation Task Pack](../../design/immersive/locations/well-chamber/implementation-task-pack.md) — `locations/well-chamber/implementation-task-pack.md`
+- [Well Chamber — Location Design](../../design/immersive/locations/well-chamber/location-design.md) — `locations/well-chamber/location-design.md`
+- [Well Chamber — Presentation and Asset Manifest](../../design/immersive/locations/well-chamber/presentation-and-assets.md) — `locations/well-chamber/presentation-and-assets.md`
+- [Stabilize the Inspection Platform](../../design/immersive/locations/well-chamber/stabilize-the-inspection-platform.md) — `locations/well-chamber/stabilize-the-inspection-platform.md`
+- [Trace the Bell Mechanism](../../design/immersive/locations/well-chamber/trace-the-bell-mechanism.md) — `locations/well-chamber/trace-the-bell-mechanism.md`
+- [Encounter Production Tracker](../../design/immersive/planning/encounter-production-tracker.md) — `planning/encounter-production-tracker.md`
+- [Journey and Duration Budget](../../design/immersive/planning/journey-and-duration-budget.md) — `planning/journey-and-duration-budget.md`
+- [Immersive Investigation Redesign Plan](../../design/immersive/planning/redesign-plan.md) — `planning/redesign-plan.md`
+- [Asset and Animation Request Template](../../design/immersive/production-standards/asset-and-animation-request-template.md) — `production-standards/asset-and-animation-request-template.md`
+- [Encounter Acceptance Template](../../design/immersive/production-standards/encounter-acceptance-template.md) — `production-standards/encounter-acceptance-template.md`
+- [Encounter Document Template](../../design/immersive/production-standards/encounter-document-template.md) — `production-standards/encounter-document-template.md`
+- [Implementation Task Pack Template](../../design/immersive/production-standards/implementation-task-pack-template.md) — `production-standards/implementation-task-pack-template.md`
+- [Location Flow Template](../../design/immersive/production-standards/location-flow-template.md) — `production-standards/location-flow-template.md`
+- [Character Movement and Knowledge Map](../../design/immersive/story-and-progression/character-movement-and-knowledge-map.md) — `story-and-progression/character-movement-and-knowledge-map.md`
+- [Consequences and Ending Map](../../design/immersive/story-and-progression/consequences-and-ending-map.md) — `story-and-progression/consequences-and-ending-map.md`
+- [Existing Story Reconciliation](../../design/immersive/story-and-progression/existing-story-reconciliation.md) — `story-and-progression/existing-story-reconciliation.md`
+- [Knowledge and Equipment Ledger](../../design/immersive/story-and-progression/knowledge-and-equipment-ledger.md) — `story-and-progression/knowledge-and-equipment-ledger.md`
+- [Master Journey Map](../../design/immersive/story-and-progression/master-journey-map.md) — `story-and-progression/master-journey-map.md`
+- [Optional Lore and Journal Index](../../design/immersive/story-and-progression/optional-lore-and-journal-index.md) — `story-and-progression/optional-lore-and-journal-index.md`
+- [Reading-to-Interaction Migration Register](../../design/immersive/story-and-progression/reading-to-interaction-migration-register.md) — `story-and-progression/reading-to-interaction-migration-register.md`
+- [Revised Story Treatment](../../design/immersive/story-and-progression/revised-story-treatment.md) — `story-and-progression/revised-story-treatment.md`
+- [Route Review Matrix](../../design/immersive/story-and-progression/route-review-matrix.md) — `story-and-progression/route-review-matrix.md`
+
+## Authored data and tools
+
+- docs/design/immersive/encounters.json — all 45 detailed authored specifications.
+- docs/design/immersive/source-baseline.json — pinned source records for comparison.
+- docs/design/immersive/encounter-index.json — generated encounter-to-document mapping.
+- docs/design/immersive/route-scenarios.json — 67 source-compatible design traces.
+- docs/design/immersive/eligibility-fixtures.json — four Witness boundary records.
+- docs/design/immersive/document-aliases.json — equivalent titles in the concatenated attachment.
+- tools/design/build-immersive.mjs — generates location documents from authored specification data.
+- tools/design/check-immersive.mjs — validates coverage, links, mappings and documentary traces.

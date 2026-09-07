@@ -1,0 +1,19 @@
+{
+  "evidenceClass": "documentation-consistency-not-runtime",
+  "encounters": 45,
+  "locations": 15,
+  "markdownDocuments": 154,
+  "requiredClues": 29,
+  "sourceDepartures": 31,
+  "assetRequests": 231,
+  "routeDesignTraces": 67,
+  "eligibilityFixtures": 4,
+  "localLinksChecked": 700,
+  "generatedViews": "current",
+  "sourceContent": "unchanged",
+  "limitations": [
+    "No new gameplay executed",
+    "No visual/audio quality or pacing claim",
+    "No unfamiliar-player comprehension evidence"
+  ]
+}

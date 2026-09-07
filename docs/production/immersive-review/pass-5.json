@@ -1,0 +1,18 @@
+{
+  "pass": 5,
+  "incumbent": "1c48ead4f1f3b4044497b8864260857b83972d46fe478121b3c89e1466473221",
+  "candidate": "3f382b9e10d6e6bad87026382f4f36677bf75ff792cb05a13a04ab63419b4d54",
+  "objective": "Prove documentary route consistency and complete actionable acceptance coverage",
+  "plannedChanges": "Prove documentary route consistency and complete actionable acceptance coverage",
+  "evidence": [
+    "pass-5.patch",
+    "pass-5-review.md"
+  ],
+  "observations": "Inspected final Well and Road specifications and traced 67 source-grounded documentary routes plus four Witness boundary fixtures. Corrected required third-encounter entry gates, restored Vale/Silas responsibility evidence, removed a cancellation step incorrectly listed after ending confirmation, and synchronized step-count restore ranges. All 45 specifications now contain exact acceptance walks. The checker verifies 154 Markdown documents, 700 local links, 29 required clues, 31 source departures, 231 asset requests and unchanged runtime content. These are document checks, not new-gameplay tests.",
+  "regressions": "No runtime, save or published story source modified; design-only status retained.",
+  "decision": "accept",
+  "bestRevision": "3f382b9e10d6e6bad87026382f4f36677bf75ff792cb05a13a04ab63419b4d54",
+  "nextConcern": "Implement shared physical-control and save contracts, then Town Gate and actual player comprehension review; final asset production and measured pacing remain open.",
+  "captureRetries": 0,
+  "checkpoint": "complete"
+}

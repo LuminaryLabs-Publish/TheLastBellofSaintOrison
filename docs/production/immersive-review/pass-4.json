@@ -1,0 +1,18 @@
+{
+  "pass": 4,
+  "incumbent": "775704be069456761c150cbe1ecb92697da54d3bcdcfadab7c156ddbc401da90",
+  "candidate": "1c48ead4f1f3b4044497b8864260857b83972d46fe478121b3c89e1466473221",
+  "objective": "Make the design directly actionable for bounded contributors",
+  "plannedChanges": "Make the design directly actionable for bounded contributors",
+  "evidence": [
+    "pass-4.patch",
+    "pass-4-review.md"
+  ],
+  "observations": "Inspected actual public observation, puzzle, operations and save implementations. Added five named shared prerequisite tasks with completion criteria, 45 encounter task packs with eight ordered steps each, 231 unique asset requests, a linked production tracker, five templates and an honest duration gap. Every asset remains requested; current indexed-answer APIs are not described as physical-mechanism execution.",
+  "regressions": "No runtime, save or published story source modified; design-only status retained.",
+  "decision": "accept",
+  "bestRevision": "1c48ead4f1f3b4044497b8864260857b83972d46fe478121b3c89e1466473221",
+  "nextConcern": "Trace alternate routes and strengthen exact acceptance, navigation and automated documentation gates before publication.",
+  "captureRetries": 0,
+  "checkpoint": "complete"
+}

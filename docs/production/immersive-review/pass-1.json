@@ -1,0 +1,18 @@
+{
+  "pass": 1,
+  "incumbent": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "candidate": "26f4315e9e4b8d0f528a8b5739c0572095e13d2c79978fb25c3c89d4ac59c0a8",
+  "objective": "Replace encounter titles with exact observable action specifications",
+  "plannedChanges": "Replace encounter titles with exact observable action specifications",
+  "evidence": [
+    "pass-1.patch",
+    "pass-1-review.md"
+  ],
+  "observations": "Read all 45 authored action sequences against the supplied list and source baseline. Each has distinct controls, obtainable clues, recoverable wrong input, three hints and a completion condition. Town Gate keeps a blank identity entry; ending encounters are explicitly decisions rather than combination locks. Explicit per-encounter source-state mappings and shared contracts remain to be added.",
+  "regressions": "No runtime, save or published story source modified; design-only status retained.",
+  "decision": "accept",
+  "bestRevision": "26f4315e9e4b8d0f528a8b5739c0572095e13d2c79978fb25c3c89d4ac59c0a8",
+  "nextConcern": "Reconcile every existing clue, reward, branch and ending prerequisite with its specific target encounter.",
+  "captureRetries": 0,
+  "checkpoint": "complete"
+}

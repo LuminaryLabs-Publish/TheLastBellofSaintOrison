@@ -1,0 +1,61 @@
+[
+  {
+    "id": "witness-with-broken-relay",
+    "ending": "witness",
+    "items": [
+      "register",
+      "archive",
+      "relay",
+      "core"
+    ],
+    "knowledge": [
+      "names-second-four"
+    ],
+    "flags": {
+      "relayBroken": true
+    },
+    "expectedAllowed": false
+  },
+  {
+    "id": "witness-without-original",
+    "ending": "witness",
+    "items": [
+      "register",
+      "relay",
+      "core"
+    ],
+    "knowledge": [
+      "names-second-four"
+    ],
+    "flags": {},
+    "expectedAllowed": false
+  },
+  {
+    "id": "witness-without-second-identities",
+    "ending": "witness",
+    "items": [
+      "register",
+      "archive",
+      "relay",
+      "core"
+    ],
+    "knowledge": [],
+    "flags": {},
+    "expectedAllowed": false
+  },
+  {
+    "id": "witness-compatible-no-explicit-intact-flag",
+    "ending": "witness",
+    "items": [
+      "register",
+      "archive",
+      "relay",
+      "core"
+    ],
+    "knowledge": [
+      "names-second-four"
+    ],
+    "flags": {},
+    "expectedAllowed": true
+  }
+]

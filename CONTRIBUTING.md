@@ -9,3 +9,5 @@ Room contributors start in src/kits/locations/<id>/tasks. Architecture contribut
 Use the existing browser review for WebGL and Canvas and the exact-source headless renderer for visual work. Inspect captures. Record source revision, commands, expected/observed state and limitations. Only proven behavior may be marked implemented; final art, pacing, audio and device approval remain separate production tasks.
 
 Review owners are currently unassigned. No new collaborators or external document permissions are implied. Drive synchronization is deferred by user instruction.
+
+For the next interaction redesign, start with [the encounter tracker](docs/design/immersive/planning/encounter-production-tracker.md) and its linked task packs. Edit docs/design/immersive/encounters.json, run `node tools/design/build-immersive.mjs`, then `node tools/design/check-immersive.mjs`. Shared physical controls and save migration are prerequisites, not already-installed capabilities.

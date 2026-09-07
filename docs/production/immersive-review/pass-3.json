@@ -1,0 +1,18 @@
+{
+  "pass": 3,
+  "incumbent": "4f0ebb5bce38afb76228646ff513d6e95963f1d5d2acb18d8a41c695f5ee13ce",
+  "candidate": "775704be069456761c150cbe1ecb92697da54d3bcdcfadab7c156ddbc401da90",
+  "objective": "Make every encounter recoverable and accessible under pressure",
+  "plannedChanges": "Make every encounter recoverable and accessible under pressure",
+  "evidence": [
+    "pass-3.patch",
+    "pass-3-review.md"
+  ],
+  "observations": "Read the Archive recovery, timed gate controls and epilogue contracts. All 45 now define input alternatives, warning visibility, interruption, logical persistence and duplicate-safe restoration. Removed automatic escalation from quiet epilogues and distinguished passive warning captions from pausing required explanations; optional physical recovery can consume time without a timed choice menu.",
+  "regressions": "No runtime, save or published story source modified; design-only status retained.",
+  "decision": "accept",
+  "bestRevision": "775704be069456761c150cbe1ecb92697da54d3bcdcfadab7c156ddbc401da90",
+  "nextConcern": "Turn each specification into a concrete asset and implementation task with honest current-versus-missing capability boundaries.",
+  "captureRetries": 0,
+  "checkpoint": "complete"
+}

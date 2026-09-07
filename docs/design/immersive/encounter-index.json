@@ -1,0 +1,362 @@
+[
+  {
+    "id": "TG-01",
+    "room": "town-gate",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/town-gate/read-the-crossing-signal.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "TG-02",
+    "room": "town-gate",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/town-gate/release-the-gate-latch.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "TG-03",
+    "room": "town-gate",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/town-gate/answer-the-callbox.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "VC-01",
+    "room": "visitor-centre",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/visitor-centre/restore-the-map-circuit.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "VC-02",
+    "room": "visitor-centre",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/visitor-centre/release-the-district-key.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "VC-03",
+    "room": "visitor-centre",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/visitor-centre/find-the-altered-route.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CF-01",
+    "room": "closed-cafe",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/closed-cafe/tune-the-witness-transmission.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CF-02",
+    "room": "closed-cafe",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/closed-cafe/open-the-service-hatch.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CF-03",
+    "room": "closed-cafe",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/closed-cafe/test-the-kitchen-voice.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MS-01",
+    "room": "market-street",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/market-street/cross-the-shutter-cycle.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MS-02",
+    "room": "market-street",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/market-street/release-the-jammed-winch.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MS-03",
+    "room": "market-street",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/market-street/recover-the-stranded-parcel.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "AP-01",
+    "room": "apothecary",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/apothecary/test-the-protective-mixture.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "AP-02",
+    "room": "apothecary",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/apothecary/prepare-the-lantern-wick.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "AP-03",
+    "room": "apothecary",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/apothecary/examine-the-failed-batch.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "BT-01",
+    "room": "bell-tower-base",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/bell-tower-base/balance-the-governor.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "BT-02",
+    "room": "bell-tower-base",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/bell-tower-base/isolate-the-access-mechanism.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "BT-03",
+    "room": "bell-tower-base",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/bell-tower-base/preserve-or-disable-the-relay.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "SH-01",
+    "room": "school-hall",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/school-hall/reassemble-the-class-photograph.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "SH-02",
+    "room": "school-hall",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/school-hall/find-the-missing-place.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "SH-03",
+    "room": "school-hall",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/school-hall/reveal-the-covered-drawing.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "FA-01",
+    "room": "flooded-archive",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/flooded-archive/restore-the-pump-flow.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "FA-02",
+    "room": "flooded-archive",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/flooded-archive/locate-the-original-record.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "FA-03",
+    "room": "flooded-archive",
+    "kind": "decision",
+    "optional": true,
+    "path": "locations/flooded-archive/recover-the-handwritten-correction.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CN-01",
+    "room": "chapel-nave",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/chapel-nave/restore-the-intercom-connection.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CN-02",
+    "room": "chapel-nave",
+    "kind": "investigation",
+    "optional": false,
+    "path": "locations/chapel-nave/verify-the-survivor-s-account.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "CN-03",
+    "room": "chapel-nave",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/chapel-nave/release-or-leave-the-survivor.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "PH-01",
+    "room": "parish-house",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/parish-house/open-the-mechanical-safe.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "PH-02",
+    "room": "parish-house",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/parish-house/expose-the-descent-entrance.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "PH-03",
+    "room": "parish-house",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/parish-house/examine-the-hidden-photograph.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MT-01",
+    "room": "maintenance-tunnels",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/maintenance-tunnels/route-emergency-power.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MT-02",
+    "room": "maintenance-tunnels",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/maintenance-tunnels/follow-the-service-line.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "MT-03",
+    "room": "maintenance-tunnels",
+    "kind": "investigation",
+    "optional": true,
+    "path": "locations/maintenance-tunnels/examine-the-monitoring-station.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "WC-01",
+    "room": "well-chamber",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/well-chamber/stabilize-the-inspection-platform.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "WC-02",
+    "room": "well-chamber",
+    "kind": "investigation",
+    "optional": false,
+    "path": "locations/well-chamber/trace-the-bell-mechanism.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "WC-03",
+    "room": "well-chamber",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/well-chamber/commit-the-final-intervention.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "RA-01",
+    "room": "return-ascent",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/return-ascent/identify-the-surviving-route.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "RA-02",
+    "room": "return-ascent",
+    "kind": "puzzle",
+    "optional": false,
+    "path": "locations/return-ascent/release-the-escape-gates.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "RA-03",
+    "room": "return-ascent",
+    "kind": "decision",
+    "optional": true,
+    "path": "locations/return-ascent/retrieve-the-endangered-evidence.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "TS-01",
+    "room": "town-square",
+    "kind": "investigation",
+    "optional": false,
+    "path": "locations/town-square/read-the-town-s-changes.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "TS-02",
+    "room": "town-square",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/town-square/assemble-the-account.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "TS-03",
+    "room": "town-square",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/town-square/share-or-withhold-the-evidence.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "ER-01",
+    "room": "exit-road",
+    "kind": "investigation",
+    "optional": false,
+    "path": "locations/exit-road/inspect-the-final-trace.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "ER-02",
+    "room": "exit-road",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/exit-road/keep-or-leave-the-recording.md",
+    "status": "specified-not-implemented"
+  },
+  {
+    "id": "ER-03",
+    "room": "exit-road",
+    "kind": "decision",
+    "optional": false,
+    "path": "locations/exit-road/leave-or-remain.md",
+    "status": "specified-not-implemented"
+  }
+]

@@ -1,0 +1,1810 @@
+{
+  "commit": "aaaec2d1ccb5856ccef9395f090653a7e2efca1f",
+  "locations": {
+    "town-gate": {
+      "observations": [
+        {
+          "id": "notice",
+          "text": "WAIT THROUGH TWO BELLS. CROSS ON THE DARK LAMP. Under the official lettering, someone has scratched: Do not answer the visitor intercom with a name. You copy the warning exactly."
+        },
+        {
+          "id": "callbox",
+          "text": "“Visitor?” The voice is yours, with an old childhood hesitation. Three photograph badges hang below: red anchor, white fern, black gull. The fourth roster line has no photograph. A blank record is different from an offered name."
+        },
+        {
+          "id": "latch",
+          "text": "A mechanical selector waits beneath the roster. Its empty line is a real selectable entry, not a missing label."
+        },
+        {
+          "id": "marks",
+          "text": "Inside the dependable shelter, arrows cut into the stone lead toward an unlit service passage. Their white ends point back to the road. You record the return direction."
+        }
+      ],
+      "location": {
+        "id": "town-gate",
+        "name": "Town Gate",
+        "act": 0,
+        "minutes": 8,
+        "subtitle": "The road ends. The invitation does not.",
+        "goal": "Read the crossing notice, then open a safe route into town.",
+        "reward": "key"
+      },
+      "presentation": {
+        "theme": "gate",
+        "tint": "#547f83",
+        "accent": "#dfac67",
+        "weather": "rain"
+      },
+      "choices": [
+        {
+          "id": "shelter",
+          "label": "Wait in shelter; cross on the dark lamp",
+          "text": "You wait through both bells. When the lamp dies, you cross without looking toward the footsteps."
+        },
+        {
+          "id": "passage",
+          "label": "Take the marked maintenance passage",
+          "text": "You follow the carved arrow through the gatehouse wall. A second arrow marks a return route.",
+          "flag": "gateMarks"
+        }
+      ],
+      "pressure": {
+        "pressure": 150,
+        "warning": "The indicator turns amber. A second bell is gathering in the iron.",
+        "critical": "A figure stands inside the fog. The shelter is still open.",
+        "retreat": "You step behind the stone recess. Something crosses where you were standing. It never enters the marked shelter."
+      },
+      "dialogue": {
+        "arrival": "Salt gathers on the envelope in your coat. Elian’s cassette arrived yesterday, though she has been missing for eleven days. Ahead, the gatehouse light moves across an empty crossing. Beyond it stands the hospital’s bell tower. You are Mara Venn. You came to find your sister, not to give this place another name.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Read the crossing notice, then open a safe route into town.",
+          "required": [
+            "crossing-rule",
+            "blank-record"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": "key"
+        }
+      ],
+      "objects": [
+        {
+          "id": "notice",
+          "name": "Crossing notice",
+          "kind": "inspect",
+          "clue": "crossing-rule"
+        },
+        {
+          "id": "callbox",
+          "name": "Visitor intercom",
+          "kind": "inspect",
+          "clue": "blank-record"
+        },
+        {
+          "id": "latch",
+          "name": "Gatehouse roster",
+          "kind": "puzzle"
+        },
+        {
+          "id": "marks",
+          "name": "Maintenance recess",
+          "kind": "optional",
+          "flag": "gateMarks"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "The visitor register",
+          "question": "What will you submit to the intercom?",
+          "options": [
+            "Mara Venn",
+            "Elian Venn",
+            "The blank record"
+          ],
+          "answer": [
+            2
+          ],
+          "success": "The printer produces a blank visitor pass and an intake key. “Present,” says the intercom. You have opened a route without offering a living identity.",
+          "wrong": "The speaker repeats the offered name. You withdraw the selector before confirming. The blank row remains available.",
+          "hints": [
+            "The warning says not to offer a name.",
+            "A record can be empty without being absent.",
+            "Submit the blank record."
+          ]
+        }
+      ]
+    },
+    "visitor-centre": {
+      "observations": [
+        {
+          "id": "diagram",
+          "text": "The map transformer is isolated from the building supply. The diagram reads: disconnect RED, connect BLUE, then connect AMBER. The small circuit powers only the map. You will not touch the building mains."
+        },
+        {
+          "id": "book",
+          "text": "ELIAN VENN — CAFÉ, 07:10. Her note reads: “They sent everyone home except the people who remembered.” Beneath it, the clerk has stamped TRANSFERRED instead of DEPARTED."
+        },
+        {
+          "id": "cabinet",
+          "text": "Three low-voltage toggles sit inside an insulated enclosure. Their symbols match the circuit diagram."
+        },
+        {
+          "id": "staff",
+          "text": "Two columns share the same names: DEPARTED and RETAINED. The carbon sheet reveals a deliberate change, not a clerical error. You photograph both layers."
+        }
+      ],
+      "location": {
+        "id": "visitor-centre",
+        "name": "Visitor Centre",
+        "act": 0,
+        "minutes": 10,
+        "subtitle": "Someone kept the lights on for you.",
+        "goal": "Restore the map and establish Elian’s next stop."
+      },
+      "presentation": {
+        "theme": "office",
+        "tint": "#6c7970",
+        "accent": "#b6bd85"
+      },
+      "choices": [
+        {
+          "id": "front",
+          "label": "Follow Elian’s café entry",
+          "text": "You take the street named in the visitor book."
+        },
+        {
+          "id": "service",
+          "label": "Follow the evacuation staff route",
+          "text": "The route passes the same café, behind its delivery door. The evacuation list stays with your evidence.",
+          "flag": "selectiveEvacuation"
+        }
+      ],
+      "pressure": {
+        "pressure": 155,
+        "warning": "The first bank of fluorescent tubes goes dark.",
+        "critical": "The announcement loses its words. Only the shape of your name remains.",
+        "retreat": "The service cabinet has a manual isolation switch. You turn it off and wait in the daylight panel by the door."
+      },
+      "dialogue": {
+        "arrival": "The visitor centre smells of warm paper. Every chair faces the illuminated town map. An evacuation notice has yesterday’s date, but the visitor book was signed this morning. Elian has drawn a small wave beside her entry. She did not leave by the road.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Restore the map and establish Elian’s next stop.",
+          "required": [
+            "map-circuit",
+            "cafe-lead"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "diagram",
+          "name": "Circuit diagram",
+          "kind": "inspect",
+          "clue": "map-circuit"
+        },
+        {
+          "id": "book",
+          "name": "Visitor book",
+          "kind": "inspect",
+          "clue": "cafe-lead"
+        },
+        {
+          "id": "cabinet",
+          "name": "Map service cabinet",
+          "kind": "puzzle"
+        },
+        {
+          "id": "staff",
+          "name": "Staff evacuation list",
+          "kind": "optional",
+          "flag": "selectiveEvacuation"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Bring the map online",
+          "question": "Operate the circuit in the documented order.",
+          "options": [
+            "Disconnect red",
+            "Connect blue",
+            "Connect amber"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "The map lights in sections. A chalk line links the Café, market and bell tower. Beside the hospital, an underground route has been rubbed out.",
+          "wrong": "The safety breaker opens. No fuse is consumed. Re-read the diagram and reset the sequence.",
+          "hints": [
+            "Use the cabinet’s diagram, not the announcement.",
+            "Isolate before reconnecting.",
+            "Red off, blue on, amber on."
+          ]
+        }
+      ]
+    },
+    "closed-cafe": {
+      "observations": [
+        {
+          "id": "tape",
+          "text": "On the original tape a gull cries, then two low tide bells sound. Elian says, “The long breathing.” The kitchen voice says, “The hungry sea.” It knows her tone, not her private phrase."
+        },
+        {
+          "id": "receipt",
+          "text": "A service receipt shows three radio channels: 81 — inland dispatch; 94 — tide station; 107 — hospital relay. Someone circled the tide station and wrote TWO AFTER THE GULL."
+        },
+        {
+          "id": "radio",
+          "text": "The dial is worn at three frequencies. A small speaker can play the signal without you speaking into the room."
+        },
+        {
+          "id": "kitchen",
+          "text": "From the threshold you see a loop of tape feeding through a recorder. Its power cable runs into a municipal junction, not a wall socket. You photograph the connection without entering."
+        }
+      ],
+      "location": {
+        "id": "closed-cafe",
+        "name": "Closed Café",
+        "act": 0,
+        "minutes": 12,
+        "subtitle": "Her voice remembers the wrong things.",
+        "goal": "Compare the radio signal with Elian’s original cassette."
+      },
+      "presentation": {
+        "theme": "cafe",
+        "tint": "#746954",
+        "accent": "#efb875"
+      },
+      "choices": [
+        {
+          "id": "record",
+          "label": "Keep the recording and leave",
+          "text": "You preserve the message. Elian entered voluntarily; whatever comes next must respect that."
+        },
+        {
+          "id": "trace",
+          "label": "Trace the cable from the threshold",
+          "text": "The cable joins the market’s service trunk. You record its route.",
+          "flag": "relayEvidence"
+        }
+      ],
+      "pressure": {
+        "pressure": 160,
+        "warning": "The kitchen voice moves closer without crossing the doorway.",
+        "critical": "Every empty table seems to have a breath beneath it.",
+        "retreat": "You step outside the service door. The kitchen voice keeps talking to an empty café."
+      },
+      "dialogue": {
+        "arrival": "Two cups stand beneath a dead wall clock. One holds a skin of milk; the other is dry. From the kitchen, Elian asks you to come closer. On your cassette she warned you about a voice that knows names. You put the tape on the counter before answering anything.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Compare the radio signal with Elian’s original cassette.",
+          "required": [
+            "true-signal",
+            "radio-channels"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "tape",
+          "name": "Cassette comparison",
+          "kind": "inspect",
+          "clue": "true-signal"
+        },
+        {
+          "id": "receipt",
+          "name": "Counter receipt",
+          "kind": "inspect",
+          "clue": "radio-channels"
+        },
+        {
+          "id": "radio",
+          "name": "Shortwave radio",
+          "kind": "puzzle"
+        },
+        {
+          "id": "kitchen",
+          "name": "Kitchen recorder",
+          "kind": "optional",
+          "flag": "relayEvidence"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "A voice and a recording",
+          "question": "Select the channel matching the original signal.",
+          "options": [
+            "81 · inland dispatch",
+            "94 · tide station",
+            "107 · hospital relay"
+          ],
+          "answer": [
+            1
+          ],
+          "success": "The gull cries, followed by two bells. Under the noise, Elian says, “Follow the service lanterns. Do not let them tell you I was taken. I chose to interrupt the relay.”",
+          "wrong": "The voice is convincing, but its signal does not match your cassette. You switch it off.",
+          "hints": [
+            "The tape contains a tide signal.",
+            "The receipt identifies the station.",
+            "Tune to 94."
+          ]
+        }
+      ]
+    },
+    "market-street": {
+      "observations": [
+        {
+          "id": "plate",
+          "text": "PIN THE WEIGHT. RAISE THE SHUTTER. ENGAGE THE CATCH. The plate shows a raised shutter held by the catch, never by a person beneath it."
+        },
+        {
+          "id": "lamp",
+          "text": "The lantern is cold but intact. A paper tie reads: “Apothecary resin only. Smoke carries the echo.” You put it in your satchel."
+        },
+        {
+          "id": "winch",
+          "text": "The winch has a weight pin, a winding handle and a locking catch. All three are within reach from the safe side."
+        },
+        {
+          "id": "stall",
+          "text": "A bent return-route sign lies beneath a tarpaulin. You straighten it and point it toward the safe freight alcove. Somebody following you will not have to guess."
+        }
+      ],
+      "location": {
+        "id": "market-street",
+        "name": "Market Street",
+        "act": 1,
+        "minutes": 10,
+        "subtitle": "The town closes one shutter at a time.",
+        "goal": "Secure the shutter and collect a service lantern.",
+        "requiredItem": "lantern"
+      },
+      "presentation": {
+        "theme": "market",
+        "tint": "#536968",
+        "accent": "#c68658"
+      },
+      "choices": [
+        {
+          "id": "direct",
+          "label": "Cross through the freight opening",
+          "text": "The lantern knocks softly against your satchel."
+        },
+        {
+          "id": "secure",
+          "label": "Secure a return marker before crossing",
+          "text": "You tie a pale marker at the opening. The route will be recognizable even without the lamps.",
+          "flag": "marketSafe"
+        }
+      ],
+      "pressure": {
+        "pressure": 145,
+        "warning": "A shutter slams at the far end of the market.",
+        "critical": "The counterweight begins to slip; the open crossing narrows.",
+        "retreat": "You withdraw to the freight alcove, beyond the shutter’s travel. Its safety stop catches."
+      },
+      "dialogue": {
+        "arrival": "Rain drums on canvas roofs. An abandoned freight lantern lies beside a half-lowered shutter. The café’s cable disappears through a service trunk on the far side. This crossing can be left safe for someone returning behind you.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Secure the shutter and collect a service lantern.",
+          "required": [
+            "shutter-order"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": "lantern",
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "plate",
+          "name": "Freight safety plate",
+          "kind": "inspect",
+          "clue": "shutter-order"
+        },
+        {
+          "id": "lamp",
+          "name": "Abandoned service lantern",
+          "kind": "collect",
+          "item": "lantern"
+        },
+        {
+          "id": "winch",
+          "name": "Shutter winch",
+          "kind": "puzzle"
+        },
+        {
+          "id": "stall",
+          "name": "Repair stall",
+          "kind": "optional",
+          "flag": "marketSafe"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Keep a way open",
+          "question": "Secure the crossing using the safety procedure.",
+          "options": [
+            "Pin the counterweight",
+            "Raise the shutter",
+            "Engage the catch"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "The catch locks with a clear metallic click. The crossing remains open without your weight on the handle.",
+          "wrong": "The handle stops against its interlock. You remain on the safe side. Start with the counterweight.",
+          "hints": [
+            "The plate gives the procedure.",
+            "Secure the weight before moving the shutter.",
+            "Pin, raise, engage."
+          ]
+        }
+      ]
+    },
+    "apothecary": {
+      "observations": [
+        {
+          "id": "recipe",
+          "text": "The treatment must burn amber, leave no black residue and keep the test strip dry. Red seal: black soot. Green seal: wet strip. Blue seal: clear glass and a dry strip. These observations are written beside the used samples."
+        },
+        {
+          "id": "note",
+          "text": "“Do not trust a voice because your lamp stays lit. The resin limits the acoustic dust; it does not turn a copy into a person.” At the bottom Elian has written: “Ask what I called the sea.”"
+        },
+        {
+          "id": "bench",
+          "text": "Each sample has a used test strip and a differently shaped seal. The blue seal is triangular, the red round, the green square."
+        },
+        {
+          "id": "drawer",
+          "text": "A clinical note states that the affected patients were deprived of oxygen before any supernatural event was recorded. Someone tried to make the phenomenon an alibi."
+        }
+      ],
+      "location": {
+        "id": "apothecary",
+        "name": "Apothecary",
+        "act": 1,
+        "minutes": 12,
+        "subtitle": "A steady flame is not a promise.",
+        "goal": "Test the resin, then prepare the lantern.",
+        "reward": "resin",
+        "requiredExitItem": "protectedLantern"
+      },
+      "presentation": {
+        "theme": "apothecary",
+        "tint": "#466b60",
+        "accent": "#b6c98a"
+      },
+      "choices": [
+        {
+          "id": "street",
+          "label": "Carry the treated lantern to the tower",
+          "text": "The flame burns steadily. You remember what it cannot promise."
+        },
+        {
+          "id": "clinical",
+          "label": "Take the clinical note as well",
+          "text": "You preserve the note that separates the human crime from the phenomenon.",
+          "flag": "clinicalEvidence"
+        }
+      ],
+      "pressure": {
+        "pressure": 155,
+        "warning": "Smoke gathers in the doorway although nothing is burning there.",
+        "critical": "The back-room glass darkens from the inside.",
+        "retreat": "You close the fire screen and return to the ventilated dispensing window."
+      },
+      "dialogue": {
+        "arrival": "Bottles crowd the window, turning streetlight green. The dispensing bench holds three samples and an intact test lamp. A handwritten warning separates two ideas: a flame can protect your breathing, but it cannot protect your judgment.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Test the resin, then prepare the lantern.",
+          "required": [
+            "resin-test",
+            "lantern-limits"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": "resin"
+        }
+      ],
+      "objects": [
+        {
+          "id": "recipe",
+          "name": "Resin preparation",
+          "kind": "inspect",
+          "clue": "resin-test"
+        },
+        {
+          "id": "note",
+          "name": "Keeper’s note",
+          "kind": "inspect",
+          "clue": "lantern-limits"
+        },
+        {
+          "id": "bench",
+          "name": "Sample bench",
+          "kind": "puzzle"
+        },
+        {
+          "id": "drawer",
+          "name": "Dispensing drawer",
+          "kind": "optional",
+          "flag": "clinicalEvidence"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Choose the tested treatment",
+          "question": "Which sample passes all three observations?",
+          "options": [
+            "Round red seal · soot",
+            "Square green seal · damp",
+            "Triangular blue seal · dry"
+          ],
+          "answer": [
+            2
+          ],
+          "success": "You bottle the blue-sealed resin. Open your satchel and combine it with the service lantern. The result will slow exposure below the town.",
+          "wrong": "This sample failed its recorded test. You leave it sealed and do not waste the service lantern.",
+          "hints": [
+            "All three conditions must pass.",
+            "Reject soot and moisture.",
+            "Choose the triangular blue seal."
+          ]
+        }
+      ]
+    },
+    "bell-tower-base": {
+      "observations": [
+        {
+          "id": "log",
+          "text": "For a non-destructive delay: open BYPASS, release TENSION, engage BRAKE. The relay stays connected. A warning below says breaking the shaft severs the public transmission route."
+        },
+        {
+          "id": "stair",
+          "text": "The three resonant braces are struck OUTER, INNER, OUTER to fracture an isolated core. Disconnect the relay before attempting it. You copy the diagram; this could end the vessel without replacing its occupant."
+        },
+        {
+          "id": "governor",
+          "text": "Three hand controls correspond to the service log. A fourth, red-painted shaft can be broken only after an explicit choice."
+        },
+        {
+          "id": "relay",
+          "text": "The connection label identifies an outgoing municipal channel. You photograph its configuration; the same line could carry evidence instead of the bell."
+        }
+      ],
+      "location": {
+        "id": "bell-tower-base",
+        "name": "Bell Tower Base",
+        "act": 1,
+        "minutes": 13,
+        "subtitle": "A machine made to sound like mercy.",
+        "goal": "Learn the bell cycle and choose how to interrupt it."
+      },
+      "presentation": {
+        "theme": "tower",
+        "tint": "#68635d",
+        "accent": "#deab6d"
+      },
+      "choices": [
+        {
+          "id": "preserve",
+          "label": "Leave the relay intact",
+          "text": "You preserve the channel. The later Witness transmission remains possible.",
+          "flag": "relayIntact"
+        },
+        {
+          "id": "break",
+          "label": "Break the shaft · disables Witness transmission",
+          "text": "You strike the red shaft. The outgoing relay snaps. The Silence and Vessel methods remain possible; public transmission through this line does not.",
+          "flag": "relayBroken"
+        }
+      ],
+      "pressure": {
+        "pressure": 140,
+        "warning": "The governor’s amber mark approaches the contact plate.",
+        "critical": "The platform shivers. The next ring is almost engaged.",
+        "retreat": "You step off the marked platform and pull its emergency guard closed."
+      },
+      "dialogue": {
+        "arrival": "A huge shaft turns above the maintenance platform. Each revolution pulls a cable into the hospital below. The governor can delay one cycle without breaking the transmission line. A crowbar offers a faster, permanent silence for this local mechanism.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Learn the bell cycle and choose how to interrupt it.",
+          "required": [
+            "governor-order",
+            "silence-method"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "log",
+          "name": "Governor service log",
+          "kind": "inspect",
+          "clue": "governor-order"
+        },
+        {
+          "id": "stair",
+          "name": "Acoustic brace diagram",
+          "kind": "inspect",
+          "clue": "silence-method"
+        },
+        {
+          "id": "governor",
+          "name": "Governor controls",
+          "kind": "puzzle"
+        },
+        {
+          "id": "relay",
+          "name": "Relay junction",
+          "kind": "optional",
+          "flag": "relayEvidence"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Delay the ring",
+          "question": "Operate the non-destructive governor procedure.",
+          "options": [
+            "Open bypass",
+            "Release tension",
+            "Engage brake"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "The governor settles. One cycle has been delayed, and the relay remains intact. You can keep this arrangement or choose the destructive shortcut before leaving.",
+          "wrong": "The safety gate closes over the controls. You release them and return to the documented starting position.",
+          "hints": [
+            "The service log describes a delay, not a demolition.",
+            "Bypass before tension.",
+            "Bypass, tension, brake."
+          ]
+        }
+      ]
+    },
+    "school-hall": {
+      "observations": [
+        {
+          "id": "photos",
+          "text": "Two independent records agree: anchor — June Arlen; fern — Tomas Reed; gull — Ada Wren; wave — Niko Bell. The photograph captions and signed letters match. Some later aliases were chosen by the children to protect one another."
+        },
+        {
+          "id": "lesson",
+          "text": "“We traded names so none of us would be taken alone.” The slate asks for the photograph order: anchor, fern, gull, wave. You will keep the aliases beside the verified records rather than replacing them."
+        },
+        {
+          "id": "register",
+          "text": "Four symbol slots await the verified names. The empty place is labelled HOLDING PATTERN in an adult hand."
+        },
+        {
+          "id": "reflection",
+          "text": "Mara: “I will leave the name you chose beside the one they wrote.” June: “Then you have learned more than the teacher.” Her reflection closes the book. You do not ask her to perform another answer."
+        }
+      ],
+      "location": {
+        "id": "school-hall",
+        "name": "School Hall",
+        "act": 2,
+        "minutes": 13,
+        "subtitle": "Twelve desks. An empty place.",
+        "goal": "Cross-check four identities without erasing chosen aliases.",
+        "reward": "register"
+      },
+      "presentation": {
+        "theme": "school",
+        "tint": "#68726e",
+        "accent": "#b9b697"
+      },
+      "choices": [
+        {
+          "id": "copy",
+          "label": "Copy the records with aliases intact",
+          "text": "You preserve the distinction between verified history and chosen identity."
+        },
+        {
+          "id": "ask",
+          "label": "Ask June what should remain private",
+          "text": "June leaves one margin closed. You carry the proof without claiming every memory.",
+          "flag": "consent"
+        }
+      ],
+      "pressure": {
+        "pressure": 165,
+        "warning": "Chalk taps the same number against every desk.",
+        "critical": "The slate begins to write your childhood name.",
+        "retreat": "You turn the slate face down and stand beside the open corridor door."
+      },
+      "dialogue": {
+        "arrival": "The schoolroom belongs to the old hospital estate. Twelve desks face a slate board; a thirteenth position has no desk. In the glass you see a child turning a page. When you turn, only the page has moved. June speaks from the reflection: “Say what you can prove.”",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Cross-check four identities without erasing chosen aliases.",
+          "required": [
+            "names-first-four",
+            "school-order"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": "register"
+        }
+      ],
+      "objects": [
+        {
+          "id": "photos",
+          "name": "School photographs",
+          "kind": "inspect",
+          "clue": "names-first-four"
+        },
+        {
+          "id": "lesson",
+          "name": "June’s slate",
+          "kind": "inspect",
+          "clue": "school-order"
+        },
+        {
+          "id": "register",
+          "name": "Class register",
+          "kind": "puzzle"
+        },
+        {
+          "id": "reflection",
+          "name": "Speak to June",
+          "kind": "optional",
+          "flag": "consent"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Keep both records",
+          "question": "Match anchor, fern, gull and wave in order.",
+          "options": [
+            "June Arlen",
+            "Tomas Reed",
+            "Ada Wren",
+            "Niko Bell"
+          ],
+          "answer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "success": "The First Register opens. Four identities are cross-checked, and their chosen aliases remain intact. The thirteenth position records an apparatus, not a thirteenth child.",
+          "wrong": "The two records disagree with that placement. Nothing is overwritten. Compare the photograph captions again.",
+          "hints": [
+            "Use both the photographs and letters.",
+            "The order is anchor, fern, gull, wave.",
+            "June, Tomas, Ada, Niko."
+          ]
+        }
+      ]
+    },
+    "flooded-archive": {
+      "observations": [
+        {
+          "id": "index",
+          "text": "The card reads: CLINICAL → OXYGEN → 02:13. The carbon original is stored separately in a waterproof case. The official ledger calls the deaths a fever event; the equipment order records a deliberate shutoff."
+        },
+        {
+          "id": "pump",
+          "text": "The pump must discharge toward the street drain, not the records sump. Its hand control grants one safe crossing. The raised walkway remains available if the water returns."
+        },
+        {
+          "id": "cabinet",
+          "text": "Three selector wheels search department, equipment and recorded time. You can operate them from the raised walkway."
+        },
+        {
+          "id": "carbon",
+          "text": "The carbon impression matches the signed order. You lift the case by its tether rather than crossing the unstable far shelf. The original will let others inspect the proof for themselves."
+        }
+      ],
+      "location": {
+        "id": "flooded-archive",
+        "name": "Flooded Archive",
+        "act": 2,
+        "minutes": 17,
+        "subtitle": "The truth has a waterline.",
+        "goal": "Recover the shutoff record and its carbon original."
+      },
+      "presentation": {
+        "theme": "archive",
+        "tint": "#48717c",
+        "accent": "#9cb7a7"
+      },
+      "choices": [
+        {
+          "id": "photo",
+          "label": "Leave with the photographed record",
+          "text": "You leave with the records you gathered. Any original proof already recovered remains protected in your satchel."
+        },
+        {
+          "id": "original",
+          "label": "Recover the tethered carbon original",
+          "text": "You bring out the waterproof case. Public evidence need not depend on your testimony alone.",
+          "item": "archive",
+          "flag": "originalSaved"
+        }
+      ],
+      "pressure": {
+        "pressure": 135,
+        "warning": "Water reaches the first red mark on the shelf legs.",
+        "critical": "The far shelf tilts. The raised exit is still clear.",
+        "retreat": "You return to the raised index desk. The pump’s reserve tank drains the nearest aisle; essential records remain in their protective cases."
+      },
+      "dialogue": {
+        "arrival": "Water presses paper against the lower shelves. The index desk is raised above the flood. A pump can expose the correct aisle briefly, but searching every cabinet would lose the record you actually need. You begin with the index, not the water.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Recover the shutoff record and its carbon original.",
+          "required": [
+            "archive-index",
+            "archive-safe"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "index",
+          "name": "Archive index",
+          "kind": "inspect",
+          "clue": "archive-index"
+        },
+        {
+          "id": "pump",
+          "name": "Pump instructions",
+          "kind": "inspect",
+          "clue": "archive-safe"
+        },
+        {
+          "id": "cabinet",
+          "name": "Indexed records cabinet",
+          "kind": "puzzle"
+        },
+        {
+          "id": "carbon",
+          "name": "Waterproof carbon case",
+          "kind": "optional",
+          "item": "archive",
+          "flag": "originalSaved",
+          "requiresSolved": true
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Find the actual order",
+          "question": "Select the indexed department, equipment and time.",
+          "options": [
+            "Clinical",
+            "Oxygen",
+            "02:13",
+            "Admissions",
+            "Bell repairs"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "The protective drawer opens. At 02:13 the oxygen supply was shut off by order, not accident. You photograph the record. The tethered carbon case can now be recovered as stronger public proof.",
+          "wrong": "The index does not reference that combination. The drawer stays sealed and the record remains safe.",
+          "hints": [
+            "Start from the index desk.",
+            "Three fields identify the record.",
+            "Clinical, Oxygen, 02:13."
+          ]
+        }
+      ]
+    },
+    "chapel-nave": {
+      "observations": [
+        {
+          "id": "confession",
+          "text": "“We called it mercy because we were afraid to call it theft.” Vale’s signed statement names Silas as the architect of the holding pattern. It also admits that restoring a record is not permission to use its subject."
+        },
+        {
+          "id": "line",
+          "text": "Elian: “I came willingly to stop the relay. They closed the isolation door after me. The Thirteenth is made from what they erased. It is not another child.” Mara: “And the sea?” Elian waits for you to choose the answer from the original tape."
+        },
+        {
+          "id": "intercom",
+          "text": "Use the cassette’s private phrase before deciding about the isolation door. Elian is physically in the annex beyond the side chapel."
+        },
+        {
+          "id": "promise",
+          "text": "Elian: “Do not make saving me the price of believing me.” Mara: “You can come with me, or keep the archive line open. I will tell you what each choice means.”"
+        }
+      ],
+      "location": {
+        "id": "chapel-nave",
+        "name": "Chapel Nave",
+        "act": 2,
+        "minutes": 15,
+        "subtitle": "A confession is not a repair.",
+        "goal": "Verify Elian’s identity and decide whether to release her."
+      },
+      "presentation": {
+        "theme": "chapel",
+        "tint": "#665c72",
+        "accent": "#d9ba7b"
+      },
+      "choices": [
+        {
+          "id": "release",
+          "label": "Release Elian into the marked stair",
+          "text": "You open the isolation door. Elian steps onto the physical stair beside you. She will travel with you through the parish house and tunnels.",
+          "flag": "elianReleased"
+        },
+        {
+          "id": "line",
+          "label": "Ask Elian to maintain the archive line",
+          "text": "Elian agrees to remain at its protected station. She will speak through the line; she will not appear physically beside you.",
+          "flag": "elianRemote"
+        }
+      ],
+      "pressure": {
+        "pressure": 180,
+        "warning": "The intercom begins replacing pauses with another speaker’s breath.",
+        "critical": "Vale reaches for the isolation switch. You can still stop the conversation.",
+        "retreat": "You switch to the local line and close the public microphone. Elian waits without repeating your name."
+      },
+      "dialogue": {
+        "arrival": "Father Vale waits beside a closed side chapel. He says Elian is safe because she is contained. Her voice arrives through a hospital intercom behind him: “Ask me something he did not teach me.” The private phrase on your cassette offers a better test than the face in the dark.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Verify Elian’s identity and decide whether to release her.",
+          "required": [
+            "vessel-truth",
+            "elian-location"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "confession",
+          "name": "Vale’s confession",
+          "kind": "inspect",
+          "clue": "vessel-truth"
+        },
+        {
+          "id": "line",
+          "name": "Private archive line",
+          "kind": "inspect",
+          "clue": "elian-location"
+        },
+        {
+          "id": "intercom",
+          "name": "Verify the private phrase",
+          "kind": "puzzle"
+        },
+        {
+          "id": "promise",
+          "name": "Listen without bargaining",
+          "kind": "optional",
+          "flag": "elianTrust"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "The living witness",
+          "question": "What did Elian call the sea?",
+          "options": [
+            "The hungry sea",
+            "The long breathing",
+            "The last choir"
+          ],
+          "answer": [
+            1
+          ],
+          "success": "Elian adds the second half without prompting: “And you called it a place to hide.” The live pulse meter agrees with the private line. You can release her into the marked stair or keep the archive channel open with her consent.",
+          "wrong": "The copied public voice answers first. You close that channel. The original cassette remains a trustworthy reference.",
+          "hints": [
+            "Recall the original cassette, not the kitchen.",
+            "The phrase describes a breath.",
+            "The long breathing."
+          ]
+        }
+      ]
+    },
+    "parish-house": {
+      "observations": [
+        {
+          "id": "photos",
+          "text": "The photographs show three changes in order. Four window panels were bricked; the ledger cabinet moved to alcove one; seven bands were painted on the bell. A note says the safe code follows these repairs: 4, 1, 7."
+        },
+        {
+          "id": "letter",
+          "text": "“Mara, I blamed you for burning Father’s papers. Now I know he asked you to. That does not make it harmless. It means we both need a record that survives what we want to believe.” You leave the original folded along its old creases."
+        },
+        {
+          "id": "safe",
+          "text": "The safe has a mechanical number wheel. Its combination is established by changes in the room, not a hidden random code."
+        },
+        {
+          "id": "chalk",
+          "text": "A bundle of waterproof chalk sits beside a descent diagram. The keeper marked return directions before entering the tunnels. You take the remaining chalk."
+        }
+      ],
+      "location": {
+        "id": "parish-house",
+        "name": "Parish House",
+        "act": 3,
+        "minutes": 12,
+        "subtitle": "Someone ate breakfast above all of this.",
+        "goal": "Recover the relay contract and the descent equipment.",
+        "reward": "relay",
+        "requiredItem": "chalk"
+      },
+      "presentation": {
+        "theme": "house",
+        "tint": "#735e53",
+        "accent": "#e2b781"
+      },
+      "choices": [
+        {
+          "id": "utility",
+          "label": "Descend by the documented utility stair",
+          "text": "You carry the contract and a practical route back."
+        },
+        {
+          "id": "letter",
+          "label": "Discuss the letter before descending",
+          "text": "You admit what you burned. Elian does not forgive on command, but she hears the admission.",
+          "flag": "elianTrust"
+        }
+      ],
+      "pressure": {
+        "pressure": 165,
+        "warning": "Footsteps stop outside the study whenever you stop reading.",
+        "critical": "The handle turns once, although the stair is empty.",
+        "retreat": "You move into the utility vestibule and secure its mechanical bolt."
+      },
+      "dialogue": {
+        "arrival": "A cup has left a pale ring on Silas’s writing desk. Beyond the domestic rooms, a utility door leads toward the count chamber. Three photographs show the same study as its window is bricked, its cabinet moved and its bell painted. The ordinary changes hide an ordinary safe.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Recover the relay contract and the descent equipment.",
+          "required": [
+            "safe-code",
+            "family-history"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": "chalk",
+          "reward": "relay"
+        }
+      ],
+      "objects": [
+        {
+          "id": "photos",
+          "name": "Three dated photographs",
+          "kind": "inspect",
+          "clue": "safe-code"
+        },
+        {
+          "id": "letter",
+          "name": "Elian’s letter",
+          "kind": "inspect",
+          "clue": "family-history"
+        },
+        {
+          "id": "safe",
+          "name": "Silas’s wall safe",
+          "kind": "puzzle"
+        },
+        {
+          "id": "chalk",
+          "name": "Survey equipment",
+          "kind": "collect",
+          "item": "chalk"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "A domestic combination",
+          "question": "Enter the repair counts in chronological order.",
+          "options": [
+            "4",
+            "1",
+            "7",
+            "2",
+            "8"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "Inside lies the Orison Recovery relay contract and a utility pass. The company plans to carry the holding pattern through the town’s infrastructure. The same channel can transmit public evidence.",
+          "wrong": "The wheel returns to its stop. The photographs still show all three numbers.",
+          "hints": [
+            "Read the changes in chronological order.",
+            "Windows, cabinet alcove, painted bands.",
+            "4, 1, 7."
+          ]
+        }
+      ]
+    },
+    "maintenance-tunnels": {
+      "observations": [
+        {
+          "id": "plate",
+          "text": "Safe survey order: OPEN EYE, MOUTH, CLOSED EYE, EMPTY CIRCLE. The symbols mean observe, refuse the invitation, ignore the lure, leave an unclaimed place. Their shapes are embossed as well as painted."
+        },
+        {
+          "id": "window",
+          "text": "Below the glass, acoustic tubes end in empty masks. Recorded names feed a single resonator. There are twelve patient channels and one container. The machinery confirms what Elian said: the Thirteenth is not a person to recover."
+        },
+        {
+          "id": "junction",
+          "text": "Four pipe gates carry the embossed survey symbols. The service plan defines their safe order."
+        },
+        {
+          "id": "mark",
+          "text": "The raised stone beside the junction is dry enough for waterproof survey chalk. A clear return arrow will survive the lanterns."
+        }
+      ],
+      "location": {
+        "id": "maintenance-tunnels",
+        "name": "Maintenance Tunnels",
+        "act": 3,
+        "minutes": 15,
+        "subtitle": "Follow the pipes. Let the voices get lost.",
+        "goal": "Follow the utility markings and preserve a return route."
+      },
+      "presentation": {
+        "theme": "tunnels",
+        "tint": "#47646b",
+        "accent": "#bd9d70"
+      },
+      "choices": [
+        {
+          "id": "direct",
+          "label": "Continue along the verified pipes",
+          "text": "You remember the pipe route, but leave no extra marker."
+        },
+        {
+          "id": "mark",
+          "label": "Chalk the return direction before proceeding",
+          "text": "A white arrow points back to the pump niche. The later ascent will have a reliable landmark.",
+          "flag": "returnMarked"
+        }
+      ],
+      "pressure": {
+        "pressure": 125,
+        "warning": "The voice behind you takes the sound of your own footsteps.",
+        "critical": "The far light dies. Your chalk marks remain visible.",
+        "retreat": "You return to the pump niche using the pipes you can touch. The voice keeps walking beyond it."
+      },
+      "dialogue": {
+        "arrival": "The treated lantern warms the first junction. Physical pipes continue through the walls even when the sounds suggest another corridor. A survey plate describes the safe utility route. You can mark the return before the town changes around it.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Follow the utility markings and preserve a return route.",
+          "required": [
+            "tunnel-order",
+            "container-proof"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "plate",
+          "name": "Utility route plate",
+          "kind": "inspect",
+          "clue": "tunnel-order"
+        },
+        {
+          "id": "window",
+          "name": "Observation window",
+          "kind": "inspect",
+          "clue": "container-proof"
+        },
+        {
+          "id": "junction",
+          "name": "Junction selectors",
+          "kind": "puzzle"
+        },
+        {
+          "id": "mark",
+          "name": "Mark the return route",
+          "kind": "use",
+          "use": "chalk",
+          "flag": "returnMarked"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "A route that can be checked",
+          "question": "Follow the physical survey order.",
+          "options": [
+            "Open eye",
+            "Mouth",
+            "Closed eye",
+            "Empty circle"
+          ],
+          "answer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "success": "The gates open toward the count chamber. You can trace the route by its continuous pipes; the disembodied directions fall silent.",
+          "wrong": "That gate loops back to the same marked junction. No equipment is lost. Use the embossed survey plate.",
+          "hints": [
+            "The plate is a physical record.",
+            "Observe, refuse, ignore, leave empty.",
+            "Open eye, mouth, closed eye, empty circle."
+          ]
+        }
+      ]
+    },
+    "well-chamber": {
+      "observations": [
+        {
+          "id": "names",
+          "text": "Iris Cole, Samir Hale, Ruth Fen and Leon March each appear in an admission record and a signed family record. Their aliases are retained. These four join the four from the school register. You will not invent the remaining names."
+        },
+        {
+          "id": "methods",
+          "text": "WITNESS: intact relay, First Register, original shutoff order, relay contract, eight verified names. SILENCE: isolate relay, strike braces outer–inner–outer; no replacement. VESSEL: explicitly offer your own copied pattern; others leave, the burden continues. Every method needs the core released first."
+        },
+        {
+          "id": "core",
+          "text": "The plate on the core reads: CLOSE SHUTTER, ISOLATE FEED, RELEASE COLLARS. This removes the resonator safely without yet choosing its fate."
+        },
+        {
+          "id": "voices",
+          "text": "Mara: “You do not have to answer.” Some lines carry a breath. Others carry nothing. You leave their record open rather than filling it with what you hope to hear."
+        }
+      ],
+      "location": {
+        "id": "well-chamber",
+        "name": "Well Chamber",
+        "act": 3,
+        "minutes": 18,
+        "subtitle": "Nothing down here is asking to be useful.",
+        "goal": "Recover the Bell Core and choose a fully explained intervention.",
+        "reward": "core"
+      },
+      "presentation": {
+        "theme": "well",
+        "tint": "#476d70",
+        "accent": "#d8ae64"
+      },
+      "choices": [
+        {
+          "id": "witness",
+          "label": "WITNESS · transmit names and original proof",
+          "text": "You preserve the original records and open the verified public channel. The vessel will lose its role as the sole container.",
+          "ending": "witness"
+        },
+        {
+          "id": "silence",
+          "label": "SILENCE · isolate and end the vessel",
+          "text": "You disconnect the relay and strike outer, inner, outer. No new person is offered. Public proof remains limited to what you carry.",
+          "ending": "silence"
+        },
+        {
+          "id": "vessel",
+          "label": "VESSEL · knowingly offer your own pattern",
+          "text": "You offer your own copied childhood pattern. The others can leave; you accept a continuing burden and the loss of being reliably remembered.",
+          "ending": "vessel"
+        }
+      ],
+      "pressure": {
+        "pressure": 180,
+        "warning": "The core begins repeating the first syllable of every recorded name.",
+        "critical": "The outgoing relay pulses. An intervention is still yours to choose.",
+        "retreat": "You close the core’s acoustic shutter. It cannot take an offered name through a closed channel."
+      },
+      "dialogue": {
+        "arrival": "The shaft is wider than the chapel above. Twelve acoustic lines terminate around a portable core. Four further identities are preserved in paired admission and family records: Iris Cole, Samir Hale, Ruth Fen and Leon March. With the First Register, eight can be verified. The empty thirteenth channel is the vessel.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Recover the Bell Core and choose a fully explained intervention.",
+          "required": [
+            "names-second-four",
+            "ending-methods"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": "core"
+        }
+      ],
+      "objects": [
+        {
+          "id": "names",
+          "name": "Paired identity records",
+          "kind": "inspect",
+          "clue": "names-second-four"
+        },
+        {
+          "id": "methods",
+          "name": "Intervention instructions",
+          "kind": "inspect",
+          "clue": "ending-methods"
+        },
+        {
+          "id": "core",
+          "name": "Core release collars",
+          "kind": "puzzle"
+        },
+        {
+          "id": "voices",
+          "name": "Listen to the unclaimed silence",
+          "kind": "optional",
+          "flag": "consent"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Release the resonator",
+          "question": "Follow the core’s isolation plate.",
+          "options": [
+            "Close shutter",
+            "Isolate feed",
+            "Release collars"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "success": "The Bell Core comes free. Eight identities are verified. Choose an intervention with its stated requirements and consequence. Nothing is committed until you confirm.",
+          "wrong": "A mechanical interlock holds. The core remains seated. Begin by closing the acoustic shutter.",
+          "hints": [
+            "The isolation plate gives a safe order.",
+            "Close the acoustic path before releasing hardware.",
+            "Shutter, feed, collars."
+          ]
+        }
+      ]
+    },
+    "return-ascent": {
+      "observations": [
+        {
+          "id": "route",
+          "text": "The reverse-route instruction reads: EMPTY CIRCLE, CLOSED EYE, MOUTH, OPEN EYE. Even if you left no chalk, the embossed symbols remain. Familiar voices are not a substitute for a physical route."
+        },
+        {
+          "id": "station",
+          "text": "Elian: “I can follow the same physical route. Tell me the symbols, not what the voices say.” You explain each junction. If she stayed at the archive station, this line is her way toward the protected upper stair."
+        },
+        {
+          "id": "gates",
+          "text": "The selectors open the route in reverse. Their raised symbols can be checked by the lantern or by touch."
+        },
+        {
+          "id": "assist",
+          "text": "You hold the local relay long enough for Elian to repeat the return instructions. She chooses her own pace. Helping does not erase the records already secured in your satchel."
+        }
+      ],
+      "location": {
+        "id": "return-ascent",
+        "name": "Return Ascent",
+        "act": 4,
+        "minutes": 12,
+        "subtitle": "The way back remembers your hands.",
+        "goal": "Use the verified return route and make it back above ground."
+      },
+      "presentation": {
+        "theme": "tunnels",
+        "tint": "#5b625f",
+        "accent": "#d5a574"
+      },
+      "choices": [
+        {
+          "id": "leave",
+          "label": "Continue to the square",
+          "text": "You take the upper stair. Elian’s route follows the instructions you gave."
+        },
+        {
+          "id": "help",
+          "label": "Hold the line until Elian confirms her route",
+          "text": "“Open eye,” she says at the last junction. This time the answer comes from a person who can leave.",
+          "flag": "elianHelped"
+        }
+      ],
+      "pressure": {
+        "pressure": 115,
+        "warning": "Water strikes the pump housing from the wrong side.",
+        "critical": "The upper service gate begins to settle into its frame.",
+        "retreat": "You shelter in the pump niche. Its mechanical hand release still works after the bell’s intervention."
+      },
+      "dialogue": {
+        "arrival": "The pipes have stopped singing together. Some lights are gone, but the material route still exists. What you repaired, marked or broke now matters. Elian is beside you only if you opened the isolation door; otherwise the archive line speaks from fixed emergency stations.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Use the verified return route and make it back above ground.",
+          "required": [
+            "return-order",
+            "elian-return"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "route",
+          "name": "Return survey plate",
+          "kind": "inspect",
+          "clue": "return-order"
+        },
+        {
+          "id": "station",
+          "name": "Emergency line",
+          "kind": "inspect",
+          "clue": "elian-return"
+        },
+        {
+          "id": "gates",
+          "name": "Return gates",
+          "kind": "puzzle"
+        },
+        {
+          "id": "assist",
+          "name": "Keep the emergency line open",
+          "kind": "optional",
+          "flag": "elianHelped"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "Reverse the survey",
+          "question": "Choose the reverse of the descent route.",
+          "options": [
+            "Open eye",
+            "Mouth",
+            "Closed eye",
+            "Empty circle"
+          ],
+          "answer": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "success": "The upper gate releases. You reach the parish stair with the core’s consequence behind you and your evidence still accounted for.",
+          "wrong": "The selected passage returns to the pump niche. The raised reverse-route plate remains readable.",
+          "hints": [
+            "The return plate reverses the descent.",
+            "Begin at the empty circle.",
+            "Empty circle, closed eye, mouth, open eye."
+          ]
+        }
+      ]
+    },
+    "town-square": {
+      "observations": [
+        {
+          "id": "board",
+          "text": "The evacuation notice calls the hospital incident a structural failure. There is room beside it for a record that can be inspected, challenged and kept by more than one person."
+        },
+        {
+          "id": "satchel",
+          "text": "You separate what you witnessed, what was independently recorded, what Elian told you and what remains unknown. The distinction belongs in the public account."
+        },
+        {
+          "id": "account",
+          "text": "The residents are listening. You can give them a truthful account without turning uncertainty into a performance."
+        },
+        {
+          "id": "vale",
+          "text": "Vale: “Will they forgive us?” Mara: “That is not a task I can complete for you.” You leave him with his signed confession and a choice to repeat it publicly."
+        }
+      ],
+      "location": {
+        "id": "town-square",
+        "name": "Town Square",
+        "act": 4,
+        "minutes": 8,
+        "subtitle": "Morning is not an acquittal.",
+        "goal": "Choose how to share the record without claiming what you cannot prove."
+      },
+      "presentation": {
+        "theme": "square",
+        "tint": "#758887",
+        "accent": "#e0c196"
+      },
+      "choices": [
+        {
+          "id": "copies",
+          "label": "Leave copies with the residents",
+          "text": "The record begins to exist in more than one place.",
+          "flag": "publicCopies"
+        },
+        {
+          "id": "originals",
+          "label": "Arrange independent custody of the originals",
+          "text": "You identify which papers are originals and which are copies. The residents choose separate custodians.",
+          "flag": "publicCopies"
+        }
+      ],
+      "pressure": {
+        "pressure": 0,
+        "warning": "",
+        "critical": "",
+        "retreat": "You sit on the dry edge of the fountain and let the quiet remain quiet."
+      },
+      "dialogue": {
+        "arrival": "The town square is quiet enough to hear the sea. A few residents wait beside the public notice stand. They ask what happened beneath their homes. You have knowledge, physical evidence and gaps. None of those should be disguised as another.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Choose how to share the record without claiming what you cannot prove.",
+          "required": [
+            "public-record",
+            "evidence-boundary"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "board",
+          "name": "Public notice stand",
+          "kind": "inspect",
+          "clue": "public-record"
+        },
+        {
+          "id": "satchel",
+          "name": "Review the evidence",
+          "kind": "inspect",
+          "clue": "evidence-boundary"
+        },
+        {
+          "id": "account",
+          "name": "Prepare your account",
+          "kind": "puzzle"
+        },
+        {
+          "id": "vale",
+          "name": "Father Vale at the fountain",
+          "kind": "optional",
+          "flag": "valeAccountable"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "What can be said",
+          "question": "Choose the statement supported by your records.",
+          "options": [
+            "I can prove every voice was truthful",
+            "Here is the proof, testimony and what remains unknown",
+            "Nothing happened here"
+          ],
+          "answer": [
+            1
+          ],
+          "success": "You lay out the records and label their limits. The residents can keep copies. No single person has to become the town’s memory again.",
+          "wrong": "That would replace one convenient story with another. You return to the evidence and its limits.",
+          "hints": [
+            "Separate proof from testimony.",
+            "Unknowns belong in an honest account.",
+            "Offer proof, testimony and the remaining unknowns."
+          ]
+        }
+      ]
+    },
+    "exit-road": {
+      "observations": [
+        {
+          "id": "cassette",
+          "text": "Elian: “The long breathing.” You let the recording reach its ordinary click at the end. An old message does not need to answer a new question."
+        },
+        {
+          "id": "road",
+          "text": "The tower is a structure again. Some windows are broken, some are lit, and people will have to decide what to do with both. Your intervention changed the town. It did not replace the work of living in it."
+        },
+        {
+          "id": "letter",
+          "text": "A blank page rests against your satchel. You can begin without pretending the account is complete."
+        },
+        {
+          "id": "elian",
+          "text": "You leave space beside you without calling a name into the gate. What she remembers depends on your intervention. What you owe her does not."
+        }
+      ],
+      "location": {
+        "id": "exit-road",
+        "name": "Exit Road",
+        "act": 4,
+        "minutes": 5,
+        "subtitle": "You can leave a place without finishing its grief.",
+        "goal": "Acknowledge the consequence and decide what you carry home."
+      },
+      "presentation": {
+        "theme": "gate",
+        "tint": "#889895",
+        "accent": "#e6cea1"
+      },
+      "choices": [
+        {
+          "id": "home",
+          "label": "Leave Saint Orison",
+          "text": "You walk toward the sea road with the record and its consequences."
+        },
+        {
+          "id": "stay",
+          "label": "Stay until the record is safely copied",
+          "text": "You delay your departure for an ordinary responsibility: ensuring the papers can outlast you.",
+          "flag": "publicCopies"
+        }
+      ],
+      "pressure": {
+        "pressure": 0,
+        "warning": "",
+        "critical": "",
+        "retreat": "For once there is no pressure to move."
+      },
+      "dialogue": {
+        "arrival": "The gatehouse fan turns in the morning air. The fourth roster line is still blank unless you offered your pattern below. You stop where the cassette first played. The sea sounds larger now that nothing is trying to speak over it.",
+        "lines": [],
+        "note": "Existing quoted speech is preserved verbatim in observations; add separately identified conversation lines here."
+      },
+      "investigations": [
+        {
+          "id": "primary",
+          "goal": "Acknowledge the consequence and decide what you carry home.",
+          "required": [
+            "last-listen",
+            "last-look"
+          ],
+          "puzzleId": "primary",
+          "requiredItem": null,
+          "reward": null
+        }
+      ],
+      "objects": [
+        {
+          "id": "cassette",
+          "name": "The original cassette",
+          "kind": "inspect",
+          "clue": "last-listen"
+        },
+        {
+          "id": "road",
+          "name": "Look back at Saint Orison",
+          "kind": "inspect",
+          "clue": "last-look"
+        },
+        {
+          "id": "letter",
+          "name": "Write the first line home",
+          "kind": "puzzle"
+        },
+        {
+          "id": "elian",
+          "name": "Wait for Elian",
+          "kind": "optional",
+          "flag": "elianHelped"
+        }
+      ],
+      "puzzles": [
+        {
+          "id": "primary",
+          "title": "The first line",
+          "question": "How will your account begin?",
+          "options": [
+            "Everything is fixed",
+            "This is what I can tell you",
+            "There is nothing to remember"
+          ],
+          "answer": [
+            1
+          ],
+          "success": "You write one honest sentence. The road ahead is ordinary, and that is enough to begin.",
+          "wrong": "The sentence closes a question you have not answered. You turn to a clean line.",
+          "hints": [
+            "The whole story does not have to fit one sentence.",
+            "Leave room for what remains unknown.",
+            "This is what I can tell you."
+          ]
+        }
+      ]
+    }
+  }
+}

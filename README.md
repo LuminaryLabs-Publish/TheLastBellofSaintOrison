@@ -66,3 +66,7 @@ The game imports public NexusEngine exports only. Product rules live in an insta
 ## Modular production
 
 The running game uses five project domains, sixteen Service Kits and fifteen location packages. Start with [CONTRIBUTING](CONTRIBUTING.md), [ownership](docs/architecture/ownership-ledger.md) and [extension points](docs/architecture/extension-points.md). Author room JSON, run `npm run content:build`, then `npm run validate:production`. `npm run author -- help` lists guarded generators. Existing saves migrate to domain snapshots. Google Drive synchronization is deferred.
+
+## Immersive investigation redesign
+
+The [reviewed design package](docs/design/immersive/README.md) specifies 45 action-led encounters across all fifteen locations. It includes source-story reconciliation, shared capability tasks, asset requests, contributor instructions and [five-pass evidence](docs/production/immersive-review/README.md). These are implementation specifications; the current game still uses its existing mechanics.

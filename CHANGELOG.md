@@ -14,3 +14,10 @@ Review fixed journal rereading, modal focus, negative quiet-room exposure, prior
 - Split location presentation from interface projection; kept both graphics providers and storage-denial behavior.
 - Added version-2 domain saves with legacy migration, atomic validation and bounded finite-operation receipts.
 - Added contribution, lifecycle, ownership and save-migration integration scenarios. See docs/validation/architecture-migration.md for actual validation and remaining limits.
+
+## 2026-09-07 — Immersive investigation design package
+
+- Added 45 specified encounters in 15 location packages, preserving source clues, items, choices and ending conditions in explicit mappings.
+- Added shared interaction, pressure, accessibility and restore contracts, 45 implementation task packs and 231 asset requests.
+- Added 67 documentary route scenarios, four Witness eligibility fixtures, a generated-document checker and five reproducible review passes.
+- Runtime, campaign content, saves, providers and workflows are unchanged; these are design specifications rather than implemented puzzles. Google Drive remains unchanged.
